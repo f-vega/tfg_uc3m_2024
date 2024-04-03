@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de actividades financieras y de seguros. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;17027;17322;17586;17925;18012;18364;18079;17877;17752;
 Zonas Estadísticas;01;Municipio de Madrid ;9958;10098;10217;10404;10506;10734;10608;10610;10566;
 Zonas Estadísticas;02;Norte Metropolitano ;947;960;992;1024;1019;1038;1049;1026;1029;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;3;5;5;4;3;3;3;3;3;
 Municipios;1809;Villarejo de Salvanés;15;12;15;15;15;16;14;11;11;
 Municipios;1816;Villaviciosa de Odón;75;85;85;81;88;83;86;82;86;
 Municipios;1821;Villavieja del Lozoya;0;0;0;0;2;3;3;3;3;
+Municipios;1837;Zarzalejo;2;2;3;4;5;5;5;5;5;

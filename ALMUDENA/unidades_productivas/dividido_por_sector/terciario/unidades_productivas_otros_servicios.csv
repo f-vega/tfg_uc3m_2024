@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de otras actividades de servicios. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;193774;196281;196087;195471;196449;194748;189683;193178;194634;
 Zonas Estadísticas;01;Municipio de Madrid ;130024;131193;130968;130192;130435;128906;125043;126580;127089;
 Zonas Estadísticas;02;Norte Metropolitano ;10157;10377;10327;10211;10166;10068;9808;10095;10208;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;25;24;24;29;31;36;38;28;32;
 Municipios;1809;Villarejo de Salvanés;94;95;87;80;77;77;75;80;74;
 Municipios;1816;Villaviciosa de Odón;1006;1025;1033;992;1033;1020;982;1021;1068;
 Municipios;1821;Villavieja del Lozoya;3;4;5;4;4;3;1;0;1;
+Municipios;1837;Zarzalejo;14;10;11;17;15;17;17;17;23;

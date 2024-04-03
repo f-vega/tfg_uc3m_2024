@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de comercio y hostelería. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;175250;176137;175952;176610;176769;175380;171954;174928;172884;
 Zonas Estadísticas;01;Municipio de Madrid ;89478;89534;89486;90006;89895;88867;86361;87704;86710;
 Zonas Estadísticas;02;Norte Metropolitano ;9590;9676;9661;9706;9762;9613;9542;9650;9581;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;25;26;33;37;34;38;36;36;41;
 Municipios;1809;Villarejo de Salvanés;232;227;231;233;223;222;217;218;205;
 Municipios;1816;Villaviciosa de Odón;856;876;895;875;888;861;862;899;924;
 Municipios;1821;Villavieja del Lozoya;6;5;5;4;4;6;5;5;5;
+Municipios;1837;Zarzalejo;36;38;32;34;31;28;27;29;37;

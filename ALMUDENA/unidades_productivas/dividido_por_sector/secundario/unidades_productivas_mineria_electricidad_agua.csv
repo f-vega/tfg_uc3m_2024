@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de minería, electricidad y agua. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;1309;1289;1299;1337;1387;1416;1478;1573;1678;
 Zonas Estadísticas;01;Municipio de Madrid ;493;486;495;494;522;536;584;658;738;
 Zonas Estadísticas;02;Norte Metropolitano ;97;101;97;95;100;103;106;118;118;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;1;1;1;1;1;3;2;2;2;
 Municipios;1809;Villarejo de Salvanés;2;2;3;2;2;2;2;2;2;
 Municipios;1816;Villaviciosa de Odón;11;14;11;10;9;11;12;13;10;
 Municipios;1821;Villavieja del Lozoya;0;0;0;0;0;0;0;0;0;
+Municipios;1837;Zarzalejo;4;4;4;4;4;4;4;4;4;

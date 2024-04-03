@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de agricultura, ganadería, caza, selvicultura y pesca. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;5038;4979;4898;4860;4856;4821;4705;4770;4745;
 Zonas Estadísticas;01;Municipio de Madrid ;1408;1391;1420;1432;1427;1499;1446;1520;1539;
 Zonas Estadísticas;02;Norte Metropolitano ;300;286;284;293;296;284;300;300;287;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;4;4;6;5;5;4;5;5;4;
 Municipios;1809;Villarejo de Salvanés;52;54;53;52;56;59;60;58;60;
 Municipios;1816;Villaviciosa de Odón;27;30;25;22;22;25;20;20;23;
 Municipios;1821;Villavieja del Lozoya;3;3;3;3;4;3;3;3;3;
+Municipios;1837;Zarzalejo;10;10;13;12;12;10;10;8;8;

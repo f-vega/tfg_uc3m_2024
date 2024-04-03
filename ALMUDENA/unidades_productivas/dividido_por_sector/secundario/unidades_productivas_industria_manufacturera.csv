@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de la industria manufacturera. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;25593;25724;25936;26545;26676;26021;25508;25283;25116;
 Zonas Estadísticas;01;Municipio de Madrid ;8739;8675;8708;8846;8889;8727;8461;8439;8460;
 Zonas Estadísticas;02;Norte Metropolitano ;1402;1403;1478;1536;1542;1472;1457;1467;1474;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;5;6;9;10;12;12;13;12;14;
 Municipios;1809;Villarejo de Salvanés;66;72;74;77;78;70;68;66;65;
 Municipios;1816;Villaviciosa de Odón;93;98;100;117;125;123;122;116;118;
 Municipios;1821;Villavieja del Lozoya;2;2;2;2;1;1;1;1;1;
+Municipios;1837;Zarzalejo;15;14;13;11;10;10;10;10;8;

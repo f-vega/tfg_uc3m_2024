@@ -1,5 +1,4 @@
-Colectivo empresarial .Colectivo empresarial.Base 2015.Municipios.Unidades productivas. Unidades productivas de transporte y almacenamiento. Unidad: Número. Fuente: Colectivo Empresarial. Dirección General de Economía.;
-Serie;;;2015;2016;2017;2018;2019;2020;2021;2022;2023(A)
+Serie;Codigo_municipio;Nombre;2015;2016;2017;2018;2019;2020;2021;2022;2023
 Comunidad de Madrid;;Comunidad de Madrid;37213;37583;38889;40475;42344;43971;46199;45527;45462;
 Zonas Estadísticas;01;Municipio de Madrid ;17123;17246;18132;19200;20504;21561;23442;22702;22901;
 Zonas Estadísticas;02;Norte Metropolitano ;1513;1541;1582;1578;1607;1683;1698;1714;1721;
@@ -190,3 +189,4 @@ Municipios;1795;Villar del Olmo;27;34;30;31;35;41;42;43;37;
 Municipios;1809;Villarejo de Salvanés;32;32;29;30;25;28;29;37;37;
 Municipios;1816;Villaviciosa de Odón;141;143;142;145;151;153;147;143;146;
 Municipios;1821;Villavieja del Lozoya;0;0;0;0;0;0;0;0;0;
+Municipios;1837;Zarzalejo;2;1;1;1;1;2;3;3;3;
