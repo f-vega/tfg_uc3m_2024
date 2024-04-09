@@ -1,192 +1,192 @@
 Serie;Codigo_municipio;Nombre;num_total_num;num_huertos_consumo_propio;num_tierra_pastos;sup_total_num;sup_huertos_consumo_propio;sup_tierra_pastos
 Comunidad de Madrid;;Comunidad de Madrid;7716;491;1918;303329.62;15.11;118008.83
-Zonas Estadísticas;01;Municipio de Madrid ;109;3;12;2030.1;0.13;71.69
-Zonas Estadísticas;02;Norte Metropolitano ;0;0;0;0.0;0.0;0.0
-Zonas Estadísticas;03;Este Metropolitano  ;0;0;0;0.0;0.0;0.0
-Zonas Estadísticas;04;Sur Metropolitano   ;49;37;68;32953.7;1.14;3171.95
-Zonas Estadísticas;05;Oeste Metropolitano ;0;0;0;0.0;0.0;0.0
-Zonas Estadísticas;06;Sierra Norte        ;0;0;0;0.0;0.0;0.0
-Zonas Estadísticas;07;Nordeste Comunidad  ;30;16;53;27812.93;0.5;2920.21
+Zonas Estadísticas;01;Municipio de Madrid ;109;3;12;2030.10;0.13;71.69
+Zonas Estadísticas;02;Norte Metropolitano ;0;0;0;0;0;0
+Zonas Estadísticas;03;Este Metropolitano  ;0;0;0;0;0;0
+Zonas Estadísticas;04;Sur Metropolitano   ;49;37;68;32953.70;1.14;3171.95
+Zonas Estadísticas;05;Oeste Metropolitano ;0;0;0;0;0;0
+Zonas Estadísticas;06;Sierra Norte        ;0;0;0;0;0;0
+Zonas Estadísticas;07;Nordeste Comunidad  ;30;16;53;27812.93;0.50;2920.21
 Zonas Estadísticas;08;Sudeste Comunidad   ;97;144;166;79912.79;4.37;6352.67
-Zonas Estadísticas;09;Sudoeste Comunidad  ;0;0;0;0.0;0.0;0.0
-Zonas Estadísticas;10;Sierra Sur          ;0;0;0;0.0;0.0;0.0
-Zonas Estadísticas;11;Sierra Central      ;23;21;373;31673.17;0.5;30054.39
-Municipios;0014;Acebeda (La);0;0;0;0.0;0.0;0.0
-Municipios;0029;Ajalvir;19;0;1;1176.67;0.0;10.54
-Municipios;0035;Alameda del Valle;15;1;14;871.83;0.04;871.6
-Municipios;0040;Alamo (El);72;5;4;1751.8;0.18;100.53
-Municipios;0053;Alcalá de Henares;21;1;1;2259.37;0.05;1000.0
-Municipios;0066;Alcobendas;0;0;0;0.0;0.0;0.0
-Municipios;0072;Alcorcón;9;0;1;273.63;0.0;38.3
+Zonas Estadísticas;09;Sudoeste Comunidad  ;0;0;0;0;0;0
+Zonas Estadísticas;10;Sierra Sur          ;0;0;0;0;0;0
+Zonas Estadísticas;11;Sierra Central      ;23;21;373;31673.17;0.50;30054.39
+Municipios;0014;Acebeda (La);0;0;0;0;0;0
+Municipios;0029;Ajalvir;19;0;1;1176.67;0.00;10.54
+Municipios;0035;Alameda del Valle;15;1;14;871.83;0.04;871.60
+Municipios;0040;Alamo (El);72;5;4;1751.80;0.18;100.53
+Municipios;0053;Alcalá de Henares;21;1;1;2259.37;0.05;1000.00
+Municipios;0066;Alcobendas;0;0;0;0;0;0
+Municipios;0072;Alcorcón;9;0;1;273.63;0.00;38.30
 Municipios;0088;Aldea del Fresno;30;3;8;738.69;0.09;134.86
 Municipios;0091;Algete;16;2;4;2623.16;0.07;135.87
 Municipios;0105;Alpedrete;9;1;9;571.28;0.02;571.26
-Municipios;0112;Ambite;24;1;3;1822.3;0.04;866.98
-Municipios;0127;Anchuelo;30;1;0;1455.15;0.01;0.0
-Municipios;0133;Aranjuez;189;11;23;10742.0;0.36;1002.53
-Municipios;0148;Arganda del Rey;170;10;14;2536.56;0.3;411.91
-Municipios;0151;Arroyomolinos;0;0;0;0.0;0.0;0.0
-Municipios;0164;Atazar (El);0;0;0;0.0;0.0;0.0
+Municipios;0112;Ambite;24;1;3;1822.30;0.04;866.98
+Municipios;0127;Anchuelo;30;1;0;1455.15;0.01;0.00
+Municipios;0133;Aranjuez;189;11;23;10742.00;0.36;1002.53
+Municipios;0148;Arganda del Rey;170;10;14;2536.56;0.30;411.91
+Municipios;0151;Arroyomolinos;0;0;0;0;0;0
+Municipios;0164;Atazar (El);0;0;0;0;0;0
 Municipios;0170;Batres;5;1;4;190.99;0.02;103.15
-Municipios;0186;Becerril de la Sierra;22;2;21;1358.1;0.05;1356.43
+Municipios;0186;Becerril de la Sierra;22;2;21;1358.10;0.05;1356.43
 Municipios;0199;Belmonte de Tajo;142;5;5;1400.13;0.18;2.04
-Municipios;0210;Berrueco (El);8;0;8;195.56;0.0;195.16
-Municipios;0203;Berzosa del Lozoya;4;0;3;271.94;0.0;257.94
-Municipios;0225;Boadilla del Monte;4;0;2;730.35;0.0;729.11
+Municipios;0210;Berrueco (El);8;0;8;195.56;0.00;195.16
+Municipios;0203;Berzosa del Lozoya;4;0;3;271.94;0.00;257.94
+Municipios;0225;Boadilla del Monte;4;0;2;730.35;0.00;729.11
 Municipios;0231;Boalo (El);27;2;27;1795.42;0.05;1795.23
 Municipios;0246;Braojos;13;1;13;599.09;0.03;599.06
-Municipios;0259;Brea de Tajo;85;7;3;2532.27;0.14;92.8
+Municipios;0259;Brea de Tajo;85;7;3;2532.27;0.14;92.80
 Municipios;0262;Brunete;15;1;3;3375.06;0.05;100.68
-Municipios;0278;Buitrago del Lozoya;18;0;18;1331.05;0.0;1331.05
-Municipios;0284;Bustarviejo;16;2;16;924.62;0.1;919.31
-Municipios;0297;Cabanillas de la Sierra;7;0;7;633.34;0.0;597.54
-Municipios;0301;Cabrera (La);6;0;6;798.97;0.0;798.97
+Municipios;0278;Buitrago del Lozoya;18;0;18;1331.05;0.00;1331.05
+Municipios;0284;Bustarviejo;16;2;16;924.62;0.10;919.31
+Municipios;0297;Cabanillas de la Sierra;7;0;7;633.34;0.00;597.54
+Municipios;0301;Cabrera (La);6;0;6;798.97;0.00;798.97
 Municipios;0318;Cadalso de los Vidrios;162;28;27;1015.73;1.02;560.34
-Municipios;0323;Camarma de Esteruelas;30;0;0;2505.4;0.0;0.0
+Municipios;0323;Camarma de Esteruelas;30;0;0;2505.40;0.00;0.00
 Municipios;0339;Campo Real;160;9;13;4292.72;0.36;191.38
 Municipios;0344;Canencia;24;2;24;1458.89;0.02;1458.82
 Municipios;0357;Carabaña;102;6;7;1868.15;0.12;53.33
-Municipios;0360;Casarrubuelos;0;0;0;0.0;0.0;0.0
-Municipios;0376;Cenicientos;248;27;56;1937.01;0.76;1390.8
+Municipios;0360;Casarrubuelos;0;0;0;0;0;0
+Municipios;0376;Cenicientos;248;27;56;1937.01;0.76;1390.80
 Municipios;0382;Cercedilla;30;1;29;798.29;0.01;797.23
-Municipios;0395;Cervera de Buitrago;0;0;0;0.0;0.0;0.0
-Municipios;0513;Chapinería;5;0;3;306.7;0.0;297.71
+Municipios;0395;Cervera de Buitrago;0;0;0;0;0;0
+Municipios;0513;Chapinería;5;0;3;306.70;0.00;297.71
 Municipios;0528;Chinchón;383;12;9;4608.05;0.38;237.44
-Municipios;0409;Ciempozuelos;108;9;9;2361.62;0.2;246.19
-Municipios;0416;Cobeña;18;0;3;1343.35;0.0;39.47
+Municipios;0409;Ciempozuelos;108;9;9;2361.62;0.20;246.19
+Municipios;0416;Cobeña;18;0;3;1343.35;0.00;39.47
 Municipios;0468;Collado Mediano;18;2;17;573.58;0.02;572.56
 Municipios;0474;Collado Villalba;7;1;5;605.48;0.05;602.41
-Municipios;0455;Colmenar Viejo;165;12;161;13976.4;0.39;13613.71
+Municipios;0455;Colmenar Viejo;165;12;161;13976.40;0.39;13613.71
 Municipios;0437;Colmenar de Oreja;501;17;22;7955.99;0.48;1165.52
 Municipios;0421;Colmenar del Arroyo;16;1;13;2519.57;0.02;2405.17
-Municipios;0442;Colmenarejo;7;0;7;1727.93;0.0;1727.93
-Municipios;0480;Corpa;34;2;0;1327.01;0.03;0.0
-Municipios;0493;Coslada;0;0;0;0.0;0.0;0.0
-Municipios;0506;Cubas de la Sagra;9;0;2;248.23;0.0;8.45
+Municipios;0442;Colmenarejo;7;0;7;1727.93;0.00;1727.93
+Municipios;0480;Corpa;34;2;0;1327.01;0.03;0.00
+Municipios;0493;Coslada;0;0;0;0;0;0
+Municipios;0506;Cubas de la Sagra;9;0;2;248.23;0.00;8.45
 Municipios;0534;Daganzo de Arriba;30;3;3;4232.89;0.05;323.84
 Municipios;0549;Escorial (El);37;1;36;3485.26;0.01;3482.38
-Municipios;0552;Estremera;126;9;9;5375.96;0.2;96.57
-Municipios;0565;Fresnedillas de la Oliva;18;1;18;908.95;0.05;907.9
-Municipios;0571;Fresno de Torote;9;1;2;2073.0;0.05;110.43
-Municipios;0587;Fuenlabrada;24;6;3;1332.18;0.3;388.67
-Municipios;0590;Fuente el Saz de Jarama;21;0;4;2054.8;0.0;7.31
+Municipios;0552;Estremera;126;9;9;5375.96;0.20;96.57
+Municipios;0565;Fresnedillas de la Oliva;18;1;18;908.95;0.05;907.90
+Municipios;0571;Fresno de Torote;9;1;2;2073.00;0.05;110.43
+Municipios;0587;Fuenlabrada;24;6;3;1332.18;0.30;388.67
+Municipios;0590;Fuente el Saz de Jarama;21;0;4;2054.80;0.00;7.31
 Municipios;0604;Fuentidueña de Tajo;57;6;1;3681.86;0.16;0.39
 Municipios;0611;Galapagar;18;1;18;718.95;0.02;718.93
 Municipios;0626;Garganta de los Montes;23;3;23;1815.26;0.11;1812.45
-Municipios;0632;Gargantilla del Lozoya y Pinilla de Buitrago;12;0;12;827.74;0.0;827.74
-Municipios;0647;Gascones;10;0;10;529.46;0.0;526.31
-Municipios;0650;Getafe;29;0;6;2713.24;0.0;342.07
+Municipios;0632;Gargantilla del Lozoya y Pinilla de Buitrago;12;0;12;827.74;0.00;827.74
+Municipios;0647;Gascones;10;0;10;529.46;0.00;526.31
+Municipios;0650;Getafe;29;0;6;2713.24;0.00;342.07
 Municipios;0663;Griñón;13;2;1;1458.62;0.04;743.95
 Municipios;0679;Guadalix de la Sierra;68;7;68;3686.51;0.19;3646.66
 Municipios;0685;Guadarrama;43;1;43;1929.58;0.01;1929.54
-Municipios;0698;Hiruela (La);0;0;0;0.0;0.0;0.0
+Municipios;0698;Hiruela (La);0;0;0;0;0;0
 Municipios;0702;Horcajo de la Sierra0Aoslos;8;1;8;493.96;0.01;491.45
-Municipios;0719;Horcajuelo de la Sierra;4;0;4;404.84;0.0;395.8
-Municipios;0724;Hoyo de Manzanares;13;0;13;412.25;0.0;332.15
+Municipios;0719;Horcajuelo de la Sierra;4;0;4;404.84;0.00;395.80
+Municipios;0724;Hoyo de Manzanares;13;0;13;412.25;0.00;332.15
 Municipios;0730;Humanes de Madrid;21;1;3;1110.61;0.04;3.03
-Municipios;0745;Leganés;9;0;2;813.65;0.0;9.49
-Municipios;0758;Loeches;7;0;1;2110.5;0.0;3.5
-Municipios;0761;Lozoya;22;0;21;1509.12;0.0;1506.52
+Municipios;0745;Leganés;9;0;2;813.65;0.00;9.49
+Municipios;0758;Loeches;7;0;1;2110.50;0.00;3.50
+Municipios;0761;Lozoya;22;0;21;1509.12;0.00;1506.52
 Municipios;9015;Lozoyuela0Navas0Sieteiglesias;24;4;23;1513.26;0.12;1511.21
-Municipios;0783;Madarcos;5;0;5;945.25;0.0;908.09
-Municipios;0796;Madrid;109;3;12;2030.1;0.13;71.69
-Municipios;0800;Majadahonda;8;0;4;1546.76;0.0;680.92
+Municipios;0783;Madarcos;5;0;5;945.25;0.00;908.09
+Municipios;0796;Madrid;109;3;12;2030.10;0.13;71.69
+Municipios;0800;Majadahonda;8;0;4;1546.76;0.00;680.92
 Municipios;0822;Manzanares el Real;19;1;19;5824.04;0.03;5495.23
-Municipios;0838;Meco;33;0;2;3819.25;0.0;1656.81
+Municipios;0838;Meco;33;0;2;3819.25;0.00;1656.81
 Municipios;0843;Mejorada del Campo;17;1;3;540.05;0.04;65.64
 Municipios;0856;Miraflores de la Sierra;25;2;25;2539.95;0.08;2527.95
-Municipios;0869;Molar (El);99;7;21;1674.35;0.26;247.0
+Municipios;0869;Molar (El);99;7;21;1674.35;0.26;247.00
 Municipios;0875;Molinos (Los);28;1;28;771.21;0.02;771.19
-Municipios;0881;Montejo de la Sierra;12;2;11;626.8;0.04;623.53
-Municipios;0894;Moraleja de Enmedio;25;3;8;2228.0;0.08;58.91
-Municipios;0908;Moralzarzal;14;0;14;1295.1;0.0;1191.42
+Municipios;0881;Montejo de la Sierra;12;2;11;626.80;0.04;623.53
+Municipios;0894;Moraleja de Enmedio;25;3;8;2228.00;0.08;58.91
+Municipios;0908;Moralzarzal;14;0;14;1295.10;0.00;1191.42
 Municipios;0915;Morata de Tajuña;121;8;6;2574.99;0.21;126.88
-Municipios;0920;Móstoles;19;0;5;2120.45;0.0;103.03
-Municipios;0936;Navacerrada;12;0;12;1389.35;0.0;1389.35
+Municipios;0920;Móstoles;19;0;5;2120.45;0.00;103.03
+Municipios;0936;Navacerrada;12;0;12;1389.35;0.00;1389.35
 Municipios;0941;Navalafuente;14;1;14;649.02;0.04;642.44
 Municipios;0954;Navalagamella;19;1;19;2250.44;0.01;1662.28
 Municipios;0967;Navalcarnero;223;9;27;5178.81;0.29;245.13
-Municipios;0973;Navarredonda y San Mamés;10;0;10;553.53;0.0;548.33
+Municipios;0973;Navarredonda y San Mamés;10;0;10;553.53;0.00;548.33
 Municipios;0992;Navas del Rey;46;3;15;1526.99;0.12;1435.98
-Municipios;1006;Nuevo Baztán;9;0;0;820.5;0.0;0.0
-Municipios;1013;Olmeda de las Fuentes;9;0;2;737.65;0.0;15.37
+Municipios;1006;Nuevo Baztán;9;0;0;820.50;0.00;0.00
+Municipios;1013;Olmeda de las Fuentes;9;0;2;737.65;0.00;15.37
 Municipios;1028;Orusco de Tajuña;35;5;4;352.59;0.22;8.98
 Municipios;1049;Paracuellos de Jarama;15;1;4;1270.31;0.03;20.12
-Municipios;1065;Parla;17;0;2;1470.86;0.0;2.41
+Municipios;1065;Parla;17;0;2;1470.86;0.00;2.41
 Municipios;1071;Patones;11;2;5;482.38;0.06;431.51
-Municipios;1087;Pedrezuela;15;0;14;455.9;0.0;455.54
-Municipios;1090;Pelayos de la Presa;4;0;3;101.65;0.0;83.09
+Municipios;1087;Pedrezuela;15;0;14;455.90;0.00;455.54
+Municipios;1090;Pelayos de la Presa;4;0;3;101.65;0.00;83.09
 Municipios;1104;Perales de Tajuña;89;8;5;649.97;0.23;128.93
 Municipios;1111;Pezuela de las Torres;36;1;2;3138.53;0.03;127.04
-Municipios;1126;Pinilla del Valle;6;0;6;401.07;0.0;401.07
+Municipios;1126;Pinilla del Valle;6;0;6;401.07;0.00;401.07
 Municipios;1132;Pinto;26;2;1;4542.06;0.08;368.99
 Municipios;1147;Piñuécar0Gandullas;15;2;15;822.39;0.09;817.42
-Municipios;1150;Pozuelo de Alarcón;11;1;0;12.04;0.03;0.0
-Municipios;1163;Pozuelo del Rey;24;0;3;2586.0;0.0;19.29
-Municipios;1179;Prádena del Rincón;8;1;8;441.9;0.01;441.89
-Municipios;1185;Puebla de la Sierra;0;0;0;0.0;0.0;0.0
-Municipios;9020;Puentes Viejas;22;4;22;979.9;0.09;979.24
-Municipios;1198;Quijorna;9;2;2;1080.95;0.06;354.9
+Municipios;1150;Pozuelo de Alarcón;11;1;0;12.04;0.03;0.00
+Municipios;1163;Pozuelo del Rey;24;0;3;2586.00;0.00;19.29
+Municipios;1179;Prádena del Rincón;8;1;8;441.90;0.01;441.89
+Municipios;1185;Puebla de la Sierra;0;0;0;0;0;0
+Municipios;9020;Puentes Viejas;22;4;22;979.90;0.09;979.24
+Municipios;1198;Quijorna;9;2;2;1080.95;0.06;354.90
 Municipios;1202;Rascafría;35;1;34;2344.51;0.04;2336.06
-Municipios;1219;Redueña;12;1;6;643.6;0.02;487.29
-Municipios;1224;Ribatejada;16;0;2;1767.94;0.0;188.12
+Municipios;1219;Redueña;12;1;6;643.60;0.02;487.29
+Municipios;1224;Ribatejada;16;0;2;1767.94;0.00;188.12
 Municipios;1230;Rivas0Vaciamadrid;18;1;6;1189.97;0.02;58.44
-Municipios;1245;Robledillo de la Jara;0;0;0;0.0;0.0;0.0
-Municipios;1258;Robledo de Chavela;34;2;34;2974.34;0.02;2973.6
-Municipios;1261;Robregordo;5;0;5;242.33;0.0;242.33
-Municipios;1277;Rozas de Madrid (Las);5;0;4;951.92;0.0;602.98
-Municipios;1283;Rozas de Puerto Real;32;0;20;628.65;0.0;556.02
+Municipios;1245;Robledillo de la Jara;0;0;0;0;0;0
+Municipios;1258;Robledo de Chavela;34;2;34;2974.34;0.02;2973.60
+Municipios;1261;Robregordo;5;0;5;242.33;0.00;242.33
+Municipios;1277;Rozas de Madrid (Las);5;0;4;951.92;0.00;602.98
+Municipios;1283;Rozas de Puerto Real;32;0;20;628.65;0.00;556.02
 Municipios;1296;San Agustín del Guadalix;21;3;17;2334.09;0.08;1416.34
 Municipios;1300;San Fernando de Henares;12;1;3;1146.08;0.03;141.77
 Municipios;1317;San Lorenzo de El Escorial;20;1;19;1971.12;0.05;1968.69
-Municipios;1338;San Martín de Valdeiglesias;284;45;50;1497.99;1.67;717.0
+Municipios;1338;San Martín de Valdeiglesias;284;45;50;1497.99;1.67;717.00
 Municipios;1322;San Martín de la Vega;116;7;9;4361.71;0.13;552.86
-Municipios;1343;San Sebastián de los Reyes;19;2;7;1652.61;0.05;13.6
+Municipios;1343;San Sebastián de los Reyes;19;2;7;1652.61;0.05;13.60
 Municipios;1356;Santa María de la Alameda;38;1;38;3263.19;0.02;3263.17
 Municipios;1369;Santorcaz;43;2;4;1672.44;0.07;184.46
 Municipios;1375;Santos de la Humosa (Los);22;1;4;2633.52;0.03;855.98
-Municipios;1381;Serna del Monte (La);4;0;4;284.53;0.0;284.53
+Municipios;1381;Serna del Monte (La);4;0;4;284.53;0.00;284.53
 Municipios;1408;Serranillos del Valle;10;1;1;672.64;0.04;34.26
 Municipios;1415;Sevilla la Nueva;8;1;3;966.14;0.04;3.11
-Municipios;1436;Somosierra;11;0;11;323.05;0.0;320.29
-Municipios;1441;Soto del Real;23;0;23;1887.35;0.0;1886.57
+Municipios;1436;Somosierra;11;0;11;323.05;0.00;320.29
+Municipios;1441;Soto del Real;23;0;23;1887.35;0.00;1886.57
 Municipios;1454;Talamanca de Jarama;49;1;5;2254.39;0.03;84.98
 Municipios;1467;Tielmes;74;1;2;981.67;0.03;59.25
-Municipios;1473;Titulcia;18;0;1;397.76;0.0;14.06
+Municipios;1473;Titulcia;18;0;1;397.76;0.00;14.06
 Municipios;1489;Torrejón de Ardoz;7;2;2;1220.68;0.04;27.71
 Municipios;1505;Torrejón de Velasco;78;5;5;3521.11;0.17;2.51
-Municipios;1492;Torrejón de la Calzada;5;0;2;310.63;0.0;21.46
+Municipios;1492;Torrejón de la Calzada;5;0;2;310.63;0.00;21.46
 Municipios;1512;Torrelaguna;55;1;9;1817.16;0.01;240.16
-Municipios;1527;Torrelodones;0;0;0;0.0;0.0;0.0
+Municipios;1527;Torrelodones;0;0;0;0;0;0
 Municipios;1533;Torremocha de Jarama;56;2;6;1246.47;0.06;44.84
-Municipios;1548;Torres de la Alameda;36;1;0;2545.16;0.03;0.0
-Municipios;9036;Tres Cantos;21;0;20;1155.06;0.0;1123.72
-Municipios;1551;Valdaracete;125;6;8;2764.78;0.2;10.91
-Municipios;1564;Valdeavero;13;1;1;1671.09;0.04;25.1
-Municipios;1570;Valdelaguna;84;10;7;829.26;0.43;47.7
+Municipios;1548;Torres de la Alameda;36;1;0;2545.16;0.03;0.00
+Municipios;9036;Tres Cantos;21;0;20;1155.06;0.00;1123.72
+Municipios;1551;Valdaracete;125;6;8;2764.78;0.20;10.91
+Municipios;1564;Valdeavero;13;1;1;1671.09;0.04;25.10
+Municipios;1570;Valdelaguna;84;10;7;829.26;0.43;47.70
 Municipios;1586;Valdemanco;4;1;4;38.14;0.03;37.55
-Municipios;1599;Valdemaqueda;0;0;0;0.0;0.0;0.0
+Municipios;1599;Valdemaqueda;0;0;0;0;0;0
 Municipios;1603;Valdemorillo;45;6;39;2140.73;0.15;2082.12
 Municipios;1610;Valdemoro;19;1;4;1111.69;0.03;114.38
-Municipios;1625;Valdeolmos0Alalpardo;22;0;5;2190.06;0.0;88.95
+Municipios;1625;Valdeolmos0Alalpardo;22;0;5;2190.06;0.00;88.95
 Municipios;1631;Valdepiélagos;13;1;1;1357.81;0.03;156.87
-Municipios;1646;Valdetorres de Jarama;27;2;7;2211.95;0.04;30.8
+Municipios;1646;Valdetorres de Jarama;27;2;7;2211.95;0.04;30.80
 Municipios;1659;Valdilecha;155;9;10;4053.24;0.26;759.13
-Municipios;1662;Valverde de Alcalá;12;0;2;416.47;0.0;6.52
+Municipios;1662;Valverde de Alcalá;12;0;2;416.47;0.00;6.52
 Municipios;1678;Velilla de San Antonio;7;1;1;484.34;0.02;0.02
-Municipios;1684;Vellón (El);30;5;17;1484.73;0.18;736.2
+Municipios;1684;Vellón (El);30;5;17;1484.73;0.18;736.20
 Municipios;1697;Venturada;12;1;6;466.24;0.01;321.81
 Municipios;1718;Villa del Prado;266;22;23;3747.97;0.59;1607.32
-Municipios;1701;Villaconejos;106;3;2;2981.21;0.08;465.8
+Municipios;1701;Villaconejos;106;3;2;2981.21;0.08;465.80
 Municipios;1723;Villalbilla;25;2;2;1902.76;0.07;125.11
-Municipios;1739;Villamanrique de Tajo;33;0;3;2305.11;0.0;54.38
+Municipios;1739;Villamanrique de Tajo;33;0;3;2305.11;0.00;54.38
 Municipios;1744;Villamanta;62;8;15;2618.04;0.23;1149.44
-Municipios;1757;Villamantilla;7;1;5;1240.3;0.01;438.36
-Municipios;1782;Villanueva de Perales;6;0;4;2863.48;0.0;934.13
-Municipios;1760;Villanueva de la Cañada;6;1;2;533.0;0.02;10.16
-Municipios;1776;Villanueva del Pardillo;12;0;5;1614.88;0.0;509.31
+Municipios;1757;Villamantilla;7;1;5;1240.30;0.01;438.36
+Municipios;1782;Villanueva de Perales;6;0;4;2863.48;0.00;934.13
+Municipios;1760;Villanueva de la Cañada;6;1;2;533.00;0.02;10.16
+Municipios;1776;Villanueva del Pardillo;12;0;5;1614.88;0.00;509.31
 Municipios;1795;Villar del Olmo;24;3;5;730.66;0.11;17.16
 Municipios;1809;Villarejo de Salvanés;472;9;21;6408.43;0.27;615.77
 Municipios;1816;Villaviciosa de Odón;31;8;10;1047.89;0.27;60.16
-Municipios;1821;Villavieja del Lozoya;8;0;8;696.08;0.0;689.9
-Municipios;1837;Zarzalejo;14;3;14;577.01;0.08;567.0
+Municipios;1821;Villavieja del Lozoya;8;0;8;696.08;0.00;689.90
+Municipios;1837;Zarzalejo;14;3;14;577.01;0.08;567.00
