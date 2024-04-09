@@ -1,0 +1,192 @@
+Serie;Codigo_municipio;Nombre;uso_ppal_indust;sup_edif_indust;sup_total_indust;uso_ppal_terc_indust;sup_edif_terc_indust;sup_total_terc_indust
+Comunidad de Madrid;;Comunidad de Madrid;I;9884.68;11858.8;T;49922.64;162774.88
+Zonas Estadísticas;01;Municipio de Madrid ;I;9884.68;11858.8;T;49922.64;162774.88
+Zonas Estadísticas;02;Norte Metropolitano ;;;;;;
+Zonas Estadísticas;03;Este Metropolitano  ;;;;;;
+Zonas Estadísticas;04;Sur Metropolitano   ;;;;;;
+Zonas Estadísticas;05;Oeste Metropolitano ;;;;;;
+Zonas Estadísticas;06;Sierra Norte        ;;;;;;
+Zonas Estadísticas;07;Nordeste Comunidad  ;;;;;;
+Zonas Estadísticas;08;Sudeste Comunidad   ;;;;;;
+Zonas Estadísticas;09;Sudoeste Comunidad  ;;;;;;
+Zonas Estadísticas;10;Sierra Sur          ;;;;;;
+Zonas Estadísticas;11;Sierra Central      ;;;;;;
+Municipios;0014;Acebeda (La);;;;;;
+Municipios;0029;Ajalvir;;;;;;
+Municipios;0035;Alameda del Valle;;;;;;
+Municipios;0040;Alamo (El);;;;;;
+Municipios;0053;Alcalá de Henares;I;9773.91;7594.1;T;14819.67;11114.75
+Municipios;0066;Alcobendas;;;;T;28509.5;38513.0
+Municipios;0072;Alcorcón;I;5000.0;2835.0;;;
+Municipios;0088;Aldea del Fresno;;;;;;
+Municipios;0091;Algete;;;;;;
+Municipios;0105;Alpedrete;;;;;;
+Municipios;0112;Ambite;;;;;;
+Municipios;0127;Anchuelo;;;;;;
+Municipios;0133;Aranjuez;;;;;;
+Municipios;0148;Arganda del Rey;;;;;;
+Municipios;0151;Arroyomolinos;;;;;;
+Municipios;0164;Atazar (El);;;;;;
+Municipios;0170;Batres;;;;;;
+Municipios;0186;Becerril de la Sierra;;;;;;
+Municipios;0199;Belmonte de Tajo;;;;;;
+Municipios;0210;Berrueco (El);;;;;;
+Municipios;0203;Berzosa del Lozoya;;;;;;
+Municipios;0225;Boadilla del Monte;;;;T;38814.0;11364.4
+Municipios;0231;Boalo (El);;;;;;
+Municipios;0246;Braojos;;;;;;
+Municipios;0259;Brea de Tajo;;;;;;
+Municipios;0262;Brunete;;;;;;
+Municipios;0278;Buitrago del Lozoya;;;;;;
+Municipios;0284;Bustarviejo;;;;;;
+Municipios;0297;Cabanillas de la Sierra;;;;;;
+Municipios;0301;Cabrera (La);;;;;;
+Municipios;0318;Cadalso de los Vidrios;;;;;;
+Municipios;0323;Camarma de Esteruelas;;;;;;
+Municipios;0339;Campo Real;I;963.14;674.2;;;
+Municipios;0344;Canencia;;;;;;
+Municipios;0357;Carabaña;;;;;;
+Municipios;0360;Casarrubuelos;;;;;;
+Municipios;0376;Cenicientos;;;;;;
+Municipios;0382;Cercedilla;;;;;;
+Municipios;0395;Cervera de Buitrago;;;;;;
+Municipios;0513;Chapinería;;;;;;
+Municipios;0528;Chinchón;;;;;;
+Municipios;0409;Ciempozuelos;;;;;;
+Municipios;0416;Cobeña;;;;;;
+Municipios;0468;Collado Mediano;;;;;;
+Municipios;0474;Collado Villalba;;;;;;
+Municipios;0455;Colmenar Viejo;;;;T;131650.12;96408.0
+Municipios;0437;Colmenar de Oreja;;;;;;
+Municipios;0421;Colmenar del Arroyo;;;;;;
+Municipios;0442;Colmenarejo;;;;;;
+Municipios;0480;Corpa;;;;;;
+Municipios;0493;Coslada;;;;;;
+Municipios;0506;Cubas de la Sagra;;;;;;
+Municipios;0534;Daganzo de Arriba;;;;;;
+Municipios;0549;Escorial (El);;;;;;
+Municipios;0552;Estremera;;;;;;
+Municipios;0565;Fresnedillas de la Oliva;;;;;;
+Municipios;0571;Fresno de Torote;;;;;;
+Municipios;0587;Fuenlabrada;I;6780.55;4068.33;T;40931.26;49090.52
+Municipios;0590;Fuente el Saz de Jarama;;;;;;
+Municipios;0604;Fuentidueña de Tajo;;;;;;
+Municipios;0611;Galapagar;;;;;;
+Municipios;0626;Garganta de los Montes;;;;;;
+Municipios;0632;Gargantilla del Lozoya y Pinilla de Buitrago;;;;;;
+Municipios;0647;Gascones;;;;;;
+Municipios;0650;Getafe;I;170233.0;107430.0;T;33413.46;11842.0
+Municipios;0663;Griñón;;;;;;
+Municipios;0679;Guadalix de la Sierra;;;;;;
+Municipios;0685;Guadarrama;;;;;;
+Municipios;0698;Hiruela (La);;;;;;
+Municipios;0702;Horcajo de la Sierra-Aoslos;;;;;;
+Municipios;0719;Horcajuelo de la Sierra;;;;;;
+Municipios;0724;Hoyo de Manzanares;;;;;;
+Municipios;0730;Humanes de Madrid;I;9884.68;11858.8;T;49922.64;162774.88
+Municipios;0745;Leganés;;;;T;22658.98;11746.51
+Municipios;0758;Loeches;;;;;;
+Municipios;0761;Lozoya;;;;;;
+Municipios;9015;Lozoyuela-Navas-Sieteiglesias;;;;;;
+Municipios;0783;Madarcos;;;;;;
+Municipios;0796;Madrid;I;9884.68;11858.8;T;49922.64;162774.88
+Municipios;0800;Majadahonda;;;;T;1136.0;2727.5
+Municipios;0822;Manzanares el Real;;;;;;
+Municipios;0838;Meco;I;6225.52;4669.15;;;
+Municipios;0843;Mejorada del Campo;;;;;;
+Municipios;0856;Miraflores de la Sierra;;;;;;
+Municipios;0869;Molar (El);;;;;;
+Municipios;0875;Molinos (Los);;;;;;
+Municipios;0881;Montejo de la Sierra;;;;;;
+Municipios;0894;Moraleja de Enmedio;;;;;;
+Municipios;0908;Moralzarzal;;;;;;
+Municipios;0915;Morata de Tajuña;;;;;;
+Municipios;0920;Móstoles;I;8189.0;5323.0;T;63675.0;73220.0
+Municipios;0936;Navacerrada;;;;;;
+Municipios;0941;Navalafuente;;;;;;
+Municipios;0954;Navalagamella;;;;;;
+Municipios;0967;Navalcarnero;;;;;;
+Municipios;0973;Navarredonda y San Mamés;;;;;;
+Municipios;0992;Navas del Rey;;;;;;
+Municipios;1006;Nuevo Baztán;;;;;;
+Municipios;1013;Olmeda de las Fuentes;;;;T;15336.0;3685.0
+Municipios;1028;Orusco de Tajuña;;;;;;
+Municipios;1049;Paracuellos de Jarama;I;19193.0;11981.91;;;
+Municipios;1065;Parla;I;15004.0;18004.8;T;5351.0;9364.26
+Municipios;1071;Patones;;;;;;
+Municipios;1087;Pedrezuela;;;;;;
+Municipios;1090;Pelayos de la Presa;;;;;;
+Municipios;1104;Perales de Tajuña;;;;;;
+Municipios;1111;Pezuela de las Torres;;;;;;
+Municipios;1126;Pinilla del Valle;;;;;;
+Municipios;1132;Pinto;I;2336.0;1402.0;T;5482.0;4111.0
+Municipios;1147;Piñuécar-Gandullas;;;;;;
+Municipios;1150;Pozuelo de Alarcón;;;;;;
+Municipios;1163;Pozuelo del Rey;;;;;;
+Municipios;1179;Prádena del Rincón;;;;;;
+Municipios;1185;Puebla de la Sierra;;;;;;
+Municipios;9020;Puentes Viejas;;;;;;
+Municipios;1198;Quijorna;;;;;;
+Municipios;1202;Rascafría;;;;;;
+Municipios;1219;Redueña;;;;;;
+Municipios;1224;Ribatejada;;;;;;
+Municipios;1230;Rivas-Vaciamadrid;;;;;;
+Municipios;1245;Robledillo de la Jara;;;;;;
+Municipios;1258;Robledo de Chavela;;;;;;
+Municipios;1261;Robregordo;;;;;;
+Municipios;1277;Rozas de Madrid (Las);I;9884.68;11858.8;T;49922.64;162774.88
+Municipios;1283;Rozas de Puerto Real;;;;;;
+Municipios;1296;San Agustín del Guadalix;;;;;;
+Municipios;1300;San Fernando de Henares;I;3758.34;3232.0;;;
+Municipios;1317;San Lorenzo de El Escorial;;;;;;
+Municipios;1338;San Martín de Valdeiglesias;;;;;;
+Municipios;1322;San Martín de la Vega;;;;;;
+Municipios;1343;San Sebastián de los Reyes;;;;T;12250.0;16500.0
+Municipios;1356;Santa María de la Alameda;;;;;;
+Municipios;1369;Santorcaz;;;;;;
+Municipios;1375;Santos de la Humosa (Los);;;;;;
+Municipios;1381;Serna del Monte (La);;;;;;
+Municipios;1408;Serranillos del Valle;;;;;;
+Municipios;1415;Sevilla la Nueva;;;;;;
+Municipios;1436;Somosierra;;;;;;
+Municipios;1441;Soto del Real;;;;;;
+Municipios;1454;Talamanca de Jarama;;;;;;
+Municipios;1467;Tielmes;;;;;;
+Municipios;1473;Titulcia;;;;;;
+Municipios;1489;Torrejón de Ardoz;;;;;;
+Municipios;1505;Torrejón de Velasco;;;;;;
+Municipios;1492;Torrejón de la Calzada;;;;;;
+Municipios;1512;Torrelaguna;;;;;;
+Municipios;1527;Torrelodones;;;;;;
+Municipios;1533;Torremocha de Jarama;;;;T;3305.0;1652.5
+Municipios;1548;Torres de la Alameda;I;3000.0;3000.0;;;
+Municipios;9036;Tres Cantos;;;;T;6636.52;5336.54
+Municipios;1551;Valdaracete;;;;;;
+Municipios;1564;Valdeavero;;;;;;
+Municipios;1570;Valdelaguna;;;;;;
+Municipios;1586;Valdemanco;;;;;;
+Municipios;1599;Valdemaqueda;;;;;;
+Municipios;1603;Valdemorillo;;;;;;
+Municipios;1610;Valdemoro;;;;;;
+Municipios;1625;Valdeolmos-Alalpardo;;;;;;
+Municipios;1631;Valdepiélagos;;;;;;
+Municipios;1646;Valdetorres de Jarama;;;;;;
+Municipios;1659;Valdilecha;;;;;;
+Municipios;1662;Valverde de Alcalá;;;;;;
+Municipios;1678;Velilla de San Antonio;;;;;;
+Municipios;1684;Vellón (El);;;;;;
+Municipios;1697;Venturada;;;;;;
+Municipios;1718;Villa del Prado;;;;;;
+Municipios;1701;Villaconejos;;;;;;
+Municipios;1723;Villalbilla;;;;;;
+Municipios;1739;Villamanrique de Tajo;;;;;;
+Municipios;1744;Villamanta;;;;;;
+Municipios;1757;Villamantilla;;;;;;
+Municipios;1782;Villanueva de Perales;;;;;;
+Municipios;1760;Villanueva de la Cañada;I;2004.81;1202.88;T;6000.0;3786.72
+Municipios;1776;Villanueva del Pardillo;;;;;;
+Municipios;1795;Villar del Olmo;;;;;;
+Municipios;1809;Villarejo de Salvanés;;;;;;
+Municipios;1816;Villaviciosa de Odón;;;;;;
+Municipios;1821;Villavieja del Lozoya;;;;;;
+Municipios;1837;Zarzalejo;;;;;;

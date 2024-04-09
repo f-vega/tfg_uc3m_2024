@@ -1,4 +1,4 @@
-Serie;Codigo_municipio;Nombre;num_total_num;num_huertos_consumo_propio;num_tierra_pastos;sup_total_num;sup_huertos_consumo_propio;sup_tierra_pastos
+Serie;Codigo_municipio;Nombre;num_explotaciones_agricolas_total;num_explotaciones_agricolas_huertos_consumo_propio;num_explotaciones_agricolas_tierra_pastos;sup_explotaciones_agricolas_total;sup_explotaciones_agricolas_huertos_consumo_propio;sup_explotaciones_agricolas_tierra_pastos
 Comunidad de Madrid;;Comunidad de Madrid;7716;491;1918;303329.62;15.11;118008.83
 Zonas Estadísticas;01;Municipio de Madrid ;109;3;12;2030.10;0.13;71.69
 Zonas Estadísticas;02;Norte Metropolitano ;0;0;0;0;0;0
