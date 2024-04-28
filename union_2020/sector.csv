@@ -1,0 +1,191 @@
+Serie;Codigo_municipio;Nombre;sector
+Zonas Estadísticas;01;Municipio de Madrid ;Terciario
+Zonas Estadísticas;02;Norte Metropolitano ;Terciario
+Zonas Estadísticas;03;Este Metropolitano  ;Terciario
+Zonas Estadísticas;04;Sur Metropolitano   ;Terciario
+Zonas Estadísticas;05;Oeste Metropolitano ;Terciario
+Zonas Estadísticas;06;Sierra Norte        ;Terciario
+Zonas Estadísticas;07;Nordeste Comunidad  ;Terciario
+Zonas Estadísticas;08;Sudeste Comunidad   ;Terciario
+Zonas Estadísticas;09;Sudoeste Comunidad  ;Terciario
+Zonas Estadísticas;10;Sierra Sur          ;Terciario
+Zonas Estadísticas;11;Sierra Central      ;Terciario
+Municipios;0014;Acebeda (La);Terciario
+Municipios;0029;Ajalvir;Terciario
+Municipios;0035;Alameda del Valle;Terciario
+Municipios;0040;Alamo (El);Terciario
+Municipios;0053;Alcalá de Henares;Terciario
+Municipios;0066;Alcobendas;Terciario
+Municipios;0072;Alcorcón;Terciario
+Municipios;0088;Aldea del Fresno;Terciario
+Municipios;0091;Algete;Terciario
+Municipios;0105;Alpedrete;Terciario
+Municipios;0112;Ambite;Terciario
+Municipios;0127;Anchuelo;Terciario
+Municipios;0133;Aranjuez;Terciario
+Municipios;0148;Arganda del Rey;Terciario
+Municipios;0151;Arroyomolinos;Terciario
+Municipios;0164;Atazar (El);Terciario
+Municipios;0170;Batres;Terciario
+Municipios;0186;Becerril de la Sierra;Terciario
+Municipios;0199;Belmonte de Tajo;Terciario
+Municipios;0210;Berrueco (El);Terciario
+Municipios;0203;Berzosa del Lozoya;Terciario
+Municipios;0225;Boadilla del Monte;Terciario
+Municipios;0231;Boalo (El);Terciario
+Municipios;0246;Braojos;Terciario
+Municipios;0259;Brea de Tajo;Terciario
+Municipios;0262;Brunete;Terciario
+Municipios;0278;Buitrago del Lozoya;Terciario
+Municipios;0284;Bustarviejo;Terciario
+Municipios;0297;Cabanillas de la Sierra;Terciario
+Municipios;0301;Cabrera (La);Terciario
+Municipios;0318;Cadalso de los Vidrios;Terciario
+Municipios;0323;Camarma de Esteruelas;Terciario
+Municipios;0339;Campo Real;Terciario
+Municipios;0344;Canencia;Terciario
+Municipios;0357;Carabaña;Terciario
+Municipios;0360;Casarrubuelos;Terciario
+Municipios;0376;Cenicientos;Terciario
+Municipios;0382;Cercedilla;Terciario
+Municipios;0395;Cervera de Buitrago;Terciario
+Municipios;0513;Chapinería;Terciario
+Municipios;0528;Chinchón;Terciario
+Municipios;0409;Ciempozuelos;Terciario
+Municipios;0416;Cobeña;Terciario
+Municipios;0468;Collado Mediano;Terciario
+Municipios;0474;Collado Villalba;Terciario
+Municipios;0455;Colmenar Viejo;Terciario
+Municipios;0437;Colmenar de Oreja;Terciario
+Municipios;0421;Colmenar del Arroyo;Terciario
+Municipios;0442;Colmenarejo;Terciario
+Municipios;0480;Corpa;Terciario
+Municipios;0493;Coslada;Terciario
+Municipios;0506;Cubas de la Sagra;Terciario
+Municipios;0534;Daganzo de Arriba;Terciario
+Municipios;0549;Escorial (El);Terciario
+Municipios;0552;Estremera;Terciario
+Municipios;0565;Fresnedillas de la Oliva;Terciario
+Municipios;0571;Fresno de Torote;Terciario
+Municipios;0587;Fuenlabrada;Terciario
+Municipios;0590;Fuente el Saz de Jarama;Terciario
+Municipios;0604;Fuentidueña de Tajo;Terciario
+Municipios;0611;Galapagar;Terciario
+Municipios;0626;Garganta de los Montes;Terciario
+Municipios;0632;Gargantilla del Lozoya y Pinilla de Buitrago;Terciario
+Municipios;0647;Gascones;Terciario
+Municipios;0650;Getafe;Terciario
+Municipios;0663;Griñón;Terciario
+Municipios;0679;Guadalix de la Sierra;Terciario
+Municipios;0685;Guadarrama;Terciario
+Municipios;0698;Hiruela (La);Terciario
+Municipios;0702;Horcajo de la Sierra-Aoslos;Terciario
+Municipios;0719;Horcajuelo de la Sierra;Terciario
+Municipios;0724;Hoyo de Manzanares;Terciario
+Municipios;0730;Humanes de Madrid;Secundario
+Municipios;0745;Leganés;Terciario
+Municipios;0758;Loeches;Secundario
+Municipios;0203;Berzosa del Lozoya;Terciario
+Municipios;9015;Lozoyuela-Navas-Sieteiglesias;Terciario
+Municipios;0783;Madarcos;Terciario
+Comunidad de Madrid;;Comunidad de Madrid;Terciario
+Municipios;0800;Majadahonda;Terciario
+Municipios;0822;Manzanares el Real;Terciario
+Municipios;0838;Meco;Terciario
+Municipios;0843;Mejorada del Campo;Terciario
+Municipios;0856;Miraflores de la Sierra;Terciario
+Municipios;0869;Molar (El);Terciario
+Municipios;0875;Molinos (Los);Terciario
+Municipios;0881;Montejo de la Sierra;Terciario
+Municipios;0894;Moraleja de Enmedio;Terciario
+Municipios;0908;Moralzarzal;Terciario
+Municipios;0915;Morata de Tajuña;Terciario
+Municipios;0920;Móstoles;Terciario
+Municipios;0936;Navacerrada;Terciario
+Municipios;0941;Navalafuente;Terciario
+Municipios;0954;Navalagamella;Terciario
+Municipios;0967;Navalcarnero;Terciario
+Municipios;0973;Navarredonda y San Mamés;Terciario
+Municipios;0992;Navas del Rey;Terciario
+Municipios;1006;Nuevo Baztán;Terciario
+Municipios;1013;Olmeda de las Fuentes;Terciario
+Municipios;1028;Orusco de Tajuña;Terciario
+Municipios;1049;Paracuellos de Jarama;Terciario
+Municipios;1065;Parla;Terciario
+Municipios;1071;Patones;Terciario
+Municipios;1087;Pedrezuela;Terciario
+Municipios;1090;Pelayos de la Presa;Terciario
+Municipios;1104;Perales de Tajuña;Terciario
+Municipios;1111;Pezuela de las Torres;Terciario
+Municipios;1126;Pinilla del Valle;Terciario
+Municipios;1132;Pinto;Terciario
+Municipios;1147;Piñuécar-Gandullas;Terciario
+Municipios;1150;Pozuelo de Alarcón;Terciario
+Municipios;1163;Pozuelo del Rey;Terciario
+Municipios;1179;Prádena del Rincón;Terciario
+Municipios;1185;Puebla de la Sierra;Terciario
+Municipios;9020;Puentes Viejas;Terciario
+Municipios;1198;Quijorna;Terciario
+Municipios;1202;Rascafría;Terciario
+Municipios;1219;Redueña;Terciario
+Municipios;1224;Ribatejada;Terciario
+Municipios;1230;Rivas-Vaciamadrid;Terciario
+Municipios;1245;Robledillo de la Jara;Terciario
+Municipios;1258;Robledo de Chavela;Terciario
+Municipios;1261;Robregordo;Terciario
+Municipios;1277;Rozas de Madrid (Las);Terciario
+Municipios;1283;Rozas de Puerto Real;Terciario
+Municipios;1296;San Agustín del Guadalix;Terciario
+Municipios;1300;San Fernando de Henares;Terciario
+Municipios;1317;San Lorenzo de El Escorial;Terciario
+Municipios;1338;San Martín de Valdeiglesias;Terciario
+Municipios;1322;San Martín de la Vega;Terciario
+Municipios;1343;San Sebastián de los Reyes;Terciario
+Municipios;1356;Santa María de la Alameda;Terciario
+Municipios;1369;Santorcaz;Terciario
+Municipios;1375;Santos de la Humosa (Los);Terciario
+Municipios;1381;Serna del Monte (La);Terciario
+Municipios;1408;Serranillos del Valle;Terciario
+Municipios;1415;Sevilla la Nueva;Terciario
+Municipios;1436;Somosierra;Terciario
+Municipios;1441;Soto del Real;Terciario
+Municipios;1454;Talamanca de Jarama;Terciario
+Municipios;1467;Tielmes;Terciario
+Municipios;1473;Titulcia;Terciario
+Municipios;1489;Torrejón de Ardoz;Terciario
+Municipios;1505;Torrejón de Velasco;Terciario
+Municipios;1492;Torrejón de la Calzada;Terciario
+Municipios;1512;Torrelaguna;Terciario
+Municipios;1527;Torrelodones;Terciario
+Municipios;1533;Torremocha de Jarama;Secundario
+Municipios;1548;Torres de la Alameda;Terciario
+Municipios;9036;Tres Cantos;Terciario
+Municipios;1551;Valdaracete;Terciario
+Municipios;1564;Valdeavero;Terciario
+Municipios;1570;Valdelaguna;Terciario
+Municipios;1586;Valdemanco;Secundario
+Municipios;1599;Valdemaqueda;Terciario
+Municipios;1603;Valdemorillo;Terciario
+Municipios;1610;Valdemoro;Terciario
+Municipios;1625;Valdeolmos-Alalpardo;Terciario
+Municipios;1631;Valdepiélagos;Terciario
+Municipios;1646;Valdetorres de Jarama;Terciario
+Municipios;1659;Valdilecha;Terciario
+Municipios;1662;Valverde de Alcalá;Terciario
+Municipios;1678;Velilla de San Antonio;Terciario
+Municipios;1684;Vellón (El);Terciario
+Municipios;1697;Venturada;Terciario
+Municipios;1718;Villa del Prado;Terciario
+Municipios;1701;Villaconejos;Terciario
+Municipios;1723;Villalbilla;Terciario
+Municipios;1739;Villamanrique de Tajo;Terciario
+Municipios;1744;Villamanta;Terciario
+Municipios;1757;Villamantilla;Terciario
+Municipios;1782;Villanueva de Perales;Terciario
+Municipios;1760;Villanueva de la Cañada;Terciario
+Municipios;1776;Villanueva del Pardillo;Terciario
+Municipios;1795;Villar del Olmo;Terciario
+Municipios;1809;Villarejo de Salvanés;Secundario
+Municipios;1816;Villaviciosa de Odón;Terciario
+Municipios;1821;Villavieja del Lozoya;Terciario
+Municipios;1837;Zarzalejo;Secundario

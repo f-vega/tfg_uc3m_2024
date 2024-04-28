@@ -1,6 +1,6 @@
 Serie;Codigo_municipio;Nombre;sup_edif_indust;sup_total_indust;sup_edif_terc_indust;sup_total_terc_indust
-Comunidad de Madrid;;Comunidad de Madrid;9884.68;11858.8;49922.64;162774.88
-Zonas Estadísticas;01;Municipio de Madrid ;9884.68;11858.8;49922.64;162774.88
+Comunidad de Madrid;;Comunidad de Madrid;98.85;118.59;499.23;1627.75
+Zonas Estadísticas;01;Municipio de Madrid ;98.85;118.59;499.23;1627.75
 Zonas Estadísticas;02;Norte Metropolitano ;0;0;0;0
 Zonas Estadísticas;03;Este Metropolitano  ;0;0;0;0
 Zonas Estadísticas;04;Sur Metropolitano   ;0;0;0;0
@@ -15,9 +15,9 @@ Municipios;0014;Acebeda (La);0;0;0;0
 Municipios;0029;Ajalvir;0;0;0;0
 Municipios;0035;Alameda del Valle;0;0;0;0
 Municipios;0040;Alamo (El);0;0;0;0
-Municipios;0053;Alcalá de Henares;9773.91;7594.1;14819.67;11114.75
-Municipios;0066;Alcobendas;0;0;28509.5;38513.0
-Municipios;0072;Alcorcón;5000.0;2835.0;0;0
+Municipios;0053;Alcalá de Henares;97.74;75.94;148.2;111.15
+Municipios;0066;Alcobendas;0;0;285.09;385.13
+Municipios;0072;Alcorcón;50.0;28.35;0;0
 Municipios;0088;Aldea del Fresno;0;0;0;0
 Municipios;0091;Algete;0;0;0;0
 Municipios;0105;Alpedrete;0;0;0;0
@@ -32,7 +32,7 @@ Municipios;0186;Becerril de la Sierra;0;0;0;0
 Municipios;0199;Belmonte de Tajo;0;0;0;0
 Municipios;0210;Berrueco (El);0;0;0;0
 Municipios;0203;Berzosa del Lozoya;0;0;0;0
-Municipios;0225;Boadilla del Monte;0;0;38814.0;11364.4
+Municipios;0225;Boadilla del Monte;0;0;388.14;113.64
 Municipios;0231;Boalo (El);0;0;0;0
 Municipios;0246;Braojos;0;0;0;0
 Municipios;0259;Brea de Tajo;0;0;0;0
@@ -43,7 +43,7 @@ Municipios;0297;Cabanillas de la Sierra;0;0;0;0
 Municipios;0301;Cabrera (La);0;0;0;0
 Municipios;0318;Cadalso de los Vidrios;0;0;0;0
 Municipios;0323;Camarma de Esteruelas;0;0;0;0
-Municipios;0339;Campo Real;963.14;674.2;0;0
+Municipios;0339;Campo Real;9.63;6.74;0;0
 Municipios;0344;Canencia;0;0;0;0
 Municipios;0357;Carabaña;0;0;0;0
 Municipios;0360;Casarrubuelos;0;0;0;0
@@ -56,7 +56,7 @@ Municipios;0409;Ciempozuelos;0;0;0;0
 Municipios;0416;Cobeña;0;0;0;0
 Municipios;0468;Collado Mediano;0;0;0;0
 Municipios;0474;Collado Villalba;0;0;0;0
-Municipios;0455;Colmenar Viejo;0;0;131650.12;96408.0
+Municipios;0455;Colmenar Viejo;0;0;1316.5;964.08
 Municipios;0437;Colmenar de Oreja;0;0;0;0
 Municipios;0421;Colmenar del Arroyo;0;0;0;0
 Municipios;0442;Colmenarejo;0;0;0;0
@@ -68,14 +68,14 @@ Municipios;0549;Escorial (El);0;0;0;0
 Municipios;0552;Estremera;0;0;0;0
 Municipios;0565;Fresnedillas de la Oliva;0;0;0;0
 Municipios;0571;Fresno de Torote;0;0;0;0
-Municipios;0587;Fuenlabrada;6780.55;4068.33;40931.26;49090.52
+Municipios;0587;Fuenlabrada;67.81;40.68;409.31;490.91
 Municipios;0590;Fuente el Saz de Jarama;0;0;0;0
 Municipios;0604;Fuentidueña de Tajo;0;0;0;0
 Municipios;0611;Galapagar;0;0;0;0
 Municipios;0626;Garganta de los Montes;0;0;0;0
 Municipios;0632;Gargantilla del Lozoya y Pinilla de Buitrago;0;0;0;0
 Municipios;0647;Gascones;0;0;0;0
-Municipios;0650;Getafe;170233.0;107430.0;33413.46;11842.0
+Municipios;0650;Getafe;1702.33;1074.3;334.13;118.42
 Municipios;0663;Griñón;0;0;0;0
 Municipios;0679;Guadalix de la Sierra;0;0;0;0
 Municipios;0685;Guadarrama;0;0;0;0
@@ -83,16 +83,16 @@ Municipios;0698;Hiruela (La);0;0;0;0
 Municipios;0702;Horcajo de la Sierra-Aoslos;0;0;0;0
 Municipios;0719;Horcajuelo de la Sierra;0;0;0;0
 Municipios;0724;Hoyo de Manzanares;0;0;0;0
-Municipios;0730;Humanes de Madrid;9884.68;11858.8;49922.64;162774.88
-Municipios;0745;Leganés;0;0;22658.98;11746.51
+Municipios;0730;Humanes de Madrid;98.85;118.59;499.23;1627.75
+Municipios;0745;Leganés;0;0;226.59;117.47
 Municipios;0758;Loeches;0;0;0;0
 Municipios;0761;Lozoya;0;0;0;0
 Municipios;9015;Lozoyuela-Navas-Sieteiglesias;0;0;0;0
 Municipios;0783;Madarcos;0;0;0;0
-Municipios;0796;Madrid;9884.68;11858.8;49922.64;162774.88
-Municipios;0800;Majadahonda;0;0;1136.0;2727.5
+Municipios;0796;Madrid;98.85;118.59;499.23;1627.75
+Municipios;0800;Majadahonda;0;0;11.36;27.27
 Municipios;0822;Manzanares el Real;0;0;0;0
-Municipios;0838;Meco;6225.52;4669.15;0;0
+Municipios;0838;Meco;62.26;46.69;0;0
 Municipios;0843;Mejorada del Campo;0;0;0;0
 Municipios;0856;Miraflores de la Sierra;0;0;0;0
 Municipios;0869;Molar (El);0;0;0;0
@@ -101,7 +101,7 @@ Municipios;0881;Montejo de la Sierra;0;0;0;0
 Municipios;0894;Moraleja de Enmedio;0;0;0;0
 Municipios;0908;Moralzarzal;0;0;0;0
 Municipios;0915;Morata de Tajuña;0;0;0;0
-Municipios;0920;Móstoles;8189.0;5323.0;63675.0;73220.0
+Municipios;0920;Móstoles;81.89;53.23;636.75;732.2
 Municipios;0936;Navacerrada;0;0;0;0
 Municipios;0941;Navalafuente;0;0;0;0
 Municipios;0954;Navalagamella;0;0;0;0
@@ -109,17 +109,17 @@ Municipios;0967;Navalcarnero;0;0;0;0
 Municipios;0973;Navarredonda y San Mamés;0;0;0;0
 Municipios;0992;Navas del Rey;0;0;0;0
 Municipios;1006;Nuevo Baztán;0;0;0;0
-Municipios;1013;Olmeda de las Fuentes;0;0;15336.0;3685.0
+Municipios;1013;Olmeda de las Fuentes;0;0;153.36;36.85
 Municipios;1028;Orusco de Tajuña;0;0;0;0
-Municipios;1049;Paracuellos de Jarama;19193.0;11981.91;0;0
-Municipios;1065;Parla;15004.0;18004.8;5351.0;9364.26
+Municipios;1049;Paracuellos de Jarama;191.93;119.82;0;0
+Municipios;1065;Parla;150.04;180.05;53.51;93.64
 Municipios;1071;Patones;0;0;0;0
 Municipios;1087;Pedrezuela;0;0;0;0
 Municipios;1090;Pelayos de la Presa;0;0;0;0
 Municipios;1104;Perales de Tajuña;0;0;0;0
 Municipios;1111;Pezuela de las Torres;0;0;0;0
 Municipios;1126;Pinilla del Valle;0;0;0;0
-Municipios;1132;Pinto;2336.0;1402.0;5482.0;4111.0
+Municipios;1132;Pinto;23.36;14.02;54.82;41.11
 Municipios;1147;Piñuécar-Gandullas;0;0;0;0
 Municipios;1150;Pozuelo de Alarcón;0;0;0;0
 Municipios;1163;Pozuelo del Rey;0;0;0;0
@@ -134,14 +134,14 @@ Municipios;1230;Rivas-Vaciamadrid;0;0;0;0
 Municipios;1245;Robledillo de la Jara;0;0;0;0
 Municipios;1258;Robledo de Chavela;0;0;0;0
 Municipios;1261;Robregordo;0;0;0;0
-Municipios;1277;Rozas de Madrid (Las);9884.68;11858.8;49922.64;162774.88
+Municipios;1277;Rozas de Madrid (Las);98.85;118.59;499.23;1627.75
 Municipios;1283;Rozas de Puerto Real;0;0;0;0
 Municipios;1296;San Agustín del Guadalix;0;0;0;0
-Municipios;1300;San Fernando de Henares;3758.34;3232.0;0;0
+Municipios;1300;San Fernando de Henares;37.58;32.32;0;0
 Municipios;1317;San Lorenzo de El Escorial;0;0;0;0
 Municipios;1338;San Martín de Valdeiglesias;0;0;0;0
 Municipios;1322;San Martín de la Vega;0;0;0;0
-Municipios;1343;San Sebastián de los Reyes;0;0;12250.0;16500.0
+Municipios;1343;San Sebastián de los Reyes;0;0;122.5;165.0
 Municipios;1356;Santa María de la Alameda;0;0;0;0
 Municipios;1369;Santorcaz;0;0;0;0
 Municipios;1375;Santos de la Humosa (Los);0;0;0;0
@@ -158,9 +158,9 @@ Municipios;1505;Torrejón de Velasco;0;0;0;0
 Municipios;1492;Torrejón de la Calzada;0;0;0;0
 Municipios;1512;Torrelaguna;0;0;0;0
 Municipios;1527;Torrelodones;0;0;0;0
-Municipios;1533;Torremocha de Jarama;0;0;3305.0;1652.5
-Municipios;1548;Torres de la Alameda;3000.0;3000.0;0;0
-Municipios;9036;Tres Cantos;0;0;6636.52;5336.54
+Municipios;1533;Torremocha de Jarama;0;0;33.05;16.52
+Municipios;1548;Torres de la Alameda;30.0;30.0;0;0
+Municipios;9036;Tres Cantos;0;0;66.37;53.37
 Municipios;1551;Valdaracete;0;0;0;0
 Municipios;1564;Valdeavero;0;0;0;0
 Municipios;1570;Valdelaguna;0;0;0;0
@@ -183,7 +183,7 @@ Municipios;1739;Villamanrique de Tajo;0;0;0;0
 Municipios;1744;Villamanta;0;0;0;0
 Municipios;1757;Villamantilla;0;0;0;0
 Municipios;1782;Villanueva de Perales;0;0;0;0
-Municipios;1760;Villanueva de la Cañada;2004.81;1202.88;6000.0;3786.72
+Municipios;1760;Villanueva de la Cañada;20.05;12.03;60.0;37.87
 Municipios;1776;Villanueva del Pardillo;0;0;0;0
 Municipios;1795;Villar del Olmo;0;0;0;0
 Municipios;1809;Villarejo de Salvanés;0;0;0;0

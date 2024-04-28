@@ -1,0 +1,179 @@
+Serie;Codigo_municipio;Nombre;municipio_codigo_ine;zona_estadistica_codigo;zona_estadistica;sector
+Municipios;0014;Acebeda (La);280014;6;Sierra Norte;
+Municipios;0029;Ajalvir;280029;3;Este Metropolitano;
+Municipios;0035;Alameda del Valle;280035;6;Sierra Norte;
+Municipios;0040;Alamo (El);280040;9;Sudoeste Comunidad;
+Municipios;0053;Alcalá de Henares;280053;3;Este Metropolitano;
+Municipios;0066;Alcobendas;280066;2;Norte Metropolitano;
+Municipios;0072;Alcorcón;280072;4;Sur Metropolitano;
+Municipios;0088;Aldea del Fresno;280088;9;Sudoeste Comunidad;
+Municipios;0091;Algete;280091;2;Norte Metropolitano;
+Municipios;0105;Alpedrete;280105;11;Sierra Central;
+Municipios;0112;Ambite;280112;8;Sudeste Comunidad;
+Municipios;0127;Anchuelo;280127;8;Sudeste Comunidad;
+Municipios;0133;Aranjuez;280133;4;Sur Metropolitano;Terciario
+Municipios;0148;Arganda del Rey;280148;3;Este Metropolitano;Terciario
+Municipios;0151;Arroyomolinos;280151;9;Sudoeste Comunidad;Terciario
+Municipios;0164;Atazar (El);280164;6;Sierra Norte;Terciario
+Municipios;0170;Batres;280170;9;Sudoeste Comunidad;Terciario
+Municipios;0186;Becerril de la Sierra;280186;11;Sierra Central;Terciario
+Municipios;0199;Belmonte de Tajo;280199;8;Sudeste Comunidad;Terciario
+Municipios;0210;Berrueco (El);280210;6;Sierra Norte;Terciario
+Municipios;0203;Berzosa del Lozoya;280761;6;Sierra Norte;Terciario
+Municipios;0225;Boadilla del Monte;280225;5;Oeste Metropolitano;Terciario
+Municipios;0231;Boalo (El);280231;11;Sierra Central;Terciario
+Municipios;0246;Braojos;280246;6;Sierra Norte;Terciario
+Municipios;0259;Brea de Tajo;280259;8;Sudeste Comunidad;Terciario
+Municipios;0262;Brunete;280262;5;Oeste Metropolitano;Terciario
+Municipios;0278;Buitrago del Lozoya;280761;6;Sierra Norte;Terciario
+Municipios;0284;Bustarviejo;280284;6;Sierra Norte;Terciario
+Municipios;0297;Cabanillas de la Sierra;280297;6;Sierra Norte;Terciario
+Municipios;0301;Cabrera (La);280301;6;Sierra Norte;Terciario
+Municipios;0318;Cadalso de los Vidrios;280318;10;Sierra Sur;Terciario
+Municipios;0323;Camarma de Esteruelas;280323;7;Nordeste Comunidad;Terciario
+Municipios;0339;Campo Real;280339;8;Sudeste Comunidad;Terciario
+Municipios;0344;Canencia;280344;6;Sierra Norte;Terciario
+Municipios;0357;Carabaña;280357;8;Sudeste Comunidad;Terciario
+Municipios;0360;Casarrubuelos;280360;9;Sudoeste Comunidad;Terciario
+Municipios;0376;Cenicientos;280376;10;Sierra Sur;Terciario
+Municipios;0382;Cercedilla;280382;11;Sierra Central;Terciario
+Municipios;0395;Cervera de Buitrago;280395;6;Sierra Norte;Terciario
+Municipios;0513;Chapinería;280513;10;Sierra Sur;Terciario
+Municipios;0528;Chinchón;280528;8;Sudeste Comunidad;Terciario
+Municipios;0409;Ciempozuelos;280409;4;Sur Metropolitano;Terciario
+Municipios;0416;Cobeña;280416;2;Norte Metropolitano;Terciario
+Municipios;0468;Collado Mediano;280468;11;Sierra Central;Terciario
+Municipios;0474;Collado Villalba;280474;5;Oeste Metropolitano;Terciario
+Municipios;0455;Colmenar Viejo;280455;2;Norte Metropolitano;Terciario
+Municipios;0437;Colmenar de Oreja;280437;8;Sudeste Comunidad;Terciario
+Municipios;0421;Colmenar del Arroyo;280421;10;Sierra Sur;Terciario
+Municipios;0442;Colmenarejo;280442;11;Sierra Central;Terciario
+Municipios;0480;Corpa;280480;8;Sudeste Comunidad;Terciario
+Municipios;0493;Coslada;280493;3;Este Metropolitano;Terciario
+Municipios;0506;Cubas de la Sagra;280506;9;Sudoeste Comunidad;Terciario
+Municipios;0534;Daganzo de Arriba;280534;7;Nordeste Comunidad;Terciario
+Municipios;0549;Escorial (El);280549;11;Sierra Central;Terciario
+Municipios;0552;Estremera;280552;8;Sudeste Comunidad;Terciario
+Municipios;0565;Fresnedillas de la Oliva;280565;10;Sierra Sur;Terciario
+Municipios;0571;Fresno de Torote;280571;7;Nordeste Comunidad;Terciario
+Municipios;0587;Fuenlabrada;280587;4;Sur Metropolitano;Terciario
+Municipios;0590;Fuente el Saz de Jarama;280590;7;Nordeste Comunidad;Terciario
+Municipios;0604;Fuentidueña de Tajo;280604;8;Sudeste Comunidad;Terciario
+Municipios;0611;Galapagar;280611;5;Oeste Metropolitano;Terciario
+Municipios;0626;Garganta de los Montes;280626;6;Sierra Norte;Terciario
+Municipios;0632;Gargantilla del Lozoya y Pinilla de Buitrago;280761;6;Sierra Norte;Terciario
+Municipios;0647;Gascones;280647;6;Sierra Norte;Terciario
+Municipios;0650;Getafe;280650;4;Sur Metropolitano;Terciario
+Municipios;0663;Griñón;280663;9;Sudoeste Comunidad;Terciario
+Municipios;0679;Guadalix de la Sierra;280679;6;Sierra Norte;Terciario
+Municipios;0685;Guadarrama;280685;11;Sierra Central;Terciario
+Municipios;0698;Hiruela (La);280698;6;Sierra Norte;Terciario
+Municipios;0702;Horcajo de la Sierra-Aoslos;280702;6;Sierra Norte;Terciario
+Municipios;0719;Horcajuelo de la Sierra;280719;6;Sierra Norte;Terciario
+Municipios;0724;Hoyo de Manzanares;280724;5;Oeste Metropolitano;Terciario
+Municipios;0730;Humanes de Madrid;280730;4;Sur Metropolitano;Terciario
+Municipios;0745;Leganés;280745;4;Sur Metropolitano;Terciario
+Municipios;0758;Loeches;280758;8;Sudeste Comunidad;Terciario
+Municipios;0761;Lozoya;280761;6;Sierra Norte;Terciario
+Municipios;9015;Lozoyuela-Navas-Sieteiglesias;289015;6;Sierra Norte;Terciario
+Municipios;0783;Madarcos;280783;6;Sierra Norte;Terciario
+Municipios;0800;Majadahonda;280800;5;Oeste Metropolitano;Terciario
+Municipios;0822;Manzanares el Real;280822;11;Sierra Central;Terciario
+Municipios;0838;Meco;280838;7;Nordeste Comunidad;Terciario
+Municipios;0843;Mejorada del Campo;280843;3;Este Metropolitano;Terciario
+Municipios;0856;Miraflores de la Sierra;280856;11;Sierra Central;Terciario
+Municipios;0869;Molar (El);280869;7;Nordeste Comunidad;Terciario
+Municipios;0875;Molinos (Los);280875;11;Sierra Central;Terciario
+Municipios;0881;Montejo de la Sierra;280881;6;Sierra Norte;Terciario
+Municipios;0894;Moraleja de Enmedio;280894;9;Sudoeste Comunidad;Secundario
+Municipios;0908;Moralzarzal;280908;11;Sierra Central;
+Municipios;0915;Morata de Tajuña;280915;8;Sudeste Comunidad;Terciario
+Municipios;0920;Móstoles;280920;4;Sur Metropolitano;Terciario
+Municipios;0936;Navacerrada;280936;11;Sierra Central;
+Municipios;0941;Navalafuente;280941;6;Sierra Norte;Terciario
+Municipios;0954;Navalagamella;280954;10;Sierra Sur;Terciario
+Municipios;0967;Navalcarnero;280967;9;Sudoeste Comunidad;Terciario
+Municipios;0973;Navarredonda y San Mamés;280973;6;Sierra Norte;Terciario
+Municipios;0992;Navas del Rey;280992;10;Sierra Sur;Terciario
+Municipios;1006;Nuevo Baztán;281006;8;Sudeste Comunidad;Terciario
+Municipios;1013;Olmeda de las Fuentes;281013;8;Sudeste Comunidad;Terciario
+Municipios;1028;Orusco de Tajuña;281028;8;Sudeste Comunidad;Terciario
+Municipios;1049;Paracuellos de Jarama;281049;3;Este Metropolitano;Terciario
+Municipios;1065;Parla;281065;4;Sur Metropolitano;Terciario
+Municipios;1071;Patones;281071;6;Sierra Norte;Terciario
+Municipios;1087;Pedrezuela;281087;6;Sierra Norte;Terciario
+Municipios;1090;Pelayos de la Presa;281090;10;Sierra Sur;Terciario
+Municipios;1104;Perales de Tajuña;281104;8;Sudeste Comunidad;Terciario
+Municipios;1111;Pezuela de las Torres;281111;8;Sudeste Comunidad;Terciario
+Municipios;1126;Pinilla del Valle;281126;6;Sierra Norte;Terciario
+Municipios;1132;Pinto;281132;4;Sur Metropolitano;Terciario
+Municipios;1147;Piñuécar-Gandullas;0;0;0;Terciario
+Municipios;1150;Pozuelo de Alarcón;281150;5;Oeste Metropolitano;Terciario
+Municipios;1163;Pozuelo del Rey;281163;8;Sudeste Comunidad;Terciario
+Municipios;1179;Prádena del Rincón;281179;6;Sierra Norte;Terciario
+Municipios;1185;Puebla de la Sierra;281185;6;Sierra Norte;Terciario
+Municipios;9020;Puentes Viejas;289020;6;Sierra Norte;Terciario
+Municipios;1198;Quijorna;281198;9;Sudoeste Comunidad;Terciario
+Municipios;1202;Rascafría;281202;6;Sierra Norte;Terciario
+Municipios;1219;Redueña;281219;6;Sierra Norte;Terciario
+Municipios;1224;Ribatejada;281224;7;Nordeste Comunidad;Terciario
+Municipios;1230;Rivas-Vaciamadrid;281230;3;Este Metropolitano;Terciario
+Municipios;1245;Robledillo de la Jara;281245;6;Sierra Norte;Terciario
+Municipios;1258;Robledo de Chavela;281258;10;Sierra Sur;Terciario
+Municipios;1261;Robregordo;281261;6;Sierra Norte;Terciario
+Municipios;1277;Rozas de Madrid (Las);281277;5;Oeste Metropolitano;Terciario
+Municipios;1283;Rozas de Puerto Real;281283;10;Sierra Sur;Terciario
+Municipios;1296;San Agustín del Guadalix;281296;2;Norte Metropolitano;Terciario
+Municipios;1300;San Fernando de Henares;281300;3;Este Metropolitano;Terciario
+Municipios;1317;San Lorenzo de El Escorial;281317;11;Sierra Central;Terciario
+Municipios;1338;San Martín de Valdeiglesias;281338;10;Sierra Sur;Terciario
+Municipios;1322;San Martín de la Vega;281322;4;Sur Metropolitano;Terciario
+Municipios;1343;San Sebastián de los Reyes;281343;2;Norte Metropolitano;Terciario
+Municipios;1356;Santa María de la Alameda;281356;10;Sierra Sur;Terciario
+Municipios;1369;Santorcaz;281369;8;Sudeste Comunidad;Terciario
+Municipios;1375;Santos de la Humosa (Los);281375;8;Sudeste Comunidad;Terciario
+Municipios;1381;Serna del Monte (La);281381;6;Sierra Norte;Terciario
+Municipios;1408;Serranillos del Valle;281408;9;Sudoeste Comunidad;Terciario
+Municipios;1415;Sevilla la Nueva;281415;9;Sudoeste Comunidad;Terciario
+Municipios;1436;Somosierra;281436;6;Sierra Norte;Terciario
+Municipios;1441;Soto del Real;281441;11;Sierra Central;Terciario
+Municipios;1454;Talamanca de Jarama;281454;7;Nordeste Comunidad;Terciario
+Municipios;1467;Tielmes;281467;8;Sudeste Comunidad;Terciario
+Municipios;1473;Titulcia;281473;8;Sudeste Comunidad;Terciario
+Municipios;1489;Torrejón de Ardoz;281489;3;Este Metropolitano;Terciario
+Municipios;1505;Torrejón de Velasco;281505;9;Sudoeste Comunidad;Terciario
+Municipios;1492;Torrejón de la Calzada;281492;9;Sudoeste Comunidad;Terciario
+Municipios;1512;Torrelaguna;281512;6;Sierra Norte;Terciario
+Municipios;1527;Torrelodones;281527;5;Oeste Metropolitano;Terciario
+Municipios;1533;Torremocha de Jarama;281533;6;Sierra Norte;Terciario
+Municipios;1548;Torres de la Alameda;281548;8;Sudeste Comunidad;Terciario
+Municipios;9036;Tres Cantos;289036;2;Norte Metropolitano;Terciario
+Municipios;1551;Valdaracete;281551;8;Sudeste Comunidad;Terciario
+Municipios;1564;Valdeavero;281564;7;Nordeste Comunidad;Terciario
+Municipios;1570;Valdelaguna;281570;8;Sudeste Comunidad;Terciario
+Municipios;1586;Valdemanco;281586;6;Sierra Norte;Terciario
+Municipios;1599;Valdemaqueda;281599;10;Sierra Sur;Terciario
+Municipios;1603;Valdemorillo;281603;11;Sierra Central;Terciario
+Municipios;1610;Valdemoro;281610;4;Sur Metropolitano;Terciario
+Municipios;1625;Valdeolmos-Alalpardo;281625;7;Nordeste Comunidad;Terciario
+Municipios;1631;Valdepiélagos;281631;7;Nordeste Comunidad;Terciario
+Municipios;1646;Valdetorres de Jarama;281646;7;Nordeste Comunidad;Terciario
+Municipios;1659;Valdilecha;281659;8;Sudeste Comunidad;Secundario
+Municipios;1662;Valverde de Alcalá;281662;8;Sudeste Comunidad;Terciario
+Municipios;1678;Velilla de San Antonio;281678;3;Este Metropolitano;Terciario
+Municipios;1684;Vellón (El);281684;6;Sierra Norte;Terciario
+Municipios;1697;Venturada;281697;6;Sierra Norte;Terciario
+Municipios;1718;Villa del Prado;281718;9;Sudoeste Comunidad;Terciario
+Municipios;1701;Villaconejos;281701;8;Sudeste Comunidad;Secundario
+Municipios;1723;Villalbilla;281723;8;Sudeste Comunidad;Terciario
+Municipios;1739;Villamanrique de Tajo;281739;8;Sudeste Comunidad;Terciario
+Municipios;1744;Villamanta;281744;9;Sudoeste Comunidad;Terciario
+Municipios;1757;Villamantilla;281757;9;Sudoeste Comunidad;Terciario
+Municipios;1782;Villanueva de Perales;281782;9;Sudoeste Comunidad;Terciario
+Municipios;1760;Villanueva de la Cañada;281760;5;Oeste Metropolitano;Terciario
+Municipios;1776;Villanueva del Pardillo;281776;11;Sierra Central;Terciario
+Municipios;1795;Villar del Olmo;281795;8;Sudeste Comunidad;Terciario
+Municipios;1809;Villarejo de Salvanés;281809;8;Sudeste Comunidad;Terciario
+Municipios;1816;Villaviciosa de Odón;281816;5;Oeste Metropolitano;Terciario
+Municipios;1821;Villavieja del Lozoya;281821;6;Sierra Norte;Terciario
+Municipios;1837;Zarzalejo;281837;10;Sierra Sur;Terciario

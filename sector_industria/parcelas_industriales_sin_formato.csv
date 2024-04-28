@@ -1,27 +1,27 @@
 Municipio;codigo_municipio;sup_edif_indust;sup_total_indust;sup_edif_terc_indust;sup_total_terc_indust
-Torres de la Alameda;154;3000.0;3000.0;;
-Tres Cantos;903;;;6636.52;5336.54
-Getafe;065;170233.0;107430.0;33413.46;11842.0
-Móstoles;092;8189.0;5323.0;63675.0;73220.0
-Rivas0Vaciamadrid;123;;;14932.0;33000.0
-San Fernando de Henares;130;3758.34;3232.0;;
-Madrid;079;9884.68;11858.8;49922.64;162774.88
-Pinto;113;2336.0;1402.0;5482.0;4111.0
-Campo Real;033;963.14;674.2;;
-Colmenar Viejo;045;;;131650.12;96408.0
-Fuenlabrada;058;6780.55;4068.33;40931.26;49090.52
-Escorial, El;054;;;37719.79;43550.0
-San Sebastián de los Reyes;134;;;12250.0;16500.0
-Alcobendas;006;;;28509.5;38513.0
-Alcalá de Henares;005;9773.91;7594.1;14819.67;11114.75
-Olmeda de las Fuentes;101;;;15336.0;3685.0
-Leganés;074;;;22658.98;11746.51
-Paracuellos de Jarama;104;19193.0;11981.91;;
-Torremocha de Jarama;153;;;3305.0;1652.5
-Meco;083;6225.52;4669.15;;
-Villanueva de la Cañada;176;2004.81;1202.88;6000.0;3786.72
-Parla;106;15004.0;18004.8;5351.0;9364.26
-Majadahonda;080;;;1136.0;2727.5
-Rozas de Madrid, Las;127;9672.0;11606.0;;
-Boadilla del Monte;022;;;38814.0;11364.4
-Alcorcón;007;5000.0;2835.0;;
+Torres de la Alameda;154;30.0;30.0;;
+Tres Cantos;903;;;66.37;53.37
+Getafe;065;1702.33;1074.3;334.13;118.42
+Móstoles;092;81.89;53.23;636.75;732.2
+Rivas0Vaciamadrid;123;;;149.32;330.0
+San Fernando de Henares;130;37.58;32.32;;
+Madrid;079;98.85;118.59;499.23;1627.75
+Pinto;113;23.36;14.02;54.82;41.11
+Campo Real;033;9.63;6.74;;
+Colmenar Viejo;045;;;1316.5;964.08
+Fuenlabrada;058;67.81;40.68;409.31;490.91
+Escorial, El;054;;;377.2;435.5
+San Sebastián de los Reyes;134;;;122.5;165.0
+Alcobendas;006;;;285.09;385.13
+Alcalá de Henares;005;97.74;75.94;148.2;111.15
+Olmeda de las Fuentes;101;;;153.36;36.85
+Leganés;074;;;226.59;117.47
+Paracuellos de Jarama;104;191.93;119.82;;
+Torremocha de Jarama;153;;;33.05;16.52
+Meco;083;62.26;46.69;;
+Villanueva de la Cañada;176;20.05;12.03;60.0;37.87
+Parla;106;150.04;180.05;53.51;93.64
+Majadahonda;080;;;11.36;27.27
+Rozas de Madrid, Las;127;96.72;116.06;;
+Boadilla del Monte;022;;;388.14;113.64
+Alcorcón;007;50.0;28.35;;
