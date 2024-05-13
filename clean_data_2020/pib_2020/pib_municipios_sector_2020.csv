@@ -1,16 +1,16 @@
 Serie;Codigo_municipio;Nombre;pib_primario;pib_secundario_1;pib_secundario_2;pib_terciario_1;pib_terciario_2;pib_terciario_3
 Comunidad de Madrid;;Comunidad de Madrid;0.05;6.39;4.26;17.86;47.38;24.05
 Zonas Estadísticas;01;Municipio de Madrid ;0.05;6.39;4.26;17.86;47.38;24.05
-Zonas Estadísticas;02;Norte Metropolitano ;0;0;0;0;0;0
-Zonas Estadísticas;03;Este Metropolitano  ;0;0;0;0;0;0
-Zonas Estadísticas;04;Sur Metropolitano   ;0;0;0;0;0;0
-Zonas Estadísticas;05;Oeste Metropolitano ;0;0;0;0;0;0
-Zonas Estadísticas;06;Sierra Norte        ;0;0;0;0;0;0
-Zonas Estadísticas;07;Nordeste Comunidad  ;0;0;0;0;0;0
-Zonas Estadísticas;08;Sudeste Comunidad   ;0;0;0;0;0;0
-Zonas Estadísticas;09;Sudoeste Comunidad  ;0;0;0;0;0;0
-Zonas Estadísticas;10;Sierra Sur          ;0;0;0;0;0;0
-Zonas Estadísticas;11;Sierra Central      ;0;0;0;0;0;0
+Zonas Estadísticas;02;Norte Metropolitano ;0.28;17.13;4.83;20.67;42.23;14.86
+Zonas Estadísticas;03;Este Metropolitano  ;0.21;19.44;8.21;28.98;24.26;18.89
+Zonas Estadísticas;04;Sur Metropolitano   ;0.24;16.31;8.43;28.08;23.85;23.09
+Zonas Estadísticas;05;Oeste Metropolitano ;0.23;4.88;4.48;16.65;53.45;20.31
+Zonas Estadísticas;06;Sierra Norte        ;1.59;7.88;11.45;21.07;25.94;32.08
+Zonas Estadísticas;07;Nordeste Comunidad  ;0.89;26.14;8.26;32.08;17.97;14.66
+Zonas Estadísticas;08;Sudeste Comunidad   ;2.23;26.77;9.93;22.82;17.89;20.36
+Zonas Estadísticas;09;Sudoeste Comunidad  ;1.14;11.73;13.67;24.6;25.86;23.01
+Zonas Estadísticas;10;Sierra Sur          ;1.69;12.79;13.39;16.39;25.81;29.93
+Zonas Estadísticas;11;Sierra Central      ;0.8;4.83;9.31;18.01;31.29;35.75
 Municipios;0014;Acebeda (La);1.19;10.78;1.65;13.55;33.86;38.99
 Municipios;0029;Ajalvir;0.16;42.29;6.84;21.37;20.11;9.23
 Municipios;0035;Alameda del Valle;3.18;0;3.98;40.29;37.85;14.72

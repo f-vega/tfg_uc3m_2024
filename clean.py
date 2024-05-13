@@ -2,7 +2,7 @@ import os, csv, random
 from encoding import detect_encoding, convert_encoding, xls_to_csv
 
 # Función clean para preprocesar los datos y eliminar las líneas sobrantes
-def clean(input_path, output_path, unuseful_words = ['Serie'], selected_year = 2023, start = 3):
+def clean(input_path, output_path, unuseful_words = ['Serie'], selected_year = 2023, start = 3, end=0, exception=0):
     with open(input_path, 'r') as f_input:
         if f_input != '':
             next(f_input)
@@ -18,6 +18,8 @@ def clean(input_path, output_path, unuseful_words = ['Serie'], selected_year = 2
                         delete = True
                 if line.strip() == '':
                     delete = True
+                if all(field == '' for field in fields):
+                    delete = True
                 elif '(A)' in line:
                     line = line.replace('(A) Avance ;', '')
                     fields = line.strip().split(';')
@@ -25,7 +27,14 @@ def clean(input_path, output_path, unuseful_words = ['Serie'], selected_year = 2
                     if any('-' in field for field in fields[3:]):
                         fields = [field.replace('-', '0') for field in fields]
                 if not delete:
-                        clean_lines.append(';'.join(fields[:3] + fields[start:]) + '\n')
+                        if exception != 0:
+                            clean_lines.append(';'.join(fields[:exception] + fields[start:]) + '\n')
+                        else:
+                            if end != 0:
+                                clean_lines.append(';'.join(fields[:3] + fields[start:end]) + '\n')
+                            else:
+                                clean_lines.append(';'.join(fields[:3] + fields[start:]) + '\n')
+
                 # Eliminar filas posteriores al último municipio
                 if 'Zarzalejo' in line:
                         delete_next = True
@@ -36,7 +45,7 @@ def clean(input_path, output_path, unuseful_words = ['Serie'], selected_year = 2
 
 def clean_folder(input_path, selected_year=2023):
 
-    if selected_year == 2020 or 'pib' in input_path:
+    if selected_year == 2020:
         output_path = f'./clean_data_2020/{os.path.basename(input_path)}'
     else:
         output_path = f'./clean_data/{os.path.basename(input_path)}'
@@ -52,15 +61,14 @@ def clean_folder(input_path, selected_year=2023):
         f_output_path = f'{output_path}/{file}'
 
         # Encoding diferente
-        # if 'municipio_comunidad_madrid' in file:
-            # info_municipios(f_input_path=f_input_path, input_path=input_path, f_output_path=f_output_path)
-        # else:
-            # if selected_year == 2020:
-                # clean(f_input_path, f_output_path, selected_year=selected_year, start = -2)
-        clean(f_input_path, f_output_path, selected_year=selected_year, start = -5)
+        if 'municipio_comunidad_madrid' in file:
+            info_municipios(f_input_path=f_input_path, input_path=input_path, f_output_path=f_output_path)
+        else:
+            if selected_year == 2020:
+                clean(f_input_path, f_output_path, selected_year=selected_year, start = -5, end = -4)
+            clean(f_input_path, f_output_path, selected_year=selected_year, start = -2)
 
     for file in xls_file:
-        print(file)
         pib_2020(file=file, input_path=input_path)
     
     return output_path
@@ -114,6 +122,7 @@ def sector_sum(keyword, folder):
             for key, value in datos_sumados.items():
                 csv_writer.writerow([key[0], key[1], key[2], value])
 
+
 def refactor(example, input_file, output_file, row1: int, row2: int, name:int, headers_extra = []):
     
     data = {}
@@ -138,7 +147,6 @@ def refactor(example, input_file, output_file, row1: int, row2: int, name:int, h
             for key in data:
                 if nombre in key:
                     data[key] = row[row1:row2]
-                    # print(nombre)
 
     # Escribir los datos sumados en un nuevo archivo CSV
     with open(output_file, 'w', newline='') as csv_file:
@@ -175,16 +183,16 @@ def info_municipios(f_input_path, input_path, f_output_path):
 def pib_2020(input_path, file):
     f_input_path = f'{input_path}/{file}'
     new_file_path = xls_to_csv(f_input_path)
-    output_path = f'./clean_data_2020/pib_2020/{os.path.basename(new_file_path)}'
-    print(new_file_path)
+    output_folder = './clean_data_2020/pib_2020'
+    output_path = f'{output_folder}/{os.path.basename(new_file_path)}'
 
-    if not os.path.exists(output_path):
-        os.makedirs(output_path)
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
     # Usamos un documento de ejemplo
     example_path = './clean_data/otros_datos_poblacionales/densidad_poblacion.csv'
     headers_extra = ['pib_primario', 'pib_secundario_1', 'pib_secundario_2', 'pib_terciario_1', 'pib_terciario_2', 'pib_terciario_3']
-    clean(new_file_path, new_file_path)
-    refactor(example=example_path, input_file=new_file_path, output_file=output_path, 
-             headers_extra=headers_extra, row1=1, row2=7, name=0)
-    # os.remove(new_file_path)
+    clean(new_file_path, output_path=output_path , start=1, end= 6, exception=1)
+    refactor(example=example_path, input_file=output_path, output_file=output_path, 
+            headers_extra=headers_extra, row1=1, row2=7, name=0)
+    os.remove(new_file_path)
