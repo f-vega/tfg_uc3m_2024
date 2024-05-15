@@ -10,8 +10,6 @@ def dataset(input_path, output_path):
     for folder in folders:
         folder_path = os.path.join(input_path, folder)
         files = os.listdir(folder_path)
-        if folder == 'zonas_estadisticas':
-            files = sorted(files, key=lambda x: x != 'municipio_comunidad_madrid.csv')
         for file in files:
             if file.endswith('.csv'):
                 with open(os.path.join(folder_path, file), 'r') as csv_file:
@@ -30,10 +28,14 @@ def dataset(input_path, output_path):
                             join_data[(serie, codigo_municipio, nombre)] = {}
                         
                         file_path = os.path.join(folder_path, file)
+
                         if 'municipio_comunidad_madrid' in file_path or 'parcelas' in file_path:
                             for i in range(3, 7):
                                 file_name = headers[i]
                                 join_data[(serie, codigo_municipio, nombre)][file_name] = row[i]
+                                
+                        elif 'pib_2020' in file_path:
+                            join_data[(serie, codigo_municipio, nombre)][file_name] = row[-1]
                         else:
                             join_data[(serie, codigo_municipio, nombre)][file_name] = row[3]
 
@@ -46,6 +48,7 @@ def dataset(input_path, output_path):
             if final_keys == []:
                 final_keys.extend(values.keys())
         final_keys = [str(key) for key in final_keys]
+
         # Escribir los encabezados en el archivo CSV
         csv_writer.writerow(['Serie', 'Codigo_municipio', 'Nombre', *final_keys])
 

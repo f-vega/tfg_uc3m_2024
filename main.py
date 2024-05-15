@@ -4,6 +4,7 @@ from dataset_definition.sector_definition import sector_sum_folder
 from dataset_definition.dataset import dataset
 from dataset_definition.clustering import clustering
 from dataset_definition.refactoring import refactor
+from dataset_definition.sector_prediction import sector_predictor
 
 # EJEMPLO
 input_folder = './original_data'
@@ -16,6 +17,7 @@ for folder_name in os.listdir(input_folder):
 
     if os.path.isdir(folder_path):
         if 'pib' in folder_path:
+            pass
             output_path_2020 = clean_folder(folder_path, clean_path_2020, 2020)
         else:
             output_path = clean_folder(folder_path, clean_path)
@@ -23,10 +25,15 @@ for folder_name in os.listdir(input_folder):
         if 'sector' in folder_path:
             keywords= output_path.split('/')[-1][:-7]
             sector_sum_folder(keyword=keywords, folder=output_path)
+            sector_sum_folder(keyword=keywords, folder=output_path_2020)
 
-dataset_path = 'dataset.csv'
-dataset(clean_path, dataset_path)
-cluster_columns = []
-clusters = ['zona_estadistica_codigo', 'densidad_poblacion', 'distancia_capital']
-for cluster in clusters:
-    clustering(dataset_path, cluster)
+# dataset_path = 'dataset.csv'
+# # dataset_2020 = 'dataset_2020.csv'
+# dataset(clean_path, dataset_path)
+# # dataset(clean_path_2020, dataset_2020)
+# cluster_columns = []
+# clusters = ['zona_estadistica_codigo', 'densidad_poblacion', 'distancia_capital']
+# for cluster in clusters:
+#     clustering(dataset_path, cluster)
+
+# # sector_predictor(dataset_2020=dataset_2020, dataset_2023=dataset_path)

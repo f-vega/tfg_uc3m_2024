@@ -80,8 +80,9 @@ def pib_2020(input_path, file, output_path):
     sector_definition_file('pib', output_path)
     os.remove(new_file_path)
 
-def parcelas_industriales(input_file):
 
+
+def parcelas_industriales(input_file):
     superficie_edificable = {}
     superficie_total = {}
 
