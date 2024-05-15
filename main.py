@@ -26,6 +26,6 @@ for folder_name in os.listdir(input_folder):
 dataset_path = '../dataset.csv'
 dataset(clean_path, dataset_path)
 clustering(dataset_path, 'zona_estadistica_codigo')
-clustering(dataset_path, 'densidad_poblacion')
-clustering(dataset_path, 'distancia_capital')
+# clustering(dataset_path, 'densidad_poblacion')
+# clustering(dataset_path, 'distancia_capital')
 
