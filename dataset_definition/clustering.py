@@ -6,16 +6,10 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-
-
-import sklearn
-print (sklearn.__version__)
-
 def clustering(input_file, cluster_variable):
     data = pd.read_csv(input_file, delimiter=';')
-    clustering_data = data[data['Nombre'] != 'Madrid'][data['Serie'] == 'Municipios'][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo', 'densidad_poblacion', 'distancia_capital']]
-
-    # plt_figures
+    clustering_data = data[data['Nombre'] != 'Madrid'][data['Serie'] == 'Municipios'][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo', 
+                                                                                       'densidad_poblacion', 'distancia_capital']]
 
     features = clustering_data[[cluster_variable]]
     scaler = StandardScaler()
@@ -33,18 +27,14 @@ def clustering(input_file, cluster_variable):
 
     # test_labels = kmeans.predict(X_test)
     labels = kmeans.predict(X)
-    clustering_data['Cluster estadistico'] = labels
+    cluster_name = 'cluster_' + str(cluster_variable.split('_')[0]) + '_' + str(cluster_variable.split('_')[1])
+    clustering_data[cluster_name] = labels
 
     silhouette = silhouette_score(X, labels, metric='euclidean')
     print(f'Coherencia: {silhouette}')
 
-    clustering_data.to_csv('cluster.csv', index=False, sep=';')
-    # plt.figure(figsize=(12, 8))
-    # sns.boxplot(x=labels, y=X[:, 0], data=clustering_data, palette='viridis')
-    # plt.title('Boxplot de Densidad de Zona Estadística')
-    # plt.xlabel('Cluster')
-    # plt.ylabel('Densidad de Población (por km²)')
-
+    clustering_data.to_csv(f'../cluster_{cluster_variable}.csv', index=False, sep=';')
+    print(cluster_name)
     # # Mostrar el gráfico
 
 
