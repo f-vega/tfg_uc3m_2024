@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
 def clustering(input_file, cluster_variable):
-    data = pd.read_csv(input_file, delimiter=';')
+    data = pd.read_csv(input_file, delimiter=';', dtype={'codigo_municipio_ine': str})
     clustering_data = data[data['Nombre'] != 'Madrid'][data['Serie'] == 'Municipios'][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo', 
                                                                                        'densidad_poblacion', 'distancia_capital']]
 
@@ -28,13 +28,14 @@ def clustering(input_file, cluster_variable):
     # test_labels = kmeans.predict(X_test)
     labels = kmeans.predict(X)
     cluster_name = 'cluster_' + str(cluster_variable.split('_')[0]) + '_' + str(cluster_variable.split('_')[1])
-    clustering_data[cluster_name] = labels
+
+    rows_exist = data.index.isin(clustering_data.index)
+    data.loc[rows_exist, cluster_name] = labels
+
 
     silhouette = silhouette_score(X, labels, metric='euclidean')
     print(f'Coherencia: {silhouette}')
-
-    clustering_data.to_csv(f'../cluster_{cluster_variable}.csv', index=False, sep=';')
-    print(cluster_name)
+    data.to_csv('dataset.csv', index=False, sep=';')
     # # Mostrar el gráfico
 
 

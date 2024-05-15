@@ -3,6 +3,7 @@ from dataset_definition.clean_folder import clean_folder
 from dataset_definition.sector_definition import sector_sum_folder
 from dataset_definition.dataset import dataset
 from dataset_definition.clustering import clustering
+from dataset_definition.refactoring import refactor
 
 # EJEMPLO
 input_folder = './original_data'
@@ -23,9 +24,9 @@ for folder_name in os.listdir(input_folder):
             keywords= output_path.split('/')[-1][:-7]
             sector_sum_folder(keyword=keywords, folder=output_path)
 
-dataset_path = '../dataset.csv'
+dataset_path = 'dataset.csv'
 dataset(clean_path, dataset_path)
-clustering(dataset_path, 'zona_estadistica_codigo')
-# clustering(dataset_path, 'densidad_poblacion')
-# clustering(dataset_path, 'distancia_capital')
-
+cluster_columns = []
+clusters = ['zona_estadistica_codigo', 'densidad_poblacion', 'distancia_capital']
+for cluster in clusters:
+    clustering(dataset_path, cluster)

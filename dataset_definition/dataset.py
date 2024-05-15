@@ -10,6 +10,8 @@ def dataset(input_path, output_path):
     for folder in folders:
         folder_path = os.path.join(input_path, folder)
         files = os.listdir(folder_path)
+        if folder == 'zonas_estadisticas':
+            files = sorted(files, key=lambda x: x != 'municipio_comunidad_madrid.csv')
         for file in files:
             if file.endswith('.csv'):
                 with open(os.path.join(folder_path, file), 'r') as csv_file:

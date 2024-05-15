@@ -18,7 +18,7 @@ def clean(input_path, output_path, unuseful_words = ['Serie'], selected_year = 2
                     delete = True
                 if all(field == '' for field in fields):
                     delete = True
-                if 'Sin zona asignada'in line:
+                if 'Sin Zona asignada   'in line:
                     delete = True
                 if '(A)' in line:
                     line = line.replace('(A) Avance ;', '')
