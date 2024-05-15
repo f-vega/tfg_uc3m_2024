@@ -4,9 +4,11 @@ from dataset_definition.sector_definition import sector_definition_file
 from dataset_definition.clean_file import clean
 import pandas as pd
 
-def refactor(example, input_file, output_file, row1: int, row2: int, name:int, headers_extra = []):
+def refactor(input_file, output_file, row1: int, row2: int, name:int, headers_extra = []):
     
     data = {}
+
+    example = './clean_data/otros_datos_poblacionales/densidad_poblacion.csv'
 
     with open(example, mode='r') as f_base:
         base_reader = csv.reader(f_base, delimiter=';')
@@ -54,11 +56,10 @@ def info_municipios(f_input_path, input_path, f_output_path):
         with open(new_file, 'w'):
             pass
     # Usamos un documento de ejemplo
-    example_path = '../clean_data/otros_datos_poblacionales/densidad_poblacion.csv'
     if confidence > 0.5:
         convert_encoding(f_input_path, new_file, encoding)
         headers_extra = ['municipio_codigo_ine', 'zona_estadistica_codigo', 'zona_estadistica', 'superficie_km2']
-        refactor(example_path, new_file, f_output_path, headers_extra=headers_extra, name=1, row1=2, row2=6)
+        refactor(new_file, f_output_path, headers_extra=headers_extra, name=1, row1=2, row2=6)
         os.remove(new_file)
 
 
@@ -72,10 +73,9 @@ def pib_2020(input_path, file, output_path):
         os.makedirs(output_folder)
 
     # Usamos un documento de ejemplo
-    example_path = '../clean_data/otros_datos_poblacionales/densidad_poblacion.csv'
     headers_extra = ['pib_primario', 'pib_secundario_1', 'pib_secundario_2', 'pib_terciario_1', 'pib_terciario_2', 'pib_terciario_3']
     clean(new_file_path, output_path=output_path , start=1, end= 6, exception=1)
-    refactor(example=example_path, input_file=output_path, output_file=output_path, 
+    refactor(input_file=output_path, output_file=output_path, 
             headers_extra=headers_extra, row1=1, row2=7, name=0)
     sector_definition_file('pib', output_path)
     os.remove(new_file_path)
@@ -149,7 +149,5 @@ def parcelas_industriales(input_file):
         for municipio_data in join_data.values():
             writer.writerow(municipio_data.values())
 
-    example_path = '../clean_data/otros_datos_poblacionales/densidad_poblacion.csv'
-
     headers_extra = ['sup_edif_indust', 'sup_total_indust', 'sup_edif_terc_indust', 'sup_total_terc_indust']
-    refactor(example=example_path, headers_extra=headers_extra, input_file=input_file, output_file=input_file, row1=2, row2=6, name=0)
+    refactor(headers_extra=headers_extra, input_file=input_file, output_file=input_file, row1=2, row2=6, name=0)

@@ -2,11 +2,12 @@ import os
 from dataset_definition.clean_folder import clean_folder
 from dataset_definition.sector_definition import sector_sum_folder
 from dataset_definition.dataset import dataset
+from dataset_definition.clustering import clustering
 
 # EJEMPLO
-input_folder = '../original_data'
-clean_path = '../clean_data'
-clean_path_2020 = '../clean_data_2020'
+input_folder = './original_data'
+clean_path = './clean_data'
+clean_path_2020 = './clean_data_2020'
 
 for folder_name in os.listdir(input_folder):
     # Combinar el nombre del directorio con la ruta base para obtener la ruta completa
@@ -21,5 +22,10 @@ for folder_name in os.listdir(input_folder):
         if 'sector' in folder_path:
             keywords= output_path.split('/')[-1][:-7]
             sector_sum_folder(keyword=keywords, folder=output_path)
-dataset(clean_path, '../dataset.csv')
+
+dataset_path = '../dataset.csv'
+dataset(clean_path, dataset_path)
+clustering(dataset_path, 'zona_estadistica_codigo')
+clustering(dataset_path, 'densidad_poblacion')
+clustering(dataset_path, 'distancia_capital')
 
