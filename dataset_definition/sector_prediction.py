@@ -17,20 +17,19 @@ def sector_predictor(dataset_2023, dataset_2020, ):
     selected_columns = data_2020.columns
 
     # Selecciona las columnas deseadas del DataFrame de municipios
-    train_data = data_2020[data_2020['Serie'] == 'Municipios'][data_2020['Nombre'] != 'Madrid'].iloc[:, 6:]
-    test_data = data_2023[data_2023['Serie'] == 'Municipios'][data_2023['Nombre'] != 'Madrid'].iloc[:, 6:]
+    train_data = data_2020[(data_2020['Serie'] == 'Municipios') & (data_2020['Nombre'] != 'Madrid')].iloc[:, 7:]
+    test_data = data_2023[(data_2023['Serie'] == 'Municipios') & (data_2023['Nombre'] != 'Madrid')].iloc[:, 7:]
     test_data = test_data[selected_columns.intersection(test_data.columns)]
-    join_data = data_2023[data_2023['Serie'] == 'Municipios'][data_2023['Nombre'] != 'Madrid'].iloc[:, :6]
 
-    X_train = train_data.drop(columns=['sector_principal'])
-    y_train = train_data['sector_principal']
+    X_train = train_data.drop(columns=['pib_municipios_sector_2020'])
+    y_train = train_data['pib_municipios_sector_2020']
 
     # Codificar la variable categórica 'sector'
     label_encoder = LabelEncoder()
-    train_data['sector_encoded'] = label_encoder.fit_transform(train_data['sector_principal'])
+    train_data['sector_encoded'] = label_encoder.fit_transform(train_data['pib_municipios_sector_2020'])
 
     # Dividir datos en variables independientes y dependiente
-    X = train_data.drop(['sector_principal', 'sector_encoded'], axis=1)
+    X = train_data.drop(['pib_municipios_sector_2020', 'sector_encoded'], axis=1)
     y = train_data['sector_encoded']
 
     # Dividir datos en conjuntos de entrenamiento y prueba
@@ -54,15 +53,11 @@ def sector_predictor(dataset_2023, dataset_2020, ):
     # Realizar predicciones en tus datos de prueba imputados
     # Validación del modelo
     y_pred = rf_model.predict(X_test_imputed)
-    print(classification_report(y_test, y_pred))
+    # print(classification_report(y_test, y_pred))
 
 
     # Preprocesamiento similar al de los datos del 2020
     data_predict_imputed = imputer.transform(test_data)
-
-    nan_indices = np.isnan(data_predict_imputed).any(axis=0)
-    columnas_con_nan = np.where(nan_indices)[0]
-
 
     # Predecir el sector para el año 2023
     predictions_2023 = rf_model.predict(data_predict_imputed)
@@ -73,4 +68,7 @@ def sector_predictor(dataset_2023, dataset_2020, ):
     # Agregar las predicciones al dataframe de 2023
     test_data['sector_principal'] = predictions_decoded
 
-    test_data.to_csv('prueba.csv', sep=';', index=False)
+    rows_exist = data_2023.index.isin(test_data.index)
+    data_2023.loc[rows_exist, 'sector_principal'] = predictions_decoded
+
+    data_2023.to_csv('dataset.csv', sep=';', index=False)

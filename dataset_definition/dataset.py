@@ -34,8 +34,13 @@ def dataset(input_path, output_path):
                                 file_name = headers[i]
                                 join_data[(serie, codigo_municipio, nombre)][file_name] = row[i]
                                 
+                        elif 'poblacion_censada_2020' in file_path:
+                            file_name = headers[3]
+                            join_data[(serie, codigo_municipio, nombre)][file_name] = row[3]
+                                
                         elif 'pib_2020' in file_path:
                             join_data[(serie, codigo_municipio, nombre)][file_name] = row[-1]
+
                         else:
                             join_data[(serie, codigo_municipio, nombre)][file_name] = row[3]
 

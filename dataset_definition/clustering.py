@@ -8,8 +8,10 @@ from sklearn.metrics import silhouette_score
 
 def clustering(input_file, cluster_variable):
     data = pd.read_csv(input_file, delimiter=';', dtype={'codigo_municipio_ine': str})
-    clustering_data = data[data['Nombre'] != 'Madrid'][data['Serie'] == 'Municipios'][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo', 
-                                                                                       'densidad_poblacion', 'distancia_capital']]
+    clustering_data = data[(data['Nombre'] != 'Madrid') & 
+                           (data['Serie'] == 'Municipios')][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo',
+                                                             'densidad_poblacion', 'distancia_capital']]
+
 
     features = clustering_data[[cluster_variable]]
     scaler = StandardScaler()
@@ -33,8 +35,8 @@ def clustering(input_file, cluster_variable):
     data.loc[rows_exist, cluster_name] = labels
 
 
-    silhouette = silhouette_score(X, labels, metric='euclidean')
-    print(f'Coherencia: {silhouette}')
+    # silhouette = silhouette_score(X, labels, metric='euclidean')
+    # print(f'Coherencia: {silhouette}')
     data.to_csv('dataset.csv', index=False, sep=';')
     # # Mostrar el gráfico
 

@@ -11,10 +11,10 @@ def detect_encoding(file_path):
 
 
 def convert_encoding(input_file, output_file, encoding):
-    with open(input_file, 'r', encoding=encoding) as f:
+    with open(input_file, 'r', encoding=encoding, errors='backslashreplace') as f:
         data = f.read()
 
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, 'w', encoding='utf-8', errors='backslashreplace') as f:
         f.write(data)
 
 def xls_to_csv(input_file):
@@ -22,6 +22,3 @@ def xls_to_csv(input_file):
     output_file = input_file[:-4] + '.csv'
     archivo_xls.iloc[8:].to_csv(output_file, index=False, sep=';')
     return output_file
-
-
-

@@ -4,7 +4,7 @@ from dataset_definition.sector_definition import sector_definition_file
 from dataset_definition.clean_file import clean
 import pandas as pd
 
-def refactor(input_file, output_file, row1: int, row2: int, name:int, headers_extra = []):
+def refactor(input_file, output_file, row1: int, row2: int, name:int, headers_extra = [], encoding='utf-8'):
     
     data = {}
 
@@ -20,15 +20,15 @@ def refactor(input_file, output_file, row1: int, row2: int, name:int, headers_ex
             data[key] = {}
 
     # Leer el segundo archivo y combinar los datos
-    with open(input_file, mode='r') as f2:
+    with open(input_file, mode='r', encoding=encoding) as f2:
         reader = csv.reader(f2, delimiter=';')
         next(reader)
         nombres = []
         for row in reader:
             nombre = row[name]
             nombres.append(nombre)
-            for key in data:
-                if nombre in key:
+            for key in data.keys():
+                if key.split(';')[2] == nombre:   
                     data[key] = row[row1:row2]
 
     # Escribir los datos sumados en un nuevo archivo CSV
@@ -152,3 +152,19 @@ def parcelas_industriales(input_file):
 
     headers_extra = ['sup_edif_indust', 'sup_total_indust', 'sup_edif_terc_indust', 'sup_total_terc_indust']
     refactor(headers_extra=headers_extra, input_file=input_file, output_file=input_file, row1=2, row2=6, name=0)
+
+def poblacion_2020(input_path, output_path):
+    with open(input_path, 'r') as f:
+        data = f.readlines()
+        modified_data = [line[6:] for line in data[5:]]
+        modified_data = [line.replace(', El', ' (El)').replace(', La', ' (La)').replace('Álamo', 'Alamo').replace(', Los', ' (Los)') 
+                         for line in modified_data]
+
+    with open(output_path, 'w') as f:
+        f.writelines(modified_data)
+
+    clean(output_path, output_path, selected_year=2020, start = -2)
+    encoding, confidence = detect_encoding(output_path)
+    convert_encoding(output_path, encoding=encoding, output_file=output_path)
+    refactor(headers_extra=['poblacion_censada_total'], input_file=output_path, output_file=output_path, 
+             name=0, row1=1, row2=2, encoding=encoding)

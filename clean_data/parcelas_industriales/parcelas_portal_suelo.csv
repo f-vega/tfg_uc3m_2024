@@ -1,6 +1,6 @@
 Serie;Codigo_municipio;Nombre;sup_edif_indust;sup_total_indust;sup_edif_terc_indust;sup_total_terc_indust
-Comunidad de Madrid;;Comunidad de Madrid;98.85;118.59;499.23;1627.75
-Zonas Estadísticas;01;Municipio de Madrid ;98.85;118.59;499.23;1627.75
+Comunidad de Madrid;;Comunidad de Madrid;0;0;0;0
+Zonas Estadísticas;01;Municipio de Madrid ;0;0;0;0
 Zonas Estadísticas;02;Norte Metropolitano ;0;0;0;0
 Zonas Estadísticas;03;Este Metropolitano  ;0;0;0;0
 Zonas Estadísticas;04;Sur Metropolitano   ;0;0;0;0
@@ -15,9 +15,9 @@ Municipios;0014;Acebeda (La);0;0;0;0
 Municipios;0029;Ajalvir;0;0;0;0
 Municipios;0035;Alameda del Valle;0;0;0;0
 Municipios;0040;Alamo (El);0;0;0;0
-Municipios;0053;Alcalá de Henares;97.74;75.94;148.2;111.15
+Municipios;0053;Alcalá de Henares;0;0;0;0
 Municipios;0066;Alcobendas;285.09;385.13;0;0
-Municipios;0072;Alcorcón;50.0;28.35;0;0
+Municipios;0072;Alcorcón;0;0;0;0
 Municipios;0088;Aldea del Fresno;0;0;0;0
 Municipios;0091;Algete;0;0;0;0
 Municipios;0105;Alpedrete;0;0;0;0
@@ -83,8 +83,8 @@ Municipios;0698;Hiruela (La);0;0;0;0
 Municipios;0702;Horcajo de la Sierra-Aoslos;0;0;0;0
 Municipios;0719;Horcajuelo de la Sierra;0;0;0;0
 Municipios;0724;Hoyo de Manzanares;0;0;0;0
-Municipios;0730;Humanes de Madrid;98.85;118.59;499.23;1627.75
-Municipios;0745;Leganés;226.59;117.47;0;0
+Municipios;0730;Humanes de Madrid;0;0;0;0
+Municipios;0745;Leganés;0;0;0;0
 Municipios;0758;Loeches;0;0;0;0
 Municipios;0761;Lozoya;0;0;0;0
 Municipios;9015;Lozoyuela-Navas-Sieteiglesias;0;0;0;0
@@ -101,7 +101,7 @@ Municipios;0881;Montejo de la Sierra;0;0;0;0
 Municipios;0894;Moraleja de Enmedio;0;0;0;0
 Municipios;0908;Moralzarzal;0;0;0;0
 Municipios;0915;Morata de Tajuña;0;0;0;0
-Municipios;0920;Móstoles;636.75;732.2;81.89;53.23
+Municipios;0920;Móstoles;0;0;0;0
 Municipios;0936;Navacerrada;0;0;0;0
 Municipios;0941;Navalafuente;0;0;0;0
 Municipios;0954;Navalagamella;0;0;0;0
@@ -134,14 +134,14 @@ Municipios;1230;Rivas-Vaciamadrid;149.32;330.0;0;0
 Municipios;1245;Robledillo de la Jara;0;0;0;0
 Municipios;1258;Robledo de Chavela;0;0;0;0
 Municipios;1261;Robregordo;0;0;0;0
-Municipios;1277;Rozas de Madrid (Las);98.85;118.59;499.23;1627.75
+Municipios;1277;Rozas de Madrid (Las);0;0;0;0
 Municipios;1283;Rozas de Puerto Real;0;0;0;0
 Municipios;1296;San Agustín del Guadalix;0;0;0;0
 Municipios;1300;San Fernando de Henares;37.58;32.32;0;0
 Municipios;1317;San Lorenzo de El Escorial;0;0;0;0
 Municipios;1338;San Martín de Valdeiglesias;0;0;0;0
 Municipios;1322;San Martín de la Vega;0;0;0;0
-Municipios;1343;San Sebastián de los Reyes;122.5;165.0;0;0
+Municipios;1343;San Sebastián de los Reyes;0;0;0;0
 Municipios;1356;Santa María de la Alameda;0;0;0;0
 Municipios;1369;Santorcaz;0;0;0;0
 Municipios;1375;Santos de la Humosa (Los);0;0;0;0
@@ -183,7 +183,7 @@ Municipios;1739;Villamanrique de Tajo;0;0;0;0
 Municipios;1744;Villamanta;0;0;0;0
 Municipios;1757;Villamantilla;0;0;0;0
 Municipios;1782;Villanueva de Perales;0;0;0;0
-Municipios;1760;Villanueva de la Cañada;60.0;37.87;20.05;12.03
+Municipios;1760;Villanueva de la Cañada;0;0;0;0
 Municipios;1776;Villanueva del Pardillo;0;0;0;0
 Municipios;1795;Villar del Olmo;0;0;0;0
 Municipios;1809;Villarejo de Salvanés;0;0;0;0
