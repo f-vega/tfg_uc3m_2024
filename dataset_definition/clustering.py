@@ -4,13 +4,14 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
+# from sklearn.metrics import silhouette_score
 
 def clustering(input_file, cluster_variable):
     data = pd.read_csv(input_file, delimiter=';', dtype={'codigo_municipio_ine': str})
     clustering_data = data[(data['Nombre'] != 'Madrid') & 
                            (data['Serie'] == 'Municipios')][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo',
-                                                             'densidad_poblacion', 'distancia_capital']]
+                                                             'densidad_poblacion', 'distancia_capital', 
+                                                             'poblacion_censada_total']]
 
 
     features = clustering_data[[cluster_variable]]

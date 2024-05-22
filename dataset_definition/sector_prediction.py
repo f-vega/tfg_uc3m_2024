@@ -1,14 +1,16 @@
+import os
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
+# from sklearn.metrics import classification_report
 from sklearn.impute import SimpleImputer
 
 
-def sector_predictor(dataset_2023, dataset_2020, ):
+def sector_predictor(dataset_2023, dataset_2020):
 # Leer los datos
     data_2023 = pd.read_csv(dataset_2023, delimiter=';', dtype={'Codigo_municipio': str})
     data_2020 = pd.read_csv(dataset_2020, delimiter=';', dtype={'superficie_km2': float})
@@ -72,3 +74,4 @@ def sector_predictor(dataset_2023, dataset_2020, ):
     data_2023.loc[rows_exist, 'sector_principal'] = predictions_decoded
 
     data_2023.to_csv('dataset.csv', sep=';', index=False)
+    os.remove(dataset_2020)
