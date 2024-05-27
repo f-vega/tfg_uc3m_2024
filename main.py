@@ -3,7 +3,6 @@ from dataset_definition.clean_folder import clean_folder
 from dataset_definition.sector_definition import sector_sum_folder
 from dataset_definition.dataset import dataset
 from dataset_definition.clustering import clustering
-from dataset_definition.refactoring import refactor
 from dataset_definition.sector_prediction import sector_predictor
 from dataset_definition.ratios import ratio_calculator
 

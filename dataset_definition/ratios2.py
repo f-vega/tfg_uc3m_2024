@@ -1,12 +1,8 @@
 import pandas as pd
 
 def ratio_calculator(input_path, clusters):
-    
-    data = pd.read_csv( input_path, delimiter=';', encoding='latin-1', dtype={'Codigo_municipio': str})
+    data = pd.read_csv(input_path, delimiter=';', encoding='latin-1', dtype={'Codigo_municipio': str})
     data = data[(data['Nombre'] != 'Madrid') & (data['Nombre'] != 'Municipio de Madrid')]
-    data_ratios = pd.DataFrame()
-
-    # Zonas estadísticas primero por comodidad
     data = data.sort_values(by='Serie', ascending=False)
 
     grupos_edad_activos = ['poblacion_censada_{}a{}'.format(i, i+4) for i in range(15, 65, 5)]
@@ -16,6 +12,8 @@ def ratio_calculator(input_path, clusters):
     for column in total_columns:
         col_name = f'{column}_total'
         data[col_name] = data[f'{column}_primario'] + data[f'{column}_secundario'] + data[f'{column}_terciario']
+
+    data_ratios = pd.DataFrame()
 
     # Ratio de contratos por población censada
     data_ratios['ratio_contratos_por_poblacion'] = round(data['contratos_total'] / data['poblacion_activa'], 3)
@@ -42,36 +40,39 @@ def ratio_calculator(input_path, clusters):
     # Ratio de unidades productivas por pirámide poblacional
     data_ratios['ratio_up_por_poblacion_activa'] = round(data['unidades_productivas_total'] / data['poblacion_activa'], 3)
 
-    # data.to_csv(input_path, sep=';', index=False)
+    # Asignación de los clusters a data_ratios
     data_ratios['cluster_zona_estadistica'] = data['cluster_zona_estadistica']
-    data_ratios['cluster_densidad_poblacion'] = data['cluster_densidad_poblacion']
-    data_ratios['cluster_distancia_capital'] = data['cluster_distancia_capital']
-    data_ratios['cluster_poblacion_censada'] = data['cluster_poblacion_censada']
+    data_ratios['cluster_densidad_poblacion'] = data['cluster_densidad_poblacion'] 
+    data_ratios['cluster_distancia_capital'] = data['cluster_distancia_capital'] 
+    data_ratios['cluster_poblacion_censada'] = data['cluster_poblacion_censada'] 
 
-    for cluster in clusters:
-        cluster_col = f'cluster_{cluster.split("_")[0]}_{cluster.split("_")[1]}'
-        cluster_ratios_means = data_ratios.groupby(cluster_col).mean()
-        cluster_ratios_means = cluster_ratios_means.add_suffix(f'_mean_{cluster_col}')
+    # Construir el DataFrame para almacenar los valores medios de los ratios para cada cluster
+    cluster_matrix = pd.DataFrame()
+    for i, cluster in enumerate(clusters):
+        cluster = f'cluster_{cluster.split("_")[0]}_{cluster.split("_")[1]}'
+        cluster_ratios_means = data_ratios.groupby(cluster).mean()
+        cluster_matrix = pd.concat([cluster_matrix, cluster_ratios_means], axis=0)
 
-        data_ratios = data_ratios.merge(cluster_ratios_means, left_on=cluster_col, right_index=True, how='left')
+    # Aplicar una función para asignar los valores medios de los ratios a nuevas columnas en el DataFrame original
+    def assign_cluster_values(row):
+        for cluster in clusters:
+            cluster_name = f'cluster_{cluster.split("_")[0]}_{cluster.split("_")[1]}'
+            if cluster_name in cluster_matrix.index:
+                valores_cluster = cluster_matrix.loc[cluster_name].values
+                for i, valor in enumerate(valores_cluster):
+                    col_name = f'ratio_{cluster}_{i}'
+                    row[col_name] = valor
+        return row
 
-    data_ratios['Serie'] = data['Serie']
-    data_ratios['Codigo_municipio'] = data['Codigo_municipio']
-    data_ratios['Nombre'] = data['Nombre']
+    # Aplicar la función a cada fila del DataFrame original
+    data_ratios = data_ratios.apply(assign_cluster_values, axis=1)
 
-    first_columns = ['Serie', 'Codigo_municipio', 'Nombre']
-    all_columns = first_columns + [col for col in data_ratios.columns if col not in first_columns]
-    data_ratios = data_ratios[all_columns]
+    return data_ratios
 
-    data_combined = pd.merge(data, data_ratios, on=['Serie', 'Codigo_municipio', 'Nombre'])
+# Llama a la función con los pará
+input_path = 'dataset.csv'
+clusters = ['zona_estadistica', 'densidad_poblacion', 'distancia_capital', 'poblacion_censada']
+result = ratio_calculator(input_path, clusters)
 
-
-    data_combined.to_csv(input_path, sep=';', index=False, encoding='utf-8')
-    print(f"Dataset con ratios guardado en {input_path}")
-
-
-
-    
-    
-
-
+# Guarda el resultado en un nuevo archivo CSV
+result.to_csv('resultado.csv', sep=';', index=False)
