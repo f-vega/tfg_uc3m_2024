@@ -50,7 +50,7 @@ def ratio_calculator(input_path, clusters):
 
     for cluster in clusters:
         cluster_col = f'cluster_{cluster.split("_")[0]}_{cluster.split("_")[1]}'
-        cluster_ratios_means = data_ratios.groupby(cluster_col).mean()
+        cluster_ratios_means = round(data_ratios.groupby(cluster_col).mean(), 3)
         cluster_ratios_means = cluster_ratios_means.add_suffix(f'_mean_{cluster_col}')
 
         data_ratios = data_ratios.merge(cluster_ratios_means, left_on=cluster_col, right_index=True, how='left')
