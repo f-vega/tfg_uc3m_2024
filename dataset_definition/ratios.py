@@ -2,7 +2,7 @@ import pandas as pd
 
 def ratio_calculator(input_path, clusters):
     
-    data = pd.read_csv( input_path, delimiter=';', encoding='latin-1', dtype={'Codigo_municipio': str})
+    data = pd.read_csv( input_path, delimiter=';', encoding='utf-8', dtype={'Codigo_municipio': str})
     data = data[(data['Nombre'] != 'Madrid') & (data['Nombre'] != 'Municipio de Madrid')]
     data_ratios = pd.DataFrame()
 
@@ -65,7 +65,7 @@ def ratio_calculator(input_path, clusters):
 
     data_combined = pd.merge(data, data_ratios, on=['Serie', 'Codigo_municipio', 'Nombre'])
 
-
+    print(len(data_combined.columns))
     data_combined.to_csv(input_path, sep=';', index=False, encoding='utf-8')
     print(f"Dataset con ratios guardado en {input_path}")
 

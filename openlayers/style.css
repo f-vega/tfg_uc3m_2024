@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 100vh;
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: letf;
+    margin-left: 10px;
+    color: #000033;
+}
+
+.grid-1 {
+    background-color: rgb(176, 244, 230);
+    border-right: #000033;
+    border-width: 1px;
+}
+
+.sidebar {
+    margin-left: 15px;
+}
+
+/* Feature Overlay */
+.overlay-container {
+    background-color: #555;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    border-radius: 1px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+.overlay-container #feature-data::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}

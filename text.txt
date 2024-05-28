@@ -1,0 +1,11 @@
+He añadido esto en wsl: sudo apt-get install gdal-bin, ogr2ogr -f GeoJSON municipios.geojson recintos_municipales_inspire_peninbal_etrs89.shp
+
+URL de acceso a las delimitaciones: https://idem.comunidad.madrid/catalogocartografia/srv/spa/catalog.search#/metadata/spacm_divisionesadmin
+Delimitaciones adminsitrativas: delimitaciones de la comunidad de madrid
+recintos_municipales_inspire_peninbal_etrs89: delimitaciones municipios
+
+URL de acceso a las delimitaciones de los municipios: https://centrodedescargas.cnig.es/CentroDescargas/catalogo.do?Serie=CAANE
+Es: Límites municipales, provinciales y autonómicos
+
+IDEAS PENDIENTES:
+- Pintar Madrid de negro (conseguir sus coordenadas)

@@ -45,7 +45,7 @@ def dataset(input_path, output_path):
                             join_data[(serie, codigo_municipio, nombre)][file_name] = row[3]
 
     # Escribir los datos unidos en un nuevo archivo CSV
-    with open(output_path, 'w', newline='') as csv_file:
+    with open(output_path, 'w', newline='', encoding='ISO-8859-1') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=';')
 
         final_keys = []

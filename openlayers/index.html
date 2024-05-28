@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visor geografico</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="libs/ol.css">
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-1">
+            <div class="sidebar">
+                <h2 class="titulo">Capas del visor</h2>
+                <input type="radio" name="baseLayerRadioButton" value="Standard" checked>Sin delimitaciones<br>
+                <input type="radio" name="baseLayerRadioButton" value="ComunidadDeMadridDelimiter">Comunidad de
+                Madrid<br>
+                <input type="radio" name="baseLayerRadioButton" value="MunicipiosDelimiter">Municipios<br>
+                <input type="radio" name="baseLayerRadioButton" value="MunicipiosColor">Municipios coloreados<br>
+                <input type="radio" name="baseLayerRadioButton" value="MunicipiosPoblacion">Municipios por población<br>
+            </div>
+        </div>
+        <div class="grid-2">
+            <div id="js-map" class="map"></div>
+        </div>
+    </div>
+
+    <div class="overlay-container">
+        <span class="overlay-text" id="feature-name"></span><br>
+        <span class="overlay-text" id="feature-data"></span><br>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./libs/dist/ol.js"></script>
+</body>
+
+</html>
