@@ -38,7 +38,7 @@ def ratio_calculator(input_path, clusters):
     )
     data_ratios['ratio_empleo_por_paro'] = np.where(
         data['contratos_total'] != 0,
-        round(data['paro_registrado_total'] / data['contratos_total'], 3),
+        round(data['empleo_total'] / data['paro_registrado_total'], 3),
         0
     )
     
