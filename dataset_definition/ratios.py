@@ -45,12 +45,12 @@ def ratio_calculator(input_path, clusters):
     # Ratios por sector de actividad
     sectores = ['primario', 'secundario', 'terciario']
     for sector in sectores:
-        data_ratios[f'ratio_contratos_{sector}'] = np.where(
+        data_ratios[f'ratio_contratos_{sector}_por_poblacion_activa'] = np.where(
             data['poblacion_activa'] != 0,
             round(data[f'contratos_{sector}'] / data['poblacion_activa'], 3),
             0
         )
-        data_ratios[f'ratio_empleo_{sector}'] = np.where(
+        data_ratios[f'ratio_empleo_{sector}_por_poblacion_activa'] = np.where(
             data['poblacion_activa'] != 0,
             round(data[f'empleo_{sector}'] / data['poblacion_activa'], 3),
             0
