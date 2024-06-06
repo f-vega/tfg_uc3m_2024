@@ -3,6 +3,14 @@ import pandas as pd
 
 def sector_sum_folder(keyword, folder):
     sector_data = {'primario': {}, 'secundario': {}, 'terciario': {}}
+
+    for sector in sector_data.keys():
+        output_path = os.path.join(folder, f'{keyword}_{sector}.csv')
+        if os.path.exists(output_path):
+            with open(output_path, 'w', newline='') as csv_file:
+                csv_writer = csv.writer(csv_file, delimiter=';')
+                csv_writer.writerow([])
+
     if not os.path.exists(folder):
         os.makedirs(folder)
     csv_files = os.listdir(folder)
@@ -15,19 +23,16 @@ def sector_sum_folder(keyword, folder):
         with open(os.path.join(folder, file), 'r') as csv_file:
             csv_reader = csv.reader(csv_file, delimiter=';')
             headers = next(csv_reader)
-            # Iterar sobre cada fila en el archivo CSV,
             for row in csv_reader:
                 serie = row[0] if row else ''
                 codigo_municipio = row[1] if len(row) > 1 else ''
                 nombre = row[2] if len(row) > 2 else ''
-            # Verificar si ya existe una entrada para esta serie y código de municipio
+
                 key = (serie, codigo_municipio, nombre)
                 if key in sector_data[sector]:
-                    # Sumar los valores de cada año
                     sector_data[sector][key] += float(row[3]) if row[3] != '' else 0
 
                 else:
-                    # Si no existe, crear una nueva entrada en el diccionario
                     sector_data[sector][key] = float(row[3]) if row[3] else 0
 
         os.remove(file_path)

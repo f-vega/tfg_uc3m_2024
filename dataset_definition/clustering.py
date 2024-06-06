@@ -7,7 +7,7 @@ from sklearn.cluster import KMeans
 # from sklearn.metrics import silhouette_score
 
 def clustering(input_file, cluster_variable):
-    data = pd.read_csv(input_file, delimiter=';', dtype={'codigo_municipio_ine': str})
+    data = pd.read_csv(input_file, delimiter=';', dtype={'Codigo_municipio': str})
     clustering_data = data[(data['Nombre'] != 'Madrid') & 
                            (data['Serie'] == 'Municipios')][['Nombre', 'zona_estadistica', 'zona_estadistica_codigo',
                                                              'densidad_poblacion', 'distancia_capital', 

@@ -14,12 +14,17 @@
         <div class="grid-1">
             <div class="sidebar">
                 <h2 class="titulo">Capas del visor</h2>
-                <input type="radio" name="baseLayerRadioButton" value="Standard" checked>Sin delimitaciones<br>
-                <input type="radio" name="baseLayerRadioButton" value="ComunidadDeMadridDelimiter">Comunidad de
+                <input type="radio" class="layerSelect" name="baseLayerRadioButton" value="Standard" checked>Sin
+                delimitaciones<br>
+                <input type="radio" class="layerSelect" name="baseLayerRadioButton"
+                    value="ComunidadDeMadridDelimiter">Comunidad de
                 Madrid<br>
-                <input type="radio" name="baseLayerRadioButton" value="MunicipiosDelimiter">Municipios<br>
-                <input type="radio" name="baseLayerRadioButton" value="MunicipiosColor">Municipios coloreados<br>
-                <input type="radio" name="baseLayerRadioButton" value="MunicipiosPoblacion">Municipios por población<br>
+                <input type="radio" class="layerSelect" name="baseLayerRadioButton"
+                    value="MunicipiosDelimiter">Municipios<br>
+                <input type="radio" class="layerSelect" name="baseLayerRadioButton" value="MunicipiosColor">Municipios
+                coloreados<br>
+                <input type="radio" class="layerSelect" name="baseLayerRadioButton"
+                    value="MunicipiosPoblacion">Municipios por población<br>
             </div>
         </div>
         <div class="grid-2">
@@ -33,6 +38,7 @@
     </div>
     <script src="./main.js"></script>
     <script src="./libs/dist/ol.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-import os
+import os, shutil
 from dataset_definition.clean_file import clean
 from dataset_definition.refactoring import info_municipios, pib_2020, parcelas_industriales, poblacion_2020
 
@@ -6,7 +6,7 @@ def clean_folder(input_path, output_folder, selected_year=2023):
     output_path = f'{output_folder}/{os.path.basename(input_path)}'
 
     if not os.path.exists(output_path):
-            os.makedirs(output_path)
+        os.makedirs(output_path)
 
     csv_files = [file for file in os.listdir(input_path) if file.endswith('.csv')]
     xls_file = [file for file in os.listdir(input_path) if file.endswith('.xls')]

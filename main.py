@@ -1,4 +1,4 @@
-import os
+import os, json, csv
 from dataset_definition.clean_folder import clean_folder
 from dataset_definition.sector_definition import sector_sum_folder
 from dataset_definition.dataset import dataset
@@ -36,6 +36,15 @@ def main():
 
     sector_predictor(dataset_2020=dataset_2020, dataset_2023=dataset_path)
     ratio_calculator(dataset_path, clusters)
+
+    data = []
+    with open(dataset_path, 'r', encoding='utf-8') as csv_file:
+        csv_reader = csv.DictReader(csv_file, delimiter=';')
+        for row in csv_reader:
+            data.append(row)
+    json_path = dataset_path.replace('.csv', '.json')
+    with open(json_path, 'w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, ensure_ascii=False, indent=4)
 
 if __name__=='__main__':
     main()

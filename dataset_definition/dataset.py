@@ -1,4 +1,4 @@
-import os, csv
+import os, csv, json
 
 def dataset(input_path, output_path):
     # Crear un diccionario para almacenar los datos unidos
@@ -63,3 +63,5 @@ def dataset(input_path, output_path):
             for clave in final_keys:
                 line.append(values.get(clave, ''))
             csv_writer.writerow(line)
+
+    

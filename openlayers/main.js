@@ -1,6 +1,35 @@
 window.onload = init;
+let dataset = []
+
+// async function loadJSONData() {
+//     return new Promise(async (resolve, reject) => {
+//         try {
+//             const response = await fetch('../dataset.json');
+
+//             if (!response.ok) {
+//                 throw new Error('JSON file not found ' + response.statusText);
+//             }
+
+//             const jsonData = await response.json();
+
+//             resolve(jsonData);
+//         } catch (error) {
+//             reject(error);
+//         }
+//     });
+// }
+function waitForDataset() {
+    const checkInterval = setInterval(() => {
+        if (dataset.length > 0) {
+            console.log(dataset);
+            clearInterval(checkInterval);
+        }
+    }, 1000);
+}
 
 function init() {
+    waitForDataset()
+    console.log(dataset)
 
     // Styles
     const fillStyle = new ol.style.Fill({
@@ -12,13 +41,16 @@ function init() {
         width: 1.2
     });
 
-    const response = fetch('dataset.csv')
-    if (!response.ok) {
-        throw new Error('Network response was not ok ' + response.statusText);
-    }
+    // Data
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('../dataset.json')
+            .then(response => response.json())
+            .then(data => {
+                dataset = data.data;
+                console.log(dataset)
+            });
+    });
 
-    const data = response.json();
-    console.log(response)
 
     // Map
     const map = new ol.Map({
@@ -168,43 +200,32 @@ function init() {
         });
     }
 
-    async function loadAndAddData() {
-        try {
-            // Fetch the JSON file
-            const response = await fetch('data.json');
-
-            if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
-            }
-
-            const data = await response.json();
-
-            // Create a vector source and add features to it
-            const vectorSource = new ol.source.Vector();
-            data.forEach(item => {
-                const feature = new ol.Feature({
-                    geometry: new ol.geom.Point(ol.proj.fromLonLat([/* longitude */, /* latitude */])),
-                    name: item.name,
-                    population: item.population
-                });
-
-                vectorSource.addFeature(feature);
-            });
-
-            // Create a vector layer and add it to the map
-            const vectorLayer = new ol.layer.Vector({
-                source: vectorSource
-            });
-
-            map.addLayer(vectorLayer);
-        } catch (error) {
-            console.error('Error loading or processing data:', error);
-        }
+    const data2 = {
+        Nombre: 'Anchuelo'
     }
-
-    loadAndAddData
     const municipiosPoblacionSource = MunicipiosPoblacion.getSource();
 
-    // municipios
+    municipiosPoblacionSource.on('change', function () {
+        if (municipiosPoblacionSource.getState() === 'ready') {
+            const features = municipiosPoblacionSource.getFeatures();
+            features.forEach(feature => {
+                const name = feature.get('NAMEUNIT');
+                console.log(name);
+                const matchingData = data2.find(entry => entry.Nombre === name);
+                // if (matchingData) {
+                // Aquí puedes hacer algo con los datos coincidentes
+                // } else {
+                //     console.log('No matching data found for:', name);
+                // }
+                // console.log(matchingData);
+
+                // if (matchingData) {
+                //     const population = matchingData.population;
+                //     console.log(`Población total de ${name}: ${population}`);
+                //     // feature.set('population', population); 
+                // }
+            });
+        }
+    });
 
 }

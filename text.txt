@@ -9,3 +9,8 @@ Es: Límites municipales, provinciales y autonómicos
 
 IDEAS PENDIENTES:
 - Pintar Madrid de negro (conseguir sus coordenadas)
+- Cambiar el main y no hacer la cutrez de csv -> json
+
+
+RATIOS PARA AÑADIR:
+- Crecimiento poblacional/densidad de población
