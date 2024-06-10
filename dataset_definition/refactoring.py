@@ -51,16 +51,16 @@ def refactor(input_file, output_file, row1: int, row2: int, name:int, headers_ex
 
 def info_municipios(f_input_path, input_path, f_output_path):
     encoding, confidence = detect_encoding(f_input_path)
+    print(encoding, confidence)
     new_file = input_path  + '/temp.csv'
     if not os.path.exists(new_file):
         with open(new_file, 'w'):
             pass
     # Usamos un documento de ejemplo
-    if confidence > 0.5:
-        convert_encoding(f_input_path, new_file, encoding)
+        convert_encoding(f_input_path, new_file, 'ISO-8859-1')
         headers_extra = ['municipio_codigo_ine', 'zona_estadistica_codigo', 'zona_estadistica', 'superficie_km2']
         refactor(new_file, f_output_path, headers_extra=headers_extra, name=1, row1=2, row2=6)
-        os.remove(new_file)
+        # os.remove(new_file)
 
 
 def pib_2020(input_path, file, output_path):
