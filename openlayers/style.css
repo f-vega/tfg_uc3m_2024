@@ -39,11 +39,13 @@ input.layerSelect {
 
 /* Feature Overlay */
 .overlay-container {
-    background-color: #555;
+    background-color: rgba(173, 216, 230, 0.8);
+    border:2px solid rgba(8, 70, 91);
     width: 150px;
-    color: #fff;
+    color: black;
+    font-weight: bold;
     text-align: center;
-    border-radius: 1px;
+    border-radius: 10px;
     padding: 2px 0;
     position: absolute;
     z-index: 1;
@@ -60,5 +62,40 @@ input.layerSelect {
     margin-left: -10px;
     border-width: 10px;
     border-style: solid;
-    border-color: black transparent transparent transparent;
+    border-color:rgba(8, 70, 91, 0.8) transparent transparent transparent;
 }
+input[type="radio"] {
+    appearance: none; /* Eliminar el estilo predeterminado */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    position: relative;
+    background-color: #CC0000;
+    vertical-align: middle; /* Alinea los botones de radio con el texto */
+  }
+  
+  input[type="radio"]:checked {
+    border-color: whitesmoke;
+    background-color: #CC0000;
+  }
+  
+  input[type="radio"]:checked::before,
+  input[type="radio"]:checked::after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  input[type="radio"]:checked::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }

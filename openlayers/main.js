@@ -165,7 +165,7 @@ function init() {
         },
             {
                 layerFilter: function (layerCandidate) {
-                    return layerCandidate.get('title') == 'MunicipiosDelimiter'
+                    return layerCandidate.get('title') == 'MunicipiosColor'
                 }
             }
         )
@@ -174,27 +174,17 @@ function init() {
 
     // Municipios color
     function getFeatureStyle(firstLetter) {
-        let fillColor;
-        switch (firstLetter) {
-            case 'A':
-                fillColor = [255, 0, 0, 0.2]; // Rojo
-                break;
-            case 'B':
-                fillColor = '#330099'; // Verde
-                break;
-            case 'C':
-                fillColor = [0, 0, 255, 0.2]; // Azul
-                break;
-            default:
-                fillColor = [0, 128, 128, 0.2]; // Gris por defecto
-                break;
-        }
+        const letters = 'ABCDEFGH'.split('');
+        const scale = chroma.scale(['lightgreen', 'lightcoral']).domain([0, letters.length - 1]);
+        const index = letters.indexOf(firstLetter.toUpperCase());
+        const fillColor = index >= 0 ? scale(index).rgba() : [211, 211, 211, 0.2]; // Light grey for default
+        
         return new ol.style.Style({
             fill: new ol.style.Fill({
                 color: fillColor
             }),
             stroke: new ol.style.Stroke({
-                color: [255, 0, 0, 1],
+                color: [0, 0, 0, 1],
                 width: 1.2
             })
         });
