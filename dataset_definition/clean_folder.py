@@ -17,7 +17,8 @@ def clean_folder(input_path, output_folder, selected_year=2023):
 
         # Encoding diferente
         if 'municipio_comunidad_madrid' in file:
-            info_municipios(f_input_path=f_input_path, input_path=input_path, f_output_path=f_output_path)
+            # info_municipios(f_input_path=f_input_path, input_path=input_path, f_output_path=f_output_path)
+            pass
 
         elif 'parcela' in file:
              clean(f_input_path, f_output_path)
