@@ -34,7 +34,6 @@ def clustering(input_file, cluster_variable):
 
     rows_exist = data.index.isin(clustering_data.index)
     data.loc[rows_exist, cluster_name] = labels
-    print(data.loc[rows_exist, cluster_name])
 
     # silhouette = silhouette_score(X, labels, metric='euclidean')
     # print(f'Coherencia: {silhouette}')

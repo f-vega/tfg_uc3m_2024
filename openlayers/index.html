@@ -6,41 +6,37 @@
     <title>Visor geografico</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="libs/ol.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
 </head>
 
 <body>
     <div class="grid-container">
-        <div class="grid-1">
-            <div class="sidebar">
-                <h2 class="titulo">Capas del visor</h2>
-                <input type="radio" class="layerSelect" name="baseLayerRadioButton" value="Standard" checked>Sin
-                delimitaciones<br>
-                <input type="radio" class="layerSelect" name="baseLayerRadioButton"
-                    value="ComunidadDeMadridDelimiter">Comunidad de
-                Madrid<br>
-                <input type="radio" class="layerSelect" name="baseLayerRadioButton"
-                    value="MunicipiosDelimiter">Municipios<br>
-                <input type="radio" class="layerSelect" name="baseLayerRadioButton" value="MunicipiosColor">Municipios
-                coloreados<br>
-                <input type="radio" class="layerSelect" name="baseLayerRadioButton"
-                    value="MunicipiosPoblacion">Municipios por población<br>
-            </div>
+        <div class="sidebar">
+            <h2 class="titulo">Selección de indicadores</h2>
+            <h3>Selección por indicador</h3>
+            <div id="indicator-container" class="selection-container"></div>
+            <h3>Selección por clúster</h3>
+            <div id="cluster-container" class="selection-container"></div>
+
         </div>
-        <div class="grid-2">
+        <div class="map-container">
             <div id="js-map" class="map"></div>
         </div>
     </div>
-
     <div class="overlay-container">
         <span class="overlay-text" id="feature-name"></span><br>
         <span class="overlay-text" id="feature-data"></span><br>
     </div>
-    <script src="./main.js"></script>
+
     <script src="./libs/dist/ol.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
 
+    <script src="./js_files/main.js"></script>
+    <script src="./js_files/initializeMap.js"></script>
+    <script src="./js_files/indicadorDisplay.js"></script>
+    <script src="./js_files/clusterDisplay.js"></script>
 </body>
 
 </html>

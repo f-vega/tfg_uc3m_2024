@@ -26,7 +26,7 @@ def main():
                 sector_sum_folder(keyword=keywords, folder=output_path)
                 sector_sum_folder(keyword=keywords, folder=output_path_2020)
 
-    dataset_path = 'dataset_sin_ratios.csv'
+    dataset_path = 'dataset.csv'
     dataset_2020 = 'dataset_2020.csv'
     dataset(clean_path, dataset_path)
     dataset(clean_path_2020, dataset_2020)
