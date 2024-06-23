@@ -1,0 +1,1724 @@
+{
+    "distancia_capital": {
+        "nombre_variable": "Distancia a la capital",
+        "descripcion_variable": "Distancia entre la sede del ayuntamiento del municipio en cuestión y la sede del ayundamiento del municipio de Madrid",
+        "Fuente": "Dirección General de Economía. Comunidad de Madrid",
+        "Unidad": "Km"
+    },
+    "zona_estadistica_codigo": {
+        "nombre_variable": "Código NUTS de Zona Estadística",
+        "descripcion_variable": "Código representante de la zona estadística NUTS a la que pertenece el municipio",
+        "Fuente": "Catálogo de Datos Abiertos de la Comunidad de Madrid",
+        "Unidad": "Km"
+    },
+    "superficie_km2": {
+        "nombre_variable": "Superficie total del municipio",
+        "descripcion_variable": "Superficie total del municipio",
+        "Fuente": "Catálogo de Datos Abiertos de la Comunidad de Madrid",
+        "Unidad": "Km2"
+    },
+    "afiliados_ss_primario": {
+        "nombre_variable": "Trabajadores del sector primario afiliados a la seguridad social",
+        "descripcion_variable": "Personas afiliadas a la seguridad social en las ramas de actividad pertenecientes al sector primario",
+        "Fuente": "Fórmula de unión de personas afiliadas a la seguridad social en aquellas ramas pertenecientes al sector primario (datos originales: Dinámica de la Ocupación. Dirección General de Economía. Afiliados y Cuentas de Cotización de la Tesorería General de la Seguridad Social)",
+        "Unidad": "Número"
+    },
+    "afiliados_ss_secundario": {
+        "nombre_variable": "Trabajadores del sector secundario afiliados a la seguridad social",
+        "descripcion_variable": "Personas afiliadas a la seguridad social en las ramas de actividad pertenecientes al sector secundario",
+        "Fuente": "Fórmula de unión de personas afiliadas a la seguridad social en aquellas ramas pertenecientes al sector secundario (datos originales: Dinámica de la Ocupación. Dirección General de Economía. Afiliados y Cuentas de Cotización de la Tesorería General de la Seguridad Social)",
+        "Unidad": "Número"
+    },
+    "afiliados_ss_terciario": {
+        "nombre_variable": "Trabajadores del sector terciario afiliados a la seguridad social",
+        "descripcion_variable": "Personas afiliadas a la seguridad social en las ramas de actividad pertenecientes al sector terciario",
+        "Fuente": "Fórmula de unión de personas afiliadas a la seguridad social en aquellas ramas pertenecientes al sector terciario (datos originales: Dinámica de la Ocupación. Dirección General de Economía. Afiliados y Cuentas de Cotización de la Tesorería General de la Seguridad Social)",
+        "Unidad": "Número"
+    },
+    "contratos_primario": {
+        "nombre_variable": "Contratos totales del sector primario",
+        "descripcion_variable": "Contratos totales de las ramas de actividad pertenecientes al sector primario",
+        "Fuente": "Fórmula de unión de contratos totales en aquellas ramas pertenecientes al sector primario (datos originales: Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo)",
+        "Unidad": "Número"
+    },
+    "contratos_secundario": {
+        "nombre_variable": "Contratos totales del sector secundario",
+        "descripcion_variable": "Contratos totales de las ramas de actividad pertenecientes al sector secundario",
+        "Fuente": "Fórmula de unión de contratos totales en aquellas ramas pertenecientes al sector secundario (datos originales: Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo)",
+        "Unidad": "Número"
+    },
+    "contratos_terciario": {
+        "nombre_variable": "Contratos totales del sector terciario",
+        "descripcion_variable": "Contratos totales de las ramas de actividad pertenecientes al sector terciario",
+        "Fuente": "Fórmula de unión de contratos totales en aquellas ramas pertenecientes al sector terciario (datos originales: Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo)",
+        "Unidad": "Número"
+    },
+    "empleo_primario": {
+        "nombre_variable": "Personas empleadas del sector primario",
+        "descripcion_variable": "Ocupados totales en las ramas de activida pertenecientes al sector primario",
+        "Fuente": "Fórmula de unión de ocupados en aquellas ramas pertenecientes al sector primario (datos originales: Colectivo Empresarial. Dirección General de Economía)",
+        "Unidad": "Número"
+    },
+    "empleo_secundario": {
+        "nombre_variable": "Personas empleadas del sector secundario",
+        "descripcion_variable": "Ocupados totales en las ramas de activida pertenecientes al sector secundario",
+        "Fuente": "Fórmula de unión de ocupados en aquellas ramas pertenecientes al sector secundario (datos originales: Colectivo Empresarial. Dirección General de Economía)",
+        "Unidad": "Número"
+    },
+    "empleo_terciario": {
+        "nombre_variable": "Personas empleadas del sector terciario",
+        "descripcion_variable": "Ocupados totales en las ramas de activida pertenecientes al sector terciario",
+        "Fuente": "Fórmula de unión de ocupados en aquellas ramas pertenecientes al sector terciario (datos originales: Colectivo Empresarial. Dirección General de Economía)",
+        "Unidad": "Número"
+    },
+    "crecimiento_relativo_poblacion": {
+        "nombre_variable": "Crecimiento relativo de la población",
+        "descripcion_variable": "Variación relativa de la población de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "densidad_poblacion": {
+        "nombre_variable": "Densidad de población",
+        "descripcion_variable": "Densidad de población del municipio",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Habitantes/km2"
+    },
+    "edad_media_total": {
+        "nombre_variable": "Edad media de la población censada",
+        "descripcion_variable": "Edad media de los habitantes censados de un municipio",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Años"
+    },
+    "grado_envejecimiento_mayores_45": {
+        "nombre_variable": "Grado de envejecimiento de las personas de 45 años y más",
+        "descripcion_variable": "Porcentaje de incremento de personas de 45 años y más de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_envejecimiento_mayores_55": {
+        "nombre_variable": "Grado de envejecimiento de las personas de 55 años y más",
+        "descripcion_variable": "Porcentaje de incremento de personas de 55 años y más de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_envejecimiento_mayores_65": {
+        "nombre_variable": "Grado de envejecimiento de las personas de 65 años y más",
+        "descripcion_variable": "Porcentaje de incremento de personas de 65 años y más de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_envejecimiento_mayores_75": {
+        "nombre_variable": "Grado de envejecimiento de las personas de 75 años y más",
+        "descripcion_variable": "Porcentaje de incremento de personas de 75 años y más de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_envejecimiento_mayores_85": {
+        "nombre_variable": "Grado de envejecimiento de las personas de 85 años y más",
+        "descripcion_variable": "Porcentaje de incremento de personas de 85 años y más de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_juventud_menores_15": {
+        "nombre_variable": "Grado de juventud de las personas 15 años y menos",
+        "descripcion_variable": "Porcentaje de incremento de personas de 15 años y menos de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_juventud_menores_25": {
+        "nombre_variable": "Grado de juventud de las personas 25 años y menos",
+        "descripcion_variable": "Porcentaje de incremento de personas de 25 años y menos de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_juventud_menores_35": {
+        "nombre_variable": "Grado de juventud de las personas 35 años y menos",
+        "descripcion_variable": "Porcentaje de incremento de personas de 35 años y menos de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "grado_juventud_menores_45": {
+        "nombre_variable": "Grado de juventud de las personas 45 años y menos",
+        "descripcion_variable": "Porcentaje de incremento de personas de 45 años y menos de un año (t-1) a otro (t)",
+        "Fuente": "Dirección General de Economía de la Comunidad de Madrid",
+        "Unidad": "Porcentaje"
+    },
+    "variacion_relativa_paro_registrado": {
+        "nombre_variable": "Variación relativa del paro registrado",
+        "descripcion_variable": "Porcentaje de demandas de empleo a satisfacer de un año (t-1) a otro (t)",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Porcentaje"
+    },
+    "sup_edif_indust": {
+        "nombre_variable": "Superficie edificable industrial",
+        "descripcion_variable": "Superficie edificable de categoría industrial",
+        "Fuente": "Fórmula de suma de la superficie edificable de las parcelas de categoría industrial (datos originales: Portal Suelo 4.0 de la Comunidad de Madrid)",
+        "Unidad": "m2"
+    },
+    "sup_total_indust": {
+        "nombre_variable": "Superficie total industrial",
+        "descripcion_variable": "Superficie total de categoría industrial",
+        "Fuente": "Fórmula de suma de la superficie edificable de las parcelas de categoría industrial (datos originales: Portal Suelo 4.0 de la Comunidad de Madrid)",
+        "Unidad": "m2"
+    },
+    "sup_edif_terc_indust": {
+        "nombre_variable": "Superficie edificable industrial dedicada al sector servicios",
+        "descripcion_variable": "Superficie edificable de categoría industrial dedicadas al sector terciario",
+        "Fuente": "Fórmula de suma de la superficie edificable de las parcelas de categoría industrial dedicadas al sector terciario (datos originales: Portal Suelo 4.0 de la Comunidad de Madrid)",
+        "Unidad": "m2"
+    },
+    "sup_total_terc_indust": {
+        "nombre_variable": "Superficie industrial total dedicada al sector servicios",
+        "descripcion_variable": "Superficie total de categoría industrial dedicadas al sector terciario",
+        "Fuente": "Fórmula de suma de la superficie total de las parcelas de categoría industrial dedicadas al sector terciario (datos originales: Portal Suelo 4.0 de la Comunidad de Madrid)",
+        "Unidad": "m2"
+    },
+    "paro_registrado_entre_25_44": {
+        "nombre_variable": "Paro registrado de personas entre 25 y 45 años",
+        "descripcion_variable": "Demandas de empleo registradas de personas entre 35 y 45 años",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Número"
+    },
+    "paro_registrado_mayores_25": {
+        "nombre_variable": "Paro registrado de personas de 25 años y más",
+        "descripcion_variable": "Demandas de empleo registradas de personas de 25 años y más",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Número"
+    },
+    "paro_registrado_mayores_45": {
+        "nombre_variable": "Paro registrado de personas de 45 años y más",
+        "descripcion_variable": "Demandas de empleo registradas de personas de 45 años y más",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Número"
+    },
+    "paro_registrado_menores_25": {
+        "nombre_variable": "Paro registrado de personas de 25 años y menos",
+        "descripcion_variable": "Demandas de empleo registradas de personas de 25 años y menos",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Número"
+    },
+    "paro_registrado_por_100_habitantes": {
+        "nombre_variable": "Paro registrado por cada 100 habitantes",
+        "descripcion_variable": "Demangas de empleo registradas por cada 100 habitantes censados en el municipio",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "5"
+    },
+    "paro_registrado_total": {
+        "nombre_variable": "Paro registrado total",
+        "descripcion_variable": "Demandas de empleo totales registradas",
+        "Fuente": " Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Número"
+    },
+    "porcentaje_parados_mayores_25": {
+        "nombre_variable": "Porcentaje de personas desempleadas de 25 años y más",
+        "descripcion_variable": "Porcentaje de personas registradas en las oficinas de empleo de 25 años y más",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Porcentaje"
+    },
+    "porcentaje_parados_menores_25": {
+        "nombre_variable": "Porcentaje de personas desempleadas de 25 años y menos",
+        "descripcion_variable": "Porcentaje de personas registradas en las oficinas de empleo de 25 años y menos",
+        "Fuente": "Estadísticas Mercado de Trabajo. Dirección General del Servicio Público de Empleo. Consejería de Economía, Hacienda y Empleo",
+        "Unidad": "Porcentaje"
+    },
+    "poblacion_censada_0a4": {
+        "nombre_variable": "Población censada entre 0 y 4 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 0 y 4 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_5a9": {
+        "nombre_variable": "Población censada entre 5 y 9 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 5 y 9 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_10a14": {
+        "nombre_variable": "Población censada entre 10 y 14 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 10 y 14 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_15a19": {
+        "nombre_variable": "Población censada entre 15 y 19 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 15 y 19 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_20a24": {
+        "nombre_variable": "Población censada entre 20 y 24 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 20 y 24 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_25a29": {
+        "nombre_variable": "Población censada entre 25 y 29 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 25 y 29 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_30a34": {
+        "nombre_variable": "Población censada entre 30 y 34 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 30 y 34 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_35a39": {
+        "nombre_variable": "Población censada entre 35 y 39 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 35 y 39 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_40a44": {
+        "nombre_variable": "Población censada entre 40 y 44 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 40 y 44 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_45a49": {
+        "nombre_variable": "Población censada entre 45 y 49 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 45 y 49 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_50a54": {
+        "nombre_variable": "Población censada entre 50 y 54 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 50 y 54 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_55a59": {
+        "nombre_variable": "Población censada entre 55 y 59 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 55 y 59 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_60a64": {
+        "nombre_variable": "Población censada entre 60 y 64 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 60 y 64 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_65a69": {
+        "nombre_variable": "Población censada entre 65 y 69 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 65 y 69 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_70a74": {
+        "nombre_variable": "Población censada entre 70 y 74 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 70 y 74 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_75a79": {
+        "nombre_variable": "Población censada entre 75 y 79 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 75 y 79 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_80a84": {
+        "nombre_variable": "Población censada entre 80 y 84 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 80 y 84 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_85a89": {
+        "nombre_variable": "Población censada entre 85 y 89 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 85 y 89 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_90a94": {
+        "nombre_variable": "Población censada entre 90 y 94 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 90 y 94 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_95a99": {
+        "nombre_variable": "Población censada entre 95 y 99 años",
+        "descripcion_variable": "Personas censadas en el municipio entre 95 y 99 años",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_mayores_100": {
+        "nombre_variable": "Población censada de 100 años y más",
+        "descripcion_variable": "Personas censadas en el municipio de 100 años y más",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "poblacion_censada_total": {
+        "nombre_variable": "Población censada total",
+        "descripcion_variable": "Personas censadas en el municipio",
+        "Fuente": "Censo de Población Anual. INE",
+        "Unidad": "Número"
+    },
+    "num_explotaciones_agricolas_con_SAU": {
+        "nombre_variable": "Número de explotaciones agrícolas con SAU",
+        "descripcion_variable": "Número total de explotaciones agrícolas en el municipio con SAU (se cuenta en el municipio que tenga la mayor parte de SAU o ganado)",
+        "Fuente": "Censo Agrario. INE",
+        "Unidad": "Número"
+    },
+    "num_explotaciones_agricolas_con_SAU_huertos_consumo_propio": {
+        "nombre_variable": "Número de explotaciones agrícolas con SAU huertos para consumo propio",
+        "descripcion_variable": "Número de explotaciones agrícolas con SAU de huertos para consumo propio (se cuenta en el municipio que tenga la mayor parte de SAU o ganado)",
+        "Fuente": "Censo Agrario. INE",
+        "Unidad": "Número"
+    },
+    "num_explotaciones_agricolas_con_SAU_tierra_pastos": {
+        "nombre_variable": "Número de explotaciones agrícolas con SAU tierras permanentes para pastos",
+        "descripcion_variable": "Número de explotaciones agrícolas con SAU tierras permanentes para pastos (se cuenta en el municipio que tenga la mayor parte de SAU o ganado)",
+        "Fuente": "Censo Agrario. INE",
+        "Unidad": "Número"
+    },
+    "superficie_explotaciones_agricolas_con_SAU": {
+        "nombre_variable": "Superficie total de las explotaciones agrícolas con SAU",
+        "descripcion_variable": "Superficie total de las explotaciones agrícolas con SAU (se cuenta en el municipio que tenga la mayor parte de SAU o ganado)",
+        "Fuente": "Censo Agrario. INE",
+        "Unidad": "ha"
+    },
+    "superficie_explotaciones_agricolas_con_SAU_huertos_consumo_propio": {
+        "nombre_variable": "Superficie total de las explotaciones agrícolas con SAU huertos para consumo propio",
+        "descripcion_variable": "Superficie total de las explotaciones agrícolas con SAU huertos para consumo propio (se cuenta en el municipio que tenga la mayor parte de SAU o ganado)",
+        "Fuente": "Censo Agrario. INE",
+        "Unidad": "ha"
+    },
+    "superficie_explotaciones_agricolas_con_SAU_tierras_pastos": {
+        "nombre_variable": "Superficie total de las explotaciones agrícolas con SAU tierras permanentes para pastos",
+        "descripcion_variable": "Superficie total de las explotaciones agrícolas con SAU tierras permanentes para pastos (se cuenta en el municipio que tenga la mayor parte de SAU o ganado)",
+        "Fuente": "Censo Agrario. INE",
+        "Unidad": "ha"
+    },
+    "unidades_productivas_primario": {
+        "nombre_variable": "Unidades productivas totales pertenecientes al sector primario",
+        "descripcion_variable": "Unidades productivas totales de las ramas de actividad pertenecientes al sector primario",
+        "Fuente": "Fórmula de unión de unidades productivas totales en aquellas ramas pertenecientes al sector primario (datos originales: Colectivo Empresarial. Dirección General de Economía)",
+        "Unidad": "Número"
+    },
+    "unidades_productivas_secundario": {
+        "nombre_variable": "Unidades productivas totales pertenecientes al sector secundario",
+        "descripcion_variable": "Unidades productivas totales de las ramas de actividad pertenecientes al sector secundario",
+        "Fuente": "Fórmula de unión de unidades productivas totales en aquellas ramas pertenecientes al sector secundario (datos originales: Colectivo Empresarial. Dirección General de Economía)",
+        "Unidad": "Número"
+    },
+    "unidades_productivas_terciario": {
+        "nombre_variable": "Unidades productivas totales pertenecientes al sector terciario",
+        "descripcion_variable": "Unidades productivas totales de las ramas de actividad pertenecientes al sector terciario",
+        "Fuente": "Fórmula de unión de unidades productivas totales en aquellas ramas pertenecientes al sector terciario (datos originales: Colectivo Empresarial. Dirección General de Economía)",
+        "Unidad": "Número"
+    },
+    "cluster_zona_estadistica": {
+        "nombre_variable": "Clúster basado en la zona estadística del municipio",
+        "descripcion_variable": "Segmentación en clústers de los municipios basado en las zonas estadísticas NUTS",
+        "Fuente": "Fórmula de segmentación en clústers",
+        "Unidad": "Número"
+    },
+    "cluster_densidad_poblacion": {
+        "nombre_variable": "Clúster basado en la densidad de población del municipio",
+        "descripcion_variable": "Segmentación en clústers de los municipios basado en las densidades de población",
+        "Fuente": "Fórmula de segmentación en clústers",
+        "Unidad": "Número"
+    },
+    "cluster_distancia_capital": {
+        "nombre_variable": "Clúster basado en la distancia del municipio a la capital",
+        "descripcion_variable": "Segmentación en clústers de los municipios basado en sus distancias al municipio de Madrid",
+        "Fuente": "Fórmula de segmentación en clústers",
+        "Unidad": "Número"
+    },
+    "cluster_poblacion_censada": {
+        "nombre_variable": "Clúster basado en la población censada del municipio",
+        "descripcion_variable": "Segmentación en clústers de los municipios basado en sus censos totales de población",
+        "Fuente": "Fórmula de segmentación en clústers",
+        "Unidad": "Número"
+    },
+    "sector_principal": {
+        "nombre_variable": "Sector laboral principal económicamente",
+        "descripcion_variable": "Sector laboral que represente un mayor Producto Interior Bruto del municipio",
+        "Fuente": "Fórmula obtenida a través del PIB de años anteriores mediate IA",
+        "Unidad": "Sector laboral"
+    },
+    "poblacion_activa": {
+        "nombre_variable": "Población activa (en edad de trabajar)",
+        "descripcion_variable": "Personas censadas en el municipio entre 15 y 64 años",
+        "Fuente": "Fórmula de unión de las personas censadas entre 15 y 64 años",
+        "Unidad": "Número"
+    },
+    "contratos_total": {
+        "nombre_variable": "Contratos totales",
+        "descripcion_variable": "Número de contratos totales en el municipio",
+        "Fuente": "Fórmula de unión de los contratos de cada sector laboral",
+        "Unidad": "Número"
+    },
+    "unidades_productivas_total": {
+        "nombre_variable": "Unidades productivas totales",
+        "descripcion_variable": "Número de unidades productivas totales en el municipio",
+        "Fuente": "Fórmula de unión de las unidades productivas de cada sector laboral",
+        "Unidad": "Número"
+    },
+    "empleo_total": {
+        "nombre_variable": "Ocupados totales",
+        "descripcion_variable": "Número de personas empleadas totales en el municipio",
+        "Fuente": "Fórmula de unión de las personas empleadas en cada sector laboral",
+        "Unidad": "Número"
+    },
+    "ratio_contratos_por_poblacion_activa": {
+        "nombre_variable": "Ratio de contratos por población activa",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas en edad activa (15-64). Índice de contratación por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_activa": {
+        "nombre_variable": "Ratio de empleados por población activa",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas en edad activa (15-64). Índice de empleabilidad por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_up": {
+        "nombre_variable": "Ratio de contratos por unidad productiva",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de unidades productivas de dicho municipio. Índice de contratación empresarial por municipio",
+        "Fuente": "Fórmula de ratio de contratos por población activa",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_poblacion_activa": {
+        "nombre_variable": "Ratio de paro por población activa",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad activa (15-64). Índice de paro por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_paro": {
+        "nombre_variable": "Ratio de empleo por paro",
+        "descripcion_variable": "Número de personas empleadas partido por el número de demandas de empleo. Índice de empleabilidad vs paro",
+        "Fuente": "Fórmula de ratio de empleo por paro",
+        "Unidad": "5"
+    },
+    "ratio_contratos_primario_por_poblacion_activa": {
+        "nombre_variable": "Ratio de contratos del sector primario por población activa",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector primario de cada municipio partido por el número de personas en edad activa (15-64). Índice de contratación del sector primario por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales del sector primario por población activa",
+        "Unidad": "5"
+    },
+    "ratio_empleo_primario_por_poblacion_activa": {
+        "nombre_variable": "Ratio de empleados del sector primario por población activa",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector primario cada municipio partido por el número de personas en edad activa (15-64). Índice de empleabilidad del sector primario por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_contratos_secundario_por_poblacion_activa": {
+        "nombre_variable": "Ratio de contratos del sector secundario por población activa",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector secundario de cada municipio partido por el número de personas en edad activa (15-64). Índice de contratación del sector secundario por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales del sector secundario por población activa",
+        "Unidad": "5"
+    },
+    "ratio_empleo_secundario_por_poblacion_activa": {
+        "nombre_variable": "Ratio de empleados del sector secundario por población activa",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector secundario cada municipio partido por el número de personas en edad activa (15-64). Índice de empleabilidad del sector secundario por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_contratos_terciario_por_poblacion_activa": {
+        "nombre_variable": "Ratio de contratos del sector terciario por población activa",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector terciario de cada municipio partido por el número de personas en edad activa (15-64). Índice de contratación del sector terciario por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales del sector terciario por población activa",
+        "Unidad": "5"
+    },
+    "ratio_empleo_terciario_por_poblacion_activa": {
+        "nombre_variable": "Ratio de empleados del sector terciario por población activa",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector terciario cada municipio partido por el número de personas en edad activa (15-64). Índice de empleabilidad del sector terciario por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_15a19": {
+        "nombre_variable": "Ratio de contratos por población censada entre 15 y 19 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Índice de contratación entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 15 y 19 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_15a19": {
+        "nombre_variable": "Ratio de empleados por población censada entre 15 y 19 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Índice de empleabilidad entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 15 y 19 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_15a19": {
+        "nombre_variable": "Ratio de paro por población censada entre 15 y 19 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 15 y 19 años. Índice de paro entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 15 y 19 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_20a24": {
+        "nombre_variable": "Ratio de contratos por población censada entre 20 y 24 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Índice de contratación entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 20 y 24 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_20a24": {
+        "nombre_variable": "Ratio de empleados por población censada entre 20 y 24 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Índice de empleabilidad entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 20 y 24 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_20a24": {
+        "nombre_variable": "Ratio de paro por población censada entre 20 y 24 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 20 y 24 años. Índice de paro entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 20 y 24 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_25a29": {
+        "nombre_variable": "Ratio de contratos por población censada entre 25 y 29 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Índice de contratación entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 25 y 29 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_25a29": {
+        "nombre_variable": "Ratio de empleados por población censada entre 25 y 29 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Índice de empleabilidad entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 25 y 29 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_25a29": {
+        "nombre_variable": "Ratio de paro por población censada entre 25 y 29 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 25 y 29 años. Índice de paro entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 25 y 29 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_30a34": {
+        "nombre_variable": "Ratio de contratos por población censada entre 30 y 34 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Índice de contratación entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 30 y 34 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_30a34": {
+        "nombre_variable": "Ratio de empleados por población censada entre 30 y 34 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Índice de empleabilidad entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 30 y 34 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_30a34": {
+        "nombre_variable": "Ratio de paro por población censada entre 30 y 34 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 30 y 34 años. Índice de paro entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 30 y 34 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_35a39": {
+        "nombre_variable": "Ratio de contratos por población censada entre 35 y 39 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Índice de contratación entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 35 y 39 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_35a39": {
+        "nombre_variable": "Ratio de empleados por población censada entre 35 y 39 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Índice de empleabilidad entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 35 y 39 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_35a39": {
+        "nombre_variable": "Ratio de paro por población censada entre 35 y 39 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 35 y 39 años. Índice de paro entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 35 y 39 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_40a44": {
+        "nombre_variable": "Ratio de contratos por población censada entre 40 y 44 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Índice de contratación entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 40 y 44 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_40a44": {
+        "nombre_variable": "Ratio de empleados por población censada entre 40 y 44 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Índice de empleabilidad entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 40 y 44 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_40a44": {
+        "nombre_variable": "Ratio de paro por población censada entre 40 y 44 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 40 y 44 años. Índice de paro entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 40 y 44 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_45a49": {
+        "nombre_variable": "Ratio de contratos por población censada entre 45 y 49 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Índice de contratación entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 45 y 49 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_45a49": {
+        "nombre_variable": "Ratio de empleados por población censada entre 45 y 49 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Índice de empleabilidad entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 45 y 49 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_45a49": {
+        "nombre_variable": "Ratio de paro por población censada entre 45 y 49 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 45 y 49 años. Índice de paro entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 45 y 49 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_50a54": {
+        "nombre_variable": "Ratio de contratos por población censada entre 50 y 54 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Índice de contratación entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 50 y 54 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_50a54": {
+        "nombre_variable": "Ratio de empleados por población censada entre 50 y 54 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Índice de empleabilidad entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 50 y 54 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_50a54": {
+        "nombre_variable": "Ratio de paro por población censada entre 50 y 54 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 50 y 54 años. Índice de paro entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 50 y 54 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_55a59": {
+        "nombre_variable": "Ratio de contratos por población censada entre 55 y 59 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Índice de contratación entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 55 y 59 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_55a59": {
+        "nombre_variable": "Ratio de empleados por población censada entre 55 y 59 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Índice de empleabilidad entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 55 y 59 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_55a59": {
+        "nombre_variable": "Ratio de paro por población censada entre 55 y 59 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 55 y 59 años. Índice de paro entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 55 y 59 años",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_60a64": {
+        "nombre_variable": "Ratio de contratos por población censada entre 60 y 64 años",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Índice de contratación entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de ratio de contratos totales por población censada entre 60 y 64 años",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_60a64": {
+        "nombre_variable": "Ratio de empleados por población censada entre 60 y 64 años",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Índice de empleabilidad entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de ratio de ocupados totales por población censada entre 60 y 64 años",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_60a64": {
+        "nombre_variable": "Ratio de paro por población censada entre 60 y 64 años",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 60 y 64 años. Índice de paro entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de ratio de paro totales por población censada entre 60 y 64 años",
+        "Unidad": "5"
+    },
+    "ratio_up_por_poblacion_activa": {
+        "nombre_variable": "Ratio de unidades productivas por población activa",
+        "descripcion_variable": "Unidades productivas totales de cada municipio partido por el número de personas en edad activa (15-64). Índice de disponibilidad empresarial por municipio",
+        "Fuente": "Fórmula de ratio de unidades productivas totales por población activa",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_up_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por unidad productiva media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de unidades productivas de dicho municipio. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por unidad productiva del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_paro_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleo por paro media del clúster de zona estadística",
+        "descripcion_variable": "Número de personas empleadas partido por el número de demandas de empleo. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad vs paro",
+        "Fuente": "Fórmula de la media del ratio de empleo por paro del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_primario_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos del sector primario por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector primario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector primario por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_primario_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados del sector primario por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector primario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_secundario_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos del sector secundario por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector secundario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector secundario por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_secundario_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados del sector secundario por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector secundario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_terciario_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos del sector terciario por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector terciario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector terciario por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_terciario_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados del sector terciario por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector terciario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_15a19_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 15 y 19 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 15 y 19 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_15a19_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 15 y 19 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 15 y 19 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_15a19_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 15 y 19 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 15 y 19 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_20a24_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 20 y 24 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 20 y 24 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_20a24_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 20 y 24 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 20 y 24 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_20a24_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 20 y 24 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 20 y 24 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_25a29_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 25 y 29 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 25 y 29 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_25a29_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 25 y 29 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 25 y 29 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_25a29_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 25 y 29 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 25 y 29 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_30a34_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 30 y 34 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 30 y 34 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_30a34_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 30 y 34 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 30 y 34 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_30a34_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 30 y 34 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 30 y 34 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_35a39_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 35 y 39 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 35 y 39 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_35a39_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 35 y 39 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 35 y 39 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_35a39_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 35 y 39 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 35 y 39 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_40a44_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 40 y 44 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 40 y 44 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_40a44_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 40 y 44 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 40 y 44 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_40a44_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 40 y 44 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 40 y 44 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_45a49_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 45 y 49 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 45 y 49 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_45a49_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 45 y 49 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 45 y 49 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_45a49_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 45 y 49 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 45 y 49 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_50a54_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 50 y 54 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 50 y 54 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_50a54_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 50 y 54 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 50 y 54 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_50a54_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 50 y 54 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 50 y 54 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_55a59_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 55 y 59 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 55 y 59 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_55a59_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 55 y 59 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 55 y 59 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_55a59_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 55 y 59 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 55 y 59 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_60a64_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de contratos por población censada entre 60 y 64 años media del clúster de zona estadística",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de contratación entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 60 y 64 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_60a64_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de empleados por población censada entre 60 y 64 años media del clúster de zona estadística",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de empleabilidad entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 60 y 64 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_60a64_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de paro por población censada entre 60 y 64 años media del clúster de zona estadística",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de paro entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 60 y 64 años del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_up_por_poblacion_activa_mean_cluster_zona_estadistica": {
+        "nombre_variable": "Ratio de unidades productivas por población activa media del clúster de zona estadística",
+        "descripcion_variable": "Unidades productivas totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de zona estadística de ese municipio. Índice de disponibilidad empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de unidades productivas totales por población activa del clúster de zona estadística",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_up_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por unidad productiva media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de unidades productivas de dicho municipio. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por unidad productiva del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_paro_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleo por paro media del clúster de densidad de población",
+        "descripcion_variable": "Número de personas empleadas partido por el número de demandas de empleo. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad vs paro",
+        "Fuente": "Fórmula de la media del ratio de empleo por paro del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_primario_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos del sector primario por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector primario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector primario por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_primario_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados del sector primario por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector primario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_secundario_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos del sector secundario por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector secundario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector secundario por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_secundario_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados del sector secundario por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector secundario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_terciario_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos del sector terciario por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector terciario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector terciario por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_terciario_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados del sector terciario por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector terciario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_15a19_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 15 y 19 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 15 y 19 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_15a19_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 15 y 19 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 15 y 19 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_15a19_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 15 y 19 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 15 y 19 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_20a24_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 20 y 24 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 20 y 24 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_20a24_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 20 y 24 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 20 y 24 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_20a24_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 20 y 24 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 20 y 24 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_25a29_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 25 y 29 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 25 y 29 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_25a29_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 25 y 29 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 25 y 29 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_25a29_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 25 y 29 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 25 y 29 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_30a34_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 30 y 34 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 30 y 34 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_30a34_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 30 y 34 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 30 y 34 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_30a34_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 30 y 34 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 30 y 34 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_35a39_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 35 y 39 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 35 y 39 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_35a39_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 35 y 39 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 35 y 39 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_35a39_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 35 y 39 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 35 y 39 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_40a44_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 40 y 44 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 40 y 44 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_40a44_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 40 y 44 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 40 y 44 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_40a44_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 40 y 44 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 40 y 44 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_45a49_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 45 y 49 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 45 y 49 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_45a49_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 45 y 49 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 45 y 49 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_45a49_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 45 y 49 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 45 y 49 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_50a54_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 50 y 54 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 50 y 54 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_50a54_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 50 y 54 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 50 y 54 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_50a54_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 50 y 54 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 50 y 54 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_55a59_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 55 y 59 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 55 y 59 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_55a59_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 55 y 59 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 55 y 59 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_55a59_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 55 y 59 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 55 y 59 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_60a64_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de contratos por población censada entre 60 y 64 años media del clúster de densidad de población",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de contratación entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 60 y 64 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_60a64_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de empleados por población censada entre 60 y 64 años media del clúster de densidad de población",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de empleabilidad entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 60 y 64 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_60a64_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de paro por población censada entre 60 y 64 años media del clúster de densidad de población",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de paro entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 60 y 64 años del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_up_por_poblacion_activa_mean_cluster_densidad_poblacion": {
+        "nombre_variable": "Ratio de unidades productivas por población activa media del clúster de densidad de población",
+        "descripcion_variable": "Unidades productivas totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de densidad de población de ese municipio. Índice de disponibilidad empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de unidades productivas totales por población activa del clúster de densidad de población",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_up_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por unidad productiva media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de unidades productivas de dicho municipio. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por unidad productiva del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_paro_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleo por paro media del clúster de distancia a la capital",
+        "descripcion_variable": "Número de personas empleadas partido por el número de demandas de empleo. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad vs paro",
+        "Fuente": "Fórmula de la media del ratio de empleo por paro del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_primario_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos del sector primario por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector primario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector primario por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_primario_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados del sector primario por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector primario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_secundario_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos del sector secundario por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector secundario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector secundario por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_secundario_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados del sector secundario por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector secundario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_terciario_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos del sector terciario por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector terciario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector terciario por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_terciario_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados del sector terciario por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector terciario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_15a19_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 15 y 19 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 15 y 19 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_15a19_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 15 y 19 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 15 y 19 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_15a19_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 15 y 19 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 15 y 19 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_20a24_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 20 y 24 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 20 y 24 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_20a24_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 20 y 24 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 20 y 24 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_20a24_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 20 y 24 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 20 y 24 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_25a29_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 25 y 29 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 25 y 29 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_25a29_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 25 y 29 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 25 y 29 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_25a29_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 25 y 29 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 25 y 29 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_30a34_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 30 y 34 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 30 y 34 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_30a34_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 30 y 34 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 30 y 34 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_30a34_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 30 y 34 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 30 y 34 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_35a39_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 35 y 39 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 35 y 39 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_35a39_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 35 y 39 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 35 y 39 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_35a39_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 35 y 39 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 35 y 39 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_40a44_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 40 y 44 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 40 y 44 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_40a44_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 40 y 44 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 40 y 44 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_40a44_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 40 y 44 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 40 y 44 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_45a49_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 45 y 49 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 45 y 49 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_45a49_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 45 y 49 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 45 y 49 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_45a49_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 45 y 49 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 45 y 49 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_50a54_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 50 y 54 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 50 y 54 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_50a54_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 50 y 54 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 50 y 54 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_50a54_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 50 y 54 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 50 y 54 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_55a59_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 55 y 59 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 55 y 59 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_55a59_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 55 y 59 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 55 y 59 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_55a59_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 55 y 59 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 55 y 59 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_60a64_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de contratos por población censada entre 60 y 64 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de contratación entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 60 y 64 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_60a64_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de empleados por población censada entre 60 y 64 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de empleabilidad entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 60 y 64 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_60a64_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de paro por población censada entre 60 y 64 años media del clúster de distancia a la capital",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de paro entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 60 y 64 años del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_up_por_poblacion_activa_mean_cluster_distancia_capital": {
+        "nombre_variable": "Ratio de unidades productivas por población activa media del clúster de distancia a la capital",
+        "descripcion_variable": "Unidades productivas totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de distancia a la capital de ese municipio. Índice de disponibilidad empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de unidades productivas totales por población activa del clúster de distancia a la capital",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población activa media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población activa media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_up_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por unidad productiva media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de unidades productivas de dicho municipio. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por unidad productiva del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población activa media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_paro_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleo por paro media del clúster de población censada",
+        "descripcion_variable": "Número de personas empleadas partido por el número de demandas de empleo. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad vs paro",
+        "Fuente": "Fórmula de la media del ratio de empleo por paro del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_primario_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos del sector primario por población activa media del clúster de población censada",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector primario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector primario por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_primario_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados del sector primario por población activa media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector primario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad del sector primario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_secundario_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos del sector secundario por población activa media del clúster de población censada",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector secundario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector secundario por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_secundario_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados del sector secundario por población activa media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector secundario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad del sector secundario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_terciario_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos del sector terciario por población activa media del clúster de población censada",
+        "descripcion_variable": "Contratos totales pertenecientes a las ramas de actividad del sector terciario de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales del sector terciario por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_terciario_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados del sector terciario por población activa media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales pertenecientes a las ramas de actividad del sector terciario cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad del sector terciario por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_15a19_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 15 y 19 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 15 y 19 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_15a19_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 15 y 19 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 15 y 19 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_15a19_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 15 y 19 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 15 y 19 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 15 y 19 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 15 y 19 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_20a24_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 20 y 24 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 20 y 24 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_20a24_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 20 y 24 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 20 y 24 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_20a24_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 20 y 24 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 20 y 24 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 20 y 24 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 20 y 24 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_25a29_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 25 y 29 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 25 y 29 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_25a29_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 25 y 29 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 25 y 29 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_25a29_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 25 y 29 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 25 y 29 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 25 y 29 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 25 y 29 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_30a34_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 30 y 34 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 30 y 34 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_30a34_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 30 y 34 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 30 y 34 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_30a34_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 30 y 34 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 30 y 34 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 30 y 34 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 30 y 34 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_35a39_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 35 y 39 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 35 y 39 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_35a39_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 35 y 39 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 35 y 39 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_35a39_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 35 y 39 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 35 y 39 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 35 y 39 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 35 y 39 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_40a44_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 40 y 44 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 40 y 44 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_40a44_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 40 y 44 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 40 y 44 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_40a44_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 40 y 44 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 40 y 44 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 40 y 44 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 40 y 44 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_45a49_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 45 y 49 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 45 y 49 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_45a49_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 45 y 49 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 45 y 49 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_45a49_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 45 y 49 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 45 y 49 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 45 y 49 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 45 y 49 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_50a54_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 50 y 54 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 50 y 54 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_50a54_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 50 y 54 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 50 y 54 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_50a54_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 50 y 54 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 50 y 54 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 50 y 54 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 50 y 54 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_55a59_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 55 y 59 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 55 y 59 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_55a59_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 55 y 59 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 55 y 59 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_55a59_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 55 y 59 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 55 y 59 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 55 y 59 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 55 y 59 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_contratos_por_poblacion_censada_60a64_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de contratos por población censada entre 60 y 64 años media del clúster de población censada",
+        "descripcion_variable": "Contratos totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de contratación entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de contratos totales por población censada entre 60 y 64 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_empleo_por_poblacion_censada_60a64_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de empleados por población censada entre 60 y 64 años media del clúster de población censada",
+        "descripcion_variable": "Ocupados totales de cada municipio partido por el número de personas censadas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de empleabilidad entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de ocupados totales por población censada entre 60 y 64 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_paro_por_por_poblacion_censada_60a64_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de paro por población censada entre 60 y 64 años media del clúster de población censada",
+        "descripcion_variable": "Demandas de empleo totales de cada municipio partido por el número de personas en edad entre 60 y 64 años. Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de paro entre 60 y 64 años por municipio",
+        "Fuente": "Fórmula de la media del ratio de paro totales por población censada entre 60 y 64 años del clúster de población censada",
+        "Unidad": "5"
+    },
+    "ratio_up_por_poblacion_activa_mean_cluster_poblacion_censada": {
+        "nombre_variable": "Ratio de unidades productivas por población activa media del clúster de población censada",
+        "descripcion_variable": "Unidades productivas totales de cada municipio partido por el número de personas en edad activa (15-64). Media de valores de los municipios pertenecientes al clúster de población censada de ese municipio. Índice de disponibilidad empresarial por municipio",
+        "Fuente": "Fórmula de la media del ratio de unidades productivas totales por población activa del clúster de población censada",
+        "Unidad": "5"
+    }
+}
