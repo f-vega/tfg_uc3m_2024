@@ -4,9 +4,6 @@ import pandas as pd
 import re
 
 def name_transform(nombre):
-    if nombre == 'Álamo, El':
-        new_name = 'Alamo (El)'
-        return new_name
     patron = re.compile(r'^(.+),\s*(La|Las|El|Los)$')
     if patron.match(nombre):
         reemplazo = r'\1 (\2)'
@@ -21,7 +18,6 @@ data = pd.read_csv('dataset.csv', delimiter=';', index_col=False)
 laus = pd.read_csv('MadridLAUGeometries.csv', index_col=False, dtype={'lau_id': str}, encoding='utf-8')
 
 laus = laus.rename(columns={'lau_name': 'Nombre'})
-
 laus['Nombre'] = laus['Nombre'].apply(name_transform)
 laus = laus.replace('Álamo', 'Alamo')
 
@@ -29,13 +25,11 @@ data = data.drop(columns=['zona_estadistica', 'Serie', 'Codigo_municipio', 'muni
 
 df = pd.merge(data, laus[['Nombre', 'lau_id']], on='Nombre', how='left')
 
+print(df.columns)
+
 # Paso 2: Identificar las columnas clave
 key_columns = ['Nombre', 'lau_id']
 value_columns = [col for col in df.columns if col not in key_columns]
-
-with open('indicators.txt', 'w') as file:
-    for col in value_columns:
-        file.write(col + '\n')
 
 rename_dict = {}
 indicador_value = 9
