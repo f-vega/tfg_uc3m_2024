@@ -1,11 +1,11 @@
 
 let indicators = [
-    { label: "Contract rates", className: "ratio-contratos", options: ['Total', 'Sectors', 'Age intervals'] },
-    { label: "Employment rates", className: "ratio-empleo", options: ['Total', 'Sectors', 'Age intervals'] },
-    { label: "Unemployment rates", className: "ratio-paro", options: ['Total', 'Age intervals'] },
-    { label: "Employment vs unemployment rate", className: "ratio-empleo-vs-paro", options: ['Total'] },
-    { label: "Business hiring rate", className: "ratio-empresa", options: ['Total'] },
-    { label: "Business availability rate", className: "ratio-disponibilidad", options: ['Total'] },
+    { label: "Índice de contratación", className: "ratio-contratos", options: ['Total', 'Por sector', 'Por edad'] },
+    { label: "Índice de empleabilidad", className: "ratio-empleo", options: ['Total', 'Por sector', 'Por edad'] },
+    { label: "Índice de paro", className: "ratio-paro", options: ['Total', 'Por edad'] },
+    { label: "Índice de empleabilidad vs paro", className: "ratio-empleo-vs-paro", options: ['Total'] },
+    { label: "Índice de contratación empresarial", className: "ratio-empresa", options: ['Total'] },
+    { label: "Índice de disponibilidad empresarial", className: "ratio-disponibilidad", options: ['Total'] },
 ];
 
 let selectedIndicator = null;
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function () {
             subOptions.forEach(option => {
                 const subOptionDiv = document.createElement('div');
                 subOptionDiv.className = 'sub-option';
-                if (option === 'Sectors' || option === 'Age intervals') {
+                if (option === 'Por sector' || option === 'Por edad') {
                     const dropdownToggle = document.createElement('div');
                     dropdownToggle.className = 'dropdown-toggle';
 
@@ -69,11 +69,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     nestedSubIndicatorsDiv.className = 'options';
 
                     let nestedOptions = [];
-                    if (option === 'Sectors') {
-                        nestedOptions = ['Primary sector', 'Secondary sector', 'Terciary sector'];
-                    } else if (option === 'Age intervals') {
-                        nestedOptions = ['15-19 years', '20-24 years', '25-29 years', '30-34 years', '35-39 years',
-                            '40-44 years', '45-49 years', '50-54 years', '55-59 years', '60-64 years'];
+                    if (option === 'Por sector') {
+                        nestedOptions = ['Sector primario', 'Sector secundario', 'Sector terciario'];
+                    } else if (option === 'Por edad') {
+                        nestedOptions = ['15-19 años', '20-24 años', '25-29 años', '30-34 años', '35-39 años',
+                            '40-44 años', '45-49 años', '50-54 años', '55-59 años', '60-64 años'];
                     }
 
                     nestedOptions.forEach(nestedOption => {
