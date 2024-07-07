@@ -11,19 +11,19 @@ let sumRatios = 0;
 let countRatios = 0;
 
 let indicadores = {
-    'Contract rates': 'ratio_contratos',
-    'Employment rates': 'ratio_empleo',
-    'Unemployment rates': 'ratio_paro',
-    'Employment vs unemployment rate': 'ratio_empleo_por_paro',
-    'Business hiring rate': 'ratio_up',
-    'Business availability rate': 'ratio_contratos_por_up'
+    'Índice de contratación': 'ratio_contratos',
+    'Índice de empleabilidad': 'ratio_empleo',
+    'Índice de paro': 'ratio_paro',
+    'Índice de empleabilidad vs paro': 'ratio_empleo_por_paro',
+    'Índice de disponibilidad empresarial': 'ratio_up',
+    'Índice de contratación empresarial': 'ratio_contratos_por_up'
 }
 
 let subIndicadores = {
     'Total': 'por_poblacion_activa',
-    'Primary sector': 'primario_por_poblacion_activa',
-    'Secondary sector': 'secundario_por_poblacion_activa',
-    'Terciary sector': 'terciario_por_poblacion_activa',
+    'Sector primario': 'primario_por_poblacion_activa',
+    'Sector secundario': 'secundario_por_poblacion_activa',
+    'Sector terciario': 'terciario_por_poblacion_activa',
 };
 
 function defineAgeIntervals() {
@@ -34,7 +34,7 @@ function defineAgeIntervals() {
 
     for (let age = startAge; age <= endAge; age += interval) {
         const nextAge = age + interval - 1;
-        const key = `${age}-${nextAge} years`;
+        const key = `${age}-${nextAge} años`;
         const value = `por_poblacion_censada_${age}a${nextAge}`;
         ageIntervals[key] = value;
     }
@@ -45,16 +45,16 @@ function defineAgeIntervals() {
 subIndicadores = { ...subIndicadores, ...defineAgeIntervals() };
 
 let clusterVariables = {
-    'Population density': 'cluster_densidad_poblacion',
-    'Distance to the capital': 'cluster_distancia_capital',
-    'Registered population': 'cluster_poblacion_censada',
-    'Statistic area': 'cluster_zona_estadistica'
+    'Densidad de población': 'cluster_densidad_poblacion',
+    'Distancia a la capital': 'cluster_distancia_capital',
+    'Población censada': 'cluster_poblacion_censada',
+    'Zona estadística': 'cluster_zona_estadistica'
 };
 
 let clusterNumbers = {
-    'Cluster 0': '0.0',
-    'Cluster 1': '1.0',
-    'Cluster 2': '2.0'
+    'Clúster 0': '0.0',
+    'Clúster 1': '1.0',
+    'Clúster 2': '2.0'
 };
 
 function loadData() {
@@ -90,6 +90,8 @@ function maxMinRatios() {
         if (!isNaN(ratio)) {
             if (ratio < minRatio) minRatio = ratio;
             if (ratio > maxRatio) maxRatio = ratio;
+            // sumRatios += ratio;
+            // countRatios++;
         }
     });
     if (!standardValue) {
@@ -162,7 +164,7 @@ function updateStyles(MunicipiosDelimiter) {
         // Obtener las variables de clúster seleccionadas
         const cluster_dict = getSelectedCluster();
         const clusterVariable = clusterVariables[cluster_dict['cluster']];
-
+        const clusterNumber = clusterNumbers[cluster_dict['subCluster']];
 
         if (selectedMunicipio && municipio && !isNaN(ratio) && ratio) {
             if (clusterVariable && selectedRatio) {
@@ -184,14 +186,14 @@ function updateSelectedIndicator() {
     console.log('municipiosSeleccionados:', municipiosSeleccionados);
     ratioIndicator = indicator_dict['indicator'];
     ratioSubIndicator = indicator_dict['subIndicator']
-    if (ratioIndicator === 'contract rates'
-        || ratioIndicator === 'Employment rates'
-        || ratioIndicator === 'Unemployment rates'
-        || ratioIndicator === 'Business availability rate') {
+    if (ratioIndicator === 'Índice de contratación'
+        || ratioIndicator === 'Índice de empleabilidad'
+        || ratioIndicator === 'Índice de paro'
+        || ratioIndicator === 'Índice de disponibilidad empresarial') {
         selectedRatio = `${indicadores[ratioIndicator]}_${subIndicadores[ratioSubIndicator]}`;
         console.log(selectedRatio);
-    } else if (ratioIndicator === 'Business hiring rate'
-        || ratioIndicator === 'Employment vs unemployment rate') {
+    } else if (ratioIndicator === 'Índice de contratación empresarial'
+        || ratioIndicator === 'Índice de empleabilidad vs paro') {
         selectedRatio = `${indicadores[ratioIndicator]}`;
     }
 }

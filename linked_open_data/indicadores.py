@@ -16,9 +16,9 @@ def name_transform(nombre):
     
 
 # Paso 1: Leer los datos desde un archivo CSV
-data = pd.read_csv('dataset.csv', delimiter=';', index_col=False)
+data = pd.read_csv('../dataset.csv', delimiter=';', index_col=False)
 
-laus = pd.read_csv('MadridLAUGeometries.csv', index_col=False, dtype={'lau_id': str}, encoding='utf-8')
+laus = pd.read_csv('../MadridLAUGeometries.csv', index_col=False, dtype={'lau_id': str}, encoding='utf-8')
 
 laus = laus.rename(columns={'lau_name': 'Nombre'})
 

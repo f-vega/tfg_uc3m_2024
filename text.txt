@@ -6,11 +6,3 @@ recintos_municipales_inspire_peninbal_etrs89: delimitaciones municipios
 
 URL de acceso a las delimitaciones de los municipios: https://centrodedescargas.cnig.es/CentroDescargas/catalogo.do?Serie=CAANE
 Es: Límites municipales, provinciales y autonómicos
-
-IDEAS PENDIENTES:
-- Pintar Madrid de negro (conseguir sus coordenadas)
-- Cambiar el main y no hacer la cutrez de csv -> json
-
-
-RATIOS PARA AÑADIR:
-- Crecimiento poblacional/densidad de población

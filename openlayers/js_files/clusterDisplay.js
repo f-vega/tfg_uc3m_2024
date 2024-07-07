@@ -7,10 +7,10 @@ function getSelectedCluster() {
 
 document.addEventListener('DOMContentLoaded', function () {
     const clusters = [
-        { label: "Population density", className: "cluster-dp" },
-        { label: "Distance to the capital", className: "cluster-dc" },
-        { label: "Registered population", className: "cluster-pc" },
-        { label: "Statistic area", className: "cluster-ze" }
+        { label: "Densidad de población", className: "cluster-dp" },
+        { label: "Distancia a la capital", className: "cluster-dc" },
+        { label: "Población censada", className: "cluster-pc" },
+        { label: "Zona estadística", className: "cluster-ze" }
     ];
 
 
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const subClustersDiv = document.createElement('div');
             subClustersDiv.className = 'sub-clusters';
 
-            const subOptions = ['Cluster 0', 'Cluster 1', 'Cluster 2'];
+            const subOptions = ['Clúster 0', 'Clúster 1', 'Clúster 2'];
 
             subOptions.forEach(option => {
                 const subOptionDiv = document.createElement('div');
